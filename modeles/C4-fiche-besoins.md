@@ -69,6 +69,35 @@ flowchart LR
     act2 --- uc2
 ```
 
+## 4 ter. Description des cas d'utilisation
+
+Une fiche par cas d'utilisation **Must** (au minimum). Le « système » est le **futur service**, quel qu'il soit : application, outil du marché ou simple règle d'organisation. Écrivez ce que font l'acteur et le système, **pas** comment c'est programmé. Chaque scénario alternatif et chaque exception deviendra un test de recette (M2). Aide : [aide-mémoire UML §2 bis](../guide/aide-memoire-uml-mermaid.md#2-bis-décrire-un-cas-dutilisation-fiche-textuelle).
+
+### UC-01 — ⟪Nom du cas d'utilisation, verbe à l'infinitif⟫
+
+- **Acteur principal** : ⟪…⟫ · **Acteurs secondaires** : ⟪…⟫
+- **Récit(s) lié(s)** : ⟪US-…⟫ · **Priorité** : ⟪Must⟫
+- **Objectif** : ⟪ce que l'acteur veut obtenir⟫
+- **Déclencheur** : ⟪l'événement qui démarre le cas⟫
+- **Préconditions** : ⟪ce qui doit être vrai avant⟫
+
+**Scénario nominal**
+1. ⟪L'acteur …⟫
+2. ⟪Le système …⟫
+3. ⟪…⟫
+
+**Scénarios alternatifs**
+- ⟪2a. Si …, alors …, reprise à l'étape …⟫
+
+**Exceptions**
+- ⟪Ce qui empêche d'atteindre l'objectif, et ce que fait le système⟫
+
+- **Postconditions** : ⟪ce qui est vrai après, en cas de succès⟫
+- **Données manipulées (→ S1)** : ⟪…⟫
+- **Règles de gestion** : ⟪ex. délai, priorité, droit d'accès⟫
+
+*Copiez le bloc UC-01 pour chaque cas d'utilisation Must.*
+
 ## 5. Exigences non fonctionnelles
 
 | ID | Catégorie | Exigence (mesurable) | Justification |
@@ -84,5 +113,5 @@ flowchart LR
 ⟪À COMPLÉTER⟫
 
 ---
-**Critères de qualité** — [ ] aucune technologie nommée dans l'énoncé du besoin · [ ] ≤ 40 % des récits en Must · [ ] chaque Must a un critère Gherkin · [ ] les ENF sont chiffrées · [ ] processus actuel et cas d'utilisation dessinés
+**Critères de qualité** — [ ] aucune technologie nommée dans l'énoncé du besoin · [ ] ≤ 40 % des récits en Must · [ ] chaque Must a un critère Gherkin · [ ] les ENF sont chiffrées · [ ] processus actuel et cas d'utilisation dessinés · [ ] une fiche descriptive par cas d'utilisation Must
 **Usage de l'IA** : ⟪À COMPLÉTER⟫

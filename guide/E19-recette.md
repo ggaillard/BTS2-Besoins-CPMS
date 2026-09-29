@@ -23,12 +23,13 @@ La recette, c'est le moment où **le client** vérifie que ce qu'on lui livre fa
    | Quand… | Étapes (numérotées, cliquables par quelqu'un qui découvre) |
    | Alors… | Résultat attendu |
 
-4. **Ajoutez** :
+4. **Reprenez les fiches de cas d'utilisation (C4 §4 ter)** : chaque scénario alternatif et chaque exception donne un test supplémentaire (préconditions → « Préconditions », postconditions → « Résultat attendu »).
+5. **Ajoutez** :
    - au moins **deux tests de sécurité** : quelqu'un qui ne devrait pas voir une donnée essaie de la voir ; un compte désactivé essaie de se connecter ;
    - un test de **réversibilité** : export des données ;
    - un test par **ENF** chiffrée (chronométrer, tester sur téléphone…).
-5. **Au jalon J4** (ou sur votre preuve de concept), faites exécuter, remplissez « Obtenu », « OK / KO », et ouvrez un ticket par anomalie.
-6. **§3 Procès-verbal** : recette prononcée, avec réserves (lesquelles) ou refusée. Signée côté client.
+6. **Au jalon J4** (ou sur votre preuve de concept), faites exécuter, remplissez « Obtenu », « OK / KO », et ouvrez un ticket par anomalie.
+7. **§3 Procès-verbal** : recette prononcée, avec réserves (lesquelles) ou refusée. Signée côté client.
 
 ## 🗺️ En schéma
 

@@ -75,11 +75,52 @@ flowchart TB
 
 Chaque rectangle est une activité de l'équipe, chaque losange une décision du client. Les flèches qui remontent montrent qu'on **revient en arrière** quand le client n'est pas d'accord : c'est normal, c'est prévu.
 
+**Qui fait quoi dans le module** (diagramme de cas d'utilisation UML) :
+
+```mermaid
+flowchart LR
+    eq(("🧑‍💻 Équipe"))
+    cl(("🧑‍🏫 Client<br/>(enseignant dans son rôle)"))
+    ev(("🧑‍🏫 Enseignant<br/>évaluateur"))
+    gh(("🗄️ GitHub"))
+    subgraph MOD["Module « Du besoin exprimé à la mise en place »"]
+        u1(["Préparer un entretien"])
+        u2(["Mener un entretien"])
+        u3(["Faire valider un compte rendu"])
+        u4(["Chiffrer la situation de départ"])
+        u5(["Comparer des scénarios"])
+        u6(["Présenter la recommandation"])
+        u7(["Décider Go / No-go"])
+        u8(["Préparer la mise en place"])
+        u9(["Exécuter la recette"])
+        u10(["Vérifier la complétude d'un jalon"])
+        u11(["Évaluer un jalon"])
+        u12(["Tracer le travail : commit, ticket"])
+    end
+    eq --- u1
+    eq --- u2
+    eq --- u4
+    eq --- u5
+    eq --- u6
+    eq --- u8
+    eq --- u10
+    cl --- u2
+    cl --- u3
+    cl --- u7
+    cl --- u9
+    ev --- u11
+    u12 --- gh
+    u2 -. "«include»" .-> u1
+    u3 -. "«include»" .-> u12
+    u6 -. "«include»" .-> u5
+    u11 -. "«include»" .-> u10
+```
+
 **Pour comprendre les processus en schémas :**
 
 | | Contenu |
 |---|---|
-| 🗺️ [Diagrammes UML de la méthode](guide/schemas-uml.md) | activité (ci-dessus), séquences (entretien, jalon, recette), états (vie d'un artefact, d'un récit, d'un risque), classes (comment les artefacts s'enchaînent) |
+| 🗺️ [Diagrammes UML de la méthode](guide/schemas-uml.md) | activité et cas d'utilisation (ci-dessus), séquences (entretien, jalon, recette), états (vie d'un artefact, d'un récit, d'un risque), classes (comment les artefacts s'enchaînent) |
 | 🌳 [Arbres de décision](guide/arbres-de-decision.md) | 13 arbres pour les choix difficiles : classer une phrase, MoSCoW, SMART, donnée sensible, base légale, AIPD, IA ou pas, quel scénario recommander, quelle bascule… |
 | ✏️ [Aide-mémoire UML en Mermaid](guide/aide-memoire-uml-mermaid.md) | pour dessiner **vos** diagrammes : processus actuel et cas d'utilisation (C4), processus cible et séquence (C6) |
 
@@ -115,7 +156,7 @@ Dans les tableaux, **« Documents du cas »** désigne les fichiers du dossier `
 | Étape | Ce que vous faites | Verbe | 📖 Fiche | 📄 Modèle → livrable | 🧩 Exemple | Vous vous appuyez sur | ⏱ |
 |---|---|---|---|---|---|---|---|
 | **7** | Écrire le problème réel derrière chaque demande ; l'énoncé du besoin en une phrase ; le périmètre | 🟦 | [E07](guide/E07-reformuler-le-besoin.md) | [C4 Fiche besoins](modeles/C4-fiche-besoins.md) §1-3 + processus actuel (activité UML) | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | tous les C3, M1 §1 | 1 h |
-| **8** | Écrire les récits utilisateur, leurs critères Gherkin, les prioriser (MoSCoW), chiffrer les exigences non fonctionnelles | 🟦 | [E08](guide/E08-recits-gherkin-moscow.md) | [C4](modeles/C4-fiche-besoins.md) §4-6 + cas d'utilisation UML + un ticket par récit | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | C4 §1-3, C3 | 1 h 30 |
+| **8** | Écrire les récits utilisateur, leurs critères Gherkin, les prioriser (MoSCoW), chiffrer les exigences non fonctionnelles | 🟦 | [E08](guide/E08-recits-gherkin-moscow.md) | [C4](modeles/C4-fiche-besoins.md) §4-6 + diagramme et fiches des cas d'utilisation + un ticket par récit | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | C4 §1-3, C3 | 1 h 30 |
 | **9** | Fixer les indicateurs cibles (usage et effet) | 🟩 | [E09](guide/E09-indicateurs.md) | [M1](modeles/M1-indicateurs.md) §2-3 | [M1](exemples/hbc-val-de-furan/M1-indicateurs.md) | M1 §1, C4 | 45 min |
 | **10** | Coter les besoins de sécurité de chaque donnée (DICP) | 🟥 | [E06](guide/E06-donnees-et-dicp.md#étape-10--cotation-dicp-2) | [S1](modeles/S1-donnees-dicp.md) §2 | [S1](exemples/hbc-val-de-furan/S1-donnees-dicp.md) | S1 §1, C3 | 45 min |
 

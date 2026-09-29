@@ -7,6 +7,7 @@
 | Diagramme | Ce qu'il montre | Où il sert |
 |---|---|---|
 | Diagramme d'activité | la méthode complète, par acteur | [METHODE.md](../METHODE.md) |
+| Diagramme de cas d'utilisation | qui fait quoi dans le module | [METHODE.md](../METHODE.md) |
 | Diagramme de séquence | de l'entretien au compte rendu validé (étapes 3-4) | [étape 4](E04-mener-entretien-compte-rendu.md) |
 | Diagramme de séquence | le passage d'un jalon avec oral (J2) | [étape 15](E15-presenter-go-no-go.md) |
 | Diagramme de séquence | l'exécution de la recette (étape 19) | [étape 19](E19-recette.md) |
@@ -63,6 +64,55 @@ Chaque rectangle est une activité de l'équipe, chaque losange une décision du
 
 *Utilisé à : [METHODE.md](../METHODE.md).*
 
+
+---
+
+## Les acteurs et leurs usages (diagramme de cas d'utilisation)
+
+### Diagramme de cas d'utilisation — qui fait quoi dans le module
+
+```mermaid
+flowchart LR
+    eq(("🧑‍💻 Équipe"))
+    cl(("🧑‍🏫 Client<br/>(enseignant dans son rôle)"))
+    ev(("🧑‍🏫 Enseignant<br/>évaluateur"))
+    gh(("🗄️ GitHub"))
+    subgraph MOD["Module « Du besoin exprimé à la mise en place »"]
+        u1(["Préparer un entretien"])
+        u2(["Mener un entretien"])
+        u3(["Faire valider un compte rendu"])
+        u4(["Chiffrer la situation de départ"])
+        u5(["Comparer des scénarios"])
+        u6(["Présenter la recommandation"])
+        u7(["Décider Go / No-go"])
+        u8(["Préparer la mise en place"])
+        u9(["Exécuter la recette"])
+        u10(["Vérifier la complétude d'un jalon"])
+        u11(["Évaluer un jalon"])
+        u12(["Tracer le travail : commit, ticket"])
+    end
+    eq --- u1
+    eq --- u2
+    eq --- u4
+    eq --- u5
+    eq --- u6
+    eq --- u8
+    eq --- u10
+    cl --- u2
+    cl --- u3
+    cl --- u7
+    cl --- u9
+    ev --- u11
+    u12 --- gh
+    u2 -. "«include»" .-> u1
+    u3 -. "«include»" .-> u12
+    u6 -. "«include»" .-> u5
+    u11 -. "«include»" .-> u10
+```
+
+Un bonhomme (cercle) est un **acteur** : une personne ou un système extérieur. Un ovale est un **cas d'utilisation** : un service rendu, formulé par un verbe. La flèche pointillée `«include»` signifie « contient toujours » : on ne mène pas d'entretien sans l'avoir préparé.
+
+*Utilisé à : [METHODE.md](../METHODE.md). Pour dessiner les cas d'utilisation de votre organisation : [aide-mémoire §2 et §2 bis](aide-memoire-uml-mermaid.md#2-diagramme-de-cas-dutilisation).*
 
 ---
 

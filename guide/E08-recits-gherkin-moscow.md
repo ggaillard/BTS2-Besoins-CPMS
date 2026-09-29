@@ -59,6 +59,10 @@ Ajoutez au besoin un 2e scénario pour le cas d'erreur (« Scénario: un autre l
 
 Une fois les récits écrits, dessinez **qui utilise le futur service et pour quoi faire** : un acteur par rôle de vos récits (« En tant que… »), un cas d'utilisation par récit Must (et Should si possible). N'oubliez pas les acteurs non humains : un autre logiciel dont on importe les données, ou **le temps** pour une tâche automatique (rappel, relance). Utilisez `«include»` quand un cas en contient toujours un autre, `«extend»` quand il s'y ajoute sous condition. Gabarit : [aide-mémoire UML §2](aide-memoire-uml-mermaid.md#2-diagramme-de-cas-dutilisation) ; exemple : [C4 du club, §4 bis](../exemples/hbc-val-de-furan/C4-fiche-besoins.md).
 
+### 4 bis. Décrire chaque cas d'utilisation Must (§4 ter)
+
+Pour chaque cas Must du diagramme, rédigez une **fiche** : acteur, objectif, déclencheur, préconditions, **scénario nominal** (une action par ligne, en alternant acteur et système), **scénarios alternatifs**, **exceptions**, postconditions, données, règles de gestion. C'est souvent en écrivant les alternatives (« et si la famille n'a pas de smartphone ? ») qu'on découvre un besoin oublié : ajoutez alors le récit correspondant. Gabarit et conseils : [aide-mémoire UML §2 bis](aide-memoire-uml-mermaid.md#2-bis-décrire-un-cas-dutilisation-fiche-textuelle) ; exemple : [C4 du club, §4 ter](../exemples/hbc-val-de-furan/C4-fiche-besoins.md).
+
 ### 5. Exigences non fonctionnelles (§5)
 
 Ce n'est pas *ce que fait* la solution, mais *comment* elle doit le faire. **Chiffrez-les** :
@@ -128,7 +132,8 @@ Ce diagramme montre la **traçabilité** : chaque test de recette doit pouvoir r
 - [ ] ≤ 40 % de Must, au moins un Won't justifié ;
 - [ ] chaque Must a au moins un scénario Gherkin ;
 - [ ] les ENF sont chiffrées ;
-- [ ] le diagramme de cas d'utilisation couvre tous les Must.
+- [ ] le diagramme de cas d'utilisation couvre tous les Must ;
+- [ ] chaque cas Must a sa fiche, avec au moins un scénario alternatif et une exception.
 
 ---
 [← Étape 7](E07-reformuler-le-besoin.md) · [Parcours](../METHODE.md) · [Étape 9 — Définir les indicateurs →](E09-indicateurs.md)

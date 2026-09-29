@@ -118,6 +118,64 @@ flowchart LR
 
 > 💡 **Pourquoi ?** L'**horloge** est un acteur : la relance est déclenchée par le temps, pas par une personne. Le **logiciel fédéral** est un acteur externe : on ne le remplace pas, on en importe les données. Aucune application n'est nommée : ce diagramme vaut pour S0, S1 ou S2.
 
+## 4 ter. Description des cas d'utilisation
+
+### UC-01 — Convoquer à un match
+
+- **Acteur principal** : entraîneur · **Acteurs secondaires** : parents, horloge
+- **Récit(s) lié(s)** : US-01, US-04, US-05 · **Priorité** : Must
+- **Objectif** : que toutes les familles de l'équipe connaissent l'heure, le lieu et le point de départ du match au plus tôt.
+- **Déclencheur** : la Ligue publie l'horaire du match (mardi soir en général).
+- **Préconditions** : l'équipe et ses familles sont enregistrées ; l'entraîneur est identifié et rattaché à l'équipe.
+
+**Scénario nominal**
+1. L'entraîneur indique le match : adversaire, date, heure, lieu, domicile ou extérieur, heure de départ du parking.
+2. Le système affiche la liste des joueurs de l'équipe, tous cochés « convoqués ».
+3. L'entraîneur décoche les joueurs absents connus (blessés…) et valide.
+4. Le système envoie la convocation à chaque famille, avec l'adresse de la salle.
+5. Le système programme un rappel pour le mardi 21 h.
+
+**Scénarios alternatifs**
+- 1a. L'horaire n'est pas encore publié : l'entraîneur crée une convocation « horaire à confirmer » ; le système prévient les familles lors de la mise à jour.
+- 5a. Mardi 21 h, une famille n'a pas répondu : le système lui envoie un rappel (UC-01 est étendu par « Relancer les familles sans réponse »).
+- 4a. Une famille n'a pas de smartphone : le système signale à l'entraîneur qu'il doit la prévenir par téléphone.
+
+**Exceptions**
+- Le match est annulé : l'entraîneur annule la convocation ; le système prévient toutes les familles.
+
+- **Postconditions** : chaque famille convoquée a reçu l'information (ou l'entraîneur sait qui prévenir autrement) ; un rappel est programmé.
+- **Données manipulées (→ S1)** : prénom, nom et équipe des joueurs ; coordonnées des parents (non visibles des autres familles).
+- **Règles de gestion** : un entraîneur ne convoque que **son** équipe ; convocation au plus tard le mardi 22 h (KPI-01).
+
+### UC-02 — Répondre à une convocation
+
+- **Acteur principal** : parent · **Acteur secondaire** : entraîneur
+- **Récit(s) lié(s)** : US-02, US-03 · **Priorité** : Must
+- **Objectif** : indiquer si l'enfant sera présent et combien de places de voiture sont proposées.
+- **Déclencheur** : réception de la convocation ou du rappel.
+- **Préconditions** : la famille a été convoquée (UC-01).
+
+**Scénario nominal**
+1. Le parent ouvre la convocation.
+2. Le système affiche le match : date, heure, lieu, domicile ou extérieur, départ du parking.
+3. Le parent choisit « présent ».
+4. Le système propose d'indiquer des places de voiture (facultatif).
+5. Le parent indique 3 places et valide.
+6. Le système enregistre la réponse et met à jour le tableau de l'entraîneur.
+
+**Scénarios alternatifs**
+- 3a. Le parent choisit « absent » : le système enregistre la réponse sans proposer de places ; fin.
+- 6a. Le parent change d'avis plus tard : il modifie sa réponse ; le système prévient l'entraîneur si le match a lieu dans moins de 48 h.
+
+**Exceptions**
+- La convocation a été annulée : le système affiche « match annulé » et n'enregistre rien.
+
+- **Postconditions** : la réponse est visible de l'entraîneur ; les places de voiture sont comptées.
+- **Données manipulées (→ S1)** : réponse (présent / absent), nombre de places.
+- **Règles de gestion** : les autres familles voient les prénoms des présents et le nombre de places, **jamais** les coordonnées (ENF-03).
+
+> 💡 **Pourquoi ?** Le scénario nominal alterne **acteur / système**, une action par ligne. Chaque alternative (1a, 4a, 5a, 3a, 6a) et chaque exception est devenue un test de la [recette M2](M2-cahier-recette.md) : c'est ainsi qu'on vérifie qu'on n'a rien oublié.
+
 ## 5. Exigences non fonctionnelles
 
 | ID | Catégorie | Exigence (mesurable) | Justification |
@@ -134,5 +192,5 @@ flowchart LR
 - Non tranché : faut-il inclure les matchs amicaux ?
 
 ---
-**Critères de qualité** — [x] aucune technologie nommée dans l'énoncé du besoin · [x] ≤ 40 % des récits en Must (3 / 7) · [x] chaque Must a un critère Gherkin (US-01 : voir ticket #7) · [x] les ENF sont chiffrées · [x] processus actuel et cas d'utilisation dessinés
+**Critères de qualité** — [x] aucune technologie nommée dans l'énoncé du besoin · [x] ≤ 40 % des récits en Must (3 / 7) · [x] chaque Must a un critère Gherkin (US-01 : voir ticket #7) · [x] les ENF sont chiffrées · [x] processus actuel et cas d'utilisation dessinés · [x] une fiche descriptive par cas d'utilisation Must
 **Usage de l'IA** : nous avons demandé des idées d'exigences non fonctionnelles ; gardé ENF-05 (réversibilité), que nous n'avions pas pensé à écrire.

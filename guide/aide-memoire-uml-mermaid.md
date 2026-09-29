@@ -9,6 +9,7 @@
 |---|---|---|---|
 | **Activité** (processus actuel) | *Comment ça se passe aujourd'hui, qui fait quoi, où ça coince ?* | [C4](../modeles/C4-fiche-besoins.md) §1 bis | [7](E07-reformuler-le-besoin.md) |
 | **Cas d'utilisation** | *Qui utilisera la solution, et pour faire quoi ?* | [C4](../modeles/C4-fiche-besoins.md) §4 bis | [8](E08-recits-gherkin-moscow.md) |
+| **Fiche de cas d'utilisation** (texte) | *Comment se déroule chaque cas, y compris quand ça se passe mal ?* | [C4](../modeles/C4-fiche-besoins.md) §4 ter | [8](E08-recits-gherkin-moscow.md) |
 | **Activité** (processus cible) | *Comment ça se passera avec la solution retenue ?* | [C6](../modeles/C6-dossier-solution.md) §3 bis | [16](E16-dossier-solution.md) |
 | **Séquence** | *Dans quel ordre les acteurs et la solution échangent-ils, pour le scénario principal ?* | [C6](../modeles/C6-dossier-solution.md) §3 ter | [16](E16-dossier-solution.md) |
 | **États-transitions** *(facultatif)* | *Par quels états passe un objet clé : réservation, candidature, devis… ?* | [C6](../modeles/C6-dossier-solution.md) §3 quater | [16](E16-dossier-solution.md) |
@@ -81,6 +82,27 @@ flowchart LR
 - `«include»` : le cas A **contient toujours** le cas B (réserver ⇒ s'identifier).
 - `«extend»` : le cas B **s'ajoute parfois** au cas A, sous condition (rappel si pas de retrait).
 - Un acteur peut être une **personne**, un **autre système** (logiciel fédéral, base régionale) ou le **temps** (tâche automatique).
+
+## 2 bis. Décrire un cas d'utilisation (fiche textuelle)
+
+Le diagramme dit **qui fait quoi** ; la fiche dit **comment ça se déroule**. Une fiche par cas Must, dans C4 §4 ter.
+
+| Rubrique | Question | Piège |
+|---|---|---|
+| Acteur principal | Qui déclenche et obtient le résultat ? | un rôle, pas une personne nommée |
+| Objectif | Que veut-il obtenir ? | décrire un résultat, pas un écran |
+| Déclencheur | Quel événement fait démarrer le cas ? | oublier les déclencheurs temporels (« mardi 21 h ») |
+| Préconditions | Qu'est-ce qui doit être vrai avant ? | confondre avec les étapes |
+| Scénario nominal | Le déroulement sans problème, **une action par ligne, en alternant acteur et système** | décrire la technique (« clique sur le bouton bleu ») |
+| Scénarios alternatifs | Les variantes qui **atteignent quand même** l'objectif (numérotées 2a, 3a… d'après l'étape où elles partent) | les oublier : ce sont eux qui font échouer les projets |
+| Exceptions | Ce qui **empêche** d'atteindre l'objectif, et ce que fait le système | ne rien prévoir |
+| Postconditions | Qu'est-ce qui est vrai après ? | |
+| Données manipulées | Quelles données (→ S1) ? | |
+| Règles de gestion | Délais, priorités, droits d'accès… | |
+
+**Du cas d'utilisation au test** : chaque scénario (nominal, alternatif, exception) donne un test de recette dans M2, avec les préconditions en « Préconditions » et les postconditions en « Résultat attendu ».
+
+Exemple rédigé : [C4 du club de handball, §4 ter](../exemples/hbc-val-de-furan/C4-fiche-besoins.md).
 
 ## 3. Diagramme de séquence
 
