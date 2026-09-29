@@ -1,6 +1,6 @@
 # Du besoin exprimé à la mise en place
 
-**BTS SIO SLAM — 2e année** · Lycée Simone-Weil, Saint-Priest-en-Jarez · 2026-2027
+**BTS SIO SLAM — 2e année** ·
 
 > **Concevoir · Piloter · Mesurer · Sécuriser**
 
