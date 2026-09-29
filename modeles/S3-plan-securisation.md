@@ -1,6 +1,8 @@
 # S3 — Plan de sécurisation
 
 > **Sécuriser** · Phase 4 (**J3**), mesures vérifiées en Phase 5 (**J4**)
+>
+> 📖 Comment faire : [Étape 20](../guide/E20-securisation.md) · 🧩 Exemple rédigé : [S3](../exemples/hbc-val-de-furan/S3-plan-securisation.md) · 📂 S'appuie sur : S1 (notes 3 et 4, failles), S2, C6
 
 ## 1. Scénarios de menace
 

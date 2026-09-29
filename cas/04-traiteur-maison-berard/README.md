@@ -27,6 +27,22 @@ Olivier Bérard veut « développer le traiteur sans y passer toutes les soirée
 
 Lisez d'abord [`besoin-exprime.md`](besoin-exprime.md).
 
+## Par où commencer ?
+
+1. **Ne cherchez pas encore de solution.** Suivez le [parcours de la méthode](../../METHODE.md) ; pour la première séance, [DEMARRER.md](../../DEMARRER.md).
+2. **Lisez ce README en entier**, puis [`besoin-exprime.md`](besoin-exprime.md), en appliquant la [fiche de l'étape 1](../../guide/E01-lire-le-besoin-exprime.md) : séparez problèmes, solutions imaginées et contraintes.
+3. **Cartographiez les interlocuteurs** ci-dessous avec la [fiche de l'étape 2](../../guide/E02-parties-prenantes.md) et choisissez qui interroger en premier.
+4. **Préparez votre premier entretien** ([étape 3](../../guide/E03-preparer-entretien.md)).
+5. **Ouvrez les fichiers de données** avant la séance 2 : ils serviront à chiffrer la situation ([étape 5](../../guide/E05-chiffrer-situation-depart.md)).
+
+### Quel document sert à quoi
+
+| Document | Ce qu'il contient | Étapes où vous en aurez besoin |
+|---|---|---|
+| [`besoin-exprime.md`](besoin-exprime.md) | le mail du cogérant | 1 (lire), 2 (C1) |
+| [`documents/incident-allergene.md`](documents/incident-allergene.md) | le mail d'un client après un mariage | 1, 6 (S1), 13 (S2) |
+| [`documents/demandes-devis-2025.csv`](documents/demandes-devis-2025.csv) | six mois de demandes de devis | 5 (M1), 6 (S1) |
+
 ## Interlocuteurs que vous pouvez rencontrer
 
 | Personne | Rôle |

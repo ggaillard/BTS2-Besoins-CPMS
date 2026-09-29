@@ -3,6 +3,8 @@
 > **Concevoir** · Phase 1 Recueillir · un guide par interlocuteur · à rendre **avant** l'entretien
 >
 > Interlocuteur : ⟪À COMPLÉTER⟫ · Durée prévue : ⟪À COMPLÉTER⟫ min · Mène : ⟪…⟫ · Note : ⟪…⟫
+>
+> 📖 Comment faire : [Étape 3](../guide/E03-preparer-entretien.md) · 🧩 Exemple rédigé : [C2](../exemples/hbc-val-de-furan/C2-guide-entretien-coach.md) · 📂 S'appuie sur : C1 §4 (qui, pourquoi), questions de l'étape 1
 
 ## Objectifs de l'entretien
 

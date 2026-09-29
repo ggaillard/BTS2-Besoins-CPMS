@@ -1,6 +1,8 @@
 # M1 — Situation de départ et indicateurs
 
 > **Mesurer** · §1 en Phase 1 (**J1**), §2 en Phase 2 (**J2**)
+>
+> 📖 Comment faire : [Étape 5](../guide/E05-chiffrer-situation-depart.md) · [Étape 9](../guide/E09-indicateurs.md) · 🧩 Exemple rédigé : [M1](../exemples/hbc-val-de-furan/M1-indicateurs.md) · [annexe de calcul](../exemples/hbc-val-de-furan/annexes/calcul-taux-reponse.md) · 📂 S'appuie sur : **fichiers CSV de votre cas**, C3 §3, C4
 
 ## 1. Situation de départ (avant)
 

@@ -3,6 +3,8 @@
 > **Concevoir** · Phase 1 Recueillir · à rendre pour **J1**
 >
 > Cas : ⟪À COMPLÉTER : nom du cas⟫ · Équipe : ⟪À COMPLÉTER⟫
+>
+> 📖 Comment faire : [Étape 2](../guide/E02-parties-prenantes.md) · 🧩 Exemple rédigé : [C1](../exemples/hbc-val-de-furan/C1-parties-prenantes.md) · 📂 S'appuie sur : `README.md` et `besoin-exprime.md` de votre cas, notes de l'étape 1
 
 ## 1. Qui est concerné ?
 

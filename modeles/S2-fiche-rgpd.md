@@ -3,6 +3,8 @@
 > **Sécuriser** · Phase 3 · à rendre pour **J2**
 >
 > Une fiche par traitement (finalité distincte). Structure inspirée du modèle de registre de la CNIL.
+>
+> 📖 Comment faire : [Étape 13](../guide/E13-rgpd.md) · 🧩 Exemple rédigé : [S2](../exemples/hbc-val-de-furan/S2-fiche-rgpd.md) · 📂 S'appuie sur : S1, C4 (finalité), C5 (qui héberge)
 
 ## 1. Description du traitement
 

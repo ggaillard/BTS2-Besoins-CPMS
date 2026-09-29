@@ -1,6 +1,8 @@
 # M3 — Bilan
 
 > **Mesurer** · Phase 5 · présenté au jalon **J4**
+>
+> 📖 Comment faire : [Étape 22](../guide/E22-bilan.md) · 🧩 Exemple rédigé : [M3](../exemples/hbc-val-de-furan/M3-bilan.md) · 📂 S'appuie sur : M1, M2 exécuté, P1, P2, P3
 
 ## 1. Le produit : prévu / obtenu
 

@@ -1,6 +1,8 @@
 # C5 — Étude de faisabilité et scénarios
 
 > **Concevoir** · Phase 3 Faisabilité · présentée au jalon **J2 — Go / No-go**
+>
+> 📖 Comment faire : [Étape 11](../guide/E11-rechercher-solutions.md) · [Étape 12](../guide/E12-faisabilite-telos-couts.md) · [Étape 15](../guide/E15-presenter-go-no-go.md) · 🧩 Exemple rédigé : [C5](../exemples/hbc-val-de-furan/C5-etude-faisabilite.md) · [comparatif](../exemples/hbc-val-de-furan/annexes/comparatif-applications.md) · 📂 S'appuie sur : C4 (Must, ENF), M1, S1, votre comparatif de solutions
 
 ## 1. Les scénarios étudiés
 

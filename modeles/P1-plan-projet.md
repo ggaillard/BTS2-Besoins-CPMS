@@ -1,6 +1,8 @@
 # P1 — Plan de projet
 
 > **Piloter** · Phase 4 · à rendre pour **J3**
+>
+> 📖 Comment faire : [Étape 17](../guide/E17-plan-projet-raci.md) · 🧩 Exemple rédigé : [P1](../exemples/hbc-val-de-furan/P1-plan-projet.md) · 📂 S'appuie sur : C6, C5 (coûts), P2, échéance du client
 
 ## 1. Objectif et échéance
 

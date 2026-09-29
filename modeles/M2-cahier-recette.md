@@ -1,6 +1,8 @@
 # M2 — Cahier de recette
 
 > **Mesurer** · rédigé en Phase 4 (**J3**), exécuté en Phase 5 (**J4**)
+>
+> 📖 Comment faire : [Étape 19](../guide/E19-recette.md) · 🧩 Exemple rédigé : [M2](../exemples/hbc-val-de-furan/M2-cahier-recette.md) · 📂 S'appuie sur : C4 (scénarios Gherkin, ENF), S3
 
 ## 1. Stratégie
 

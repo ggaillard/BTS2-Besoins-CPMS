@@ -3,6 +3,8 @@
 > **Concevoir** · Phase 1 Recueillir · un compte rendu par entretien · envoyé au client **sous 48 h** pour validation
 >
 > Date : ⟪…⟫ · Interlocuteur(s) : ⟪…⟫ · Équipe présente : ⟪…⟫ · Durée réelle : ⟪…⟫
+>
+> 📖 Comment faire : [Étape 4](../guide/E04-mener-entretien-compte-rendu.md) · 🧩 Exemple rédigé : [C3](../exemples/hbc-val-de-furan/C3-compte-rendu-coach.md) · 📂 S'appuie sur : votre C2, les notes mot pour mot de l'entretien
 
 ## 1. Ce qui a été dit (faits et verbatim)
 

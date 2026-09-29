@@ -23,36 +23,31 @@ Le code n'est pas le cœur de ce travail. Il est même possible que la bonne ré
 
 Chaque dossier contient une présentation de l'organisation, le **besoin tel qu'il a été exprimé** (`besoin-exprime.md`), la liste des interlocuteurs que vous pouvez rencontrer et des documents de travail (données fictives).
 
-## La méthode
+## Par où commencer ?
 
-Tout est dans [**METHODE.md**](METHODE.md). En résumé :
-
-```
- J0 ─► 1. Recueillir ─► J1 Besoin validé ─► 2. Analyser ─► 3. Faisabilité ─► J2 Go / No-go
-                                                                                  │
- J4 Bilan ◄─ 5. Piloter et mesurer ◄─ J3 Plan validé ◄─ 4. Préparer la mise en place ◄┘
-```
-
-| | Artefacts |
+| Vous êtes… | Ouvrez |
 |---|---|
-| **Concevoir** | C1 Parties prenantes · C2 Guide d'entretien · C3 Comptes rendus · C4 Fiche besoins · C5 Étude de faisabilité · C6 Dossier de solution |
-| **Piloter** | P1 Plan de projet · P2 Registre des risques · P3 Journal de bord · P4 Plan de déploiement |
-| **Mesurer** | M1 Situation de départ et indicateurs · M2 Cahier de recette · M3 Bilan |
-| **Sécuriser** | S1 Données et DICP · S2 Fiche RGPD · S3 Plan de sécurisation |
+| en **première séance** | 👉 [**DEMARRER.md**](DEMARRER.md) — la séance 1 minute par minute |
+| à une étape donnée | 👉 [**METHODE.md**](METHODE.md) — le parcours en 22 étapes, avec pour chacune la fiche, le modèle, l'exemple et les documents de votre cas |
+| perdu devant un modèle | 👉 l'[**exemple rédigé**](exemples/hbc-val-de-furan/README.md) du même artefact, puis la [**fiche méthode**](guide/README.md) de l'étape |
+| bloqué sur un mot | 👉 le [**lexique**](guide/lexique.md) |
+| en train de vous demander comment vous serez évalués | 👉 [GRILLE-EVALUATION.md](GRILLE-EVALUATION.md) |
 
-Les modèles sont dans [`modeles/`](modeles/), les critères d'évaluation dans [GRILLE-EVALUATION.md](GRILLE-EVALUATION.md).
+## La méthode en bref
 
-## Démarrer (séance 1)
+```
+ J0 ─► Phase 1 Recueillir ─► J1 Besoin validé ─► Phase 2 Analyser ─► Phase 3 Faisabilité ─► J2 Go / No-go
+       (étapes 0-6)                               (étapes 7-10)        (étapes 11-15)            │
+ J4 Bilan ◄─ Phase 5 Piloter et mesurer ◄─ J3 Plan validé ◄─ Phase 4 Préparer la mise en place ◄─┘
+             (étapes 21-22)                                  (étapes 16-20)
+```
 
-1. **Formez votre équipe** (3 ou 4) et répartissez les rôles : animateur·rice, secrétaire, responsable qualité, responsable sécurité. Les rôles tournent à chaque jalon.
-2. **Créez le dépôt de l'équipe** à partir de celui-ci : bouton **Use this template → Create a new repository**, en **privé**, nommé `cpms-<cas>-<equipe>` (ex. `cpms-spa-equipe3`). Invitez vos coéquipiers et l'enseignant.
-3. **Choisissez ou recevez votre cas**, lisez son `README.md` puis son `besoin-exprime.md`. Ne proposez encore aucune solution.
-4. **Préparez GitHub** :
-   - *Milestones* : `J1 Besoin validé`, `J2 Go-No-go`, `J3 Plan validé`, `J4 Bilan` ;
-   - *Labels* : `concevoir`, `piloter`, `mesurer`, `securiser`, `recit`, `risque` ;
-   - un tableau *Projects* (vue Kanban) relié au dépôt.
-5. **Ouvrez le journal de bord** : copiez `modeles/P3-journal-de-bord.md` dans `livrables/` et remplissez la première entrée.
-6. **Préparez le premier entretien** (C1 puis C2) et demandez un rendez-vous à l'enseignant, qui jouera votre interlocuteur.
+| | Artefacts (un modèle chacun dans [`modeles/`](modeles/), un exemple dans [`exemples/`](exemples/hbc-val-de-furan/)) |
+|---|---|
+| 🟦 **Concevoir** | C1 Parties prenantes · C2 Guide d'entretien · C3 Comptes rendus · C4 Fiche besoins · C5 Étude de faisabilité · C6 Dossier de solution |
+| 🟧 **Piloter** | P1 Plan de projet · P2 Registre des risques · P3 Journal de bord · P4 Plan de déploiement |
+| 🟩 **Mesurer** | M1 Situation de départ et indicateurs · M2 Cahier de recette · M3 Bilan |
+| 🟥 **Sécuriser** | S1 Données et DICP · S2 Fiche RGPD · S3 Plan de sécurisation |
 
 ## Vérifier où vous en êtes
 
@@ -67,10 +62,13 @@ Le script signale les artefacts manquants, les marqueurs `⟪ … ⟫` non rempl
 
 ```
 ├── README.md               ← vous êtes ici
-├── METHODE.md              ← phases, jalons, artefacts, règles du jeu
+├── DEMARRER.md             ← la première séance, pas à pas
+├── METHODE.md              ← le parcours en 22 étapes, jalons, règles du jeu
 ├── GRILLE-EVALUATION.md
+├── guide/                  ← une fiche méthode par étape + lexique
+├── exemples/               ← les 16 artefacts rédigés sur un mini-cas (club de handball)
 ├── cas/                    ← les 5 organisations et leurs documents
-├── modeles/                ← les 16 modèles d'artefacts
+├── modeles/                ← les 16 modèles d'artefacts à copier
 ├── livrables/              ← VOS artefacts (voir livrables/README.md)
 ├── outils/verifier.py
 └── .github/ISSUE_TEMPLATE/ ← modèles de tickets : récit utilisateur, risque

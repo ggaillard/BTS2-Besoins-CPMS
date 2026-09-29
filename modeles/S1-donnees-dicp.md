@@ -1,6 +1,8 @@
 # S1 — Données et besoins DICP
 
 > **Sécuriser** · §1 en Phase 1 (**J1**), §2 en Phase 2 (**J2**)
+>
+> 📖 Comment faire : [Étapes 6 et 10](../guide/E06-donnees-et-dicp.md) · 🧩 Exemple rédigé : [S1](../exemples/hbc-val-de-furan/S1-donnees-dicp.md) · 📂 S'appuie sur : C3 §4, colonnes des CSV, formulaires et documents de votre cas
 
 ## 1. Inventaire des données
 

@@ -1,6 +1,8 @@
 # P4 — Plan de déploiement et d'accompagnement
 
 > **Piloter** · Phase 4 · à rendre pour **J3**
+>
+> 📖 Comment faire : [Étape 18](../guide/E18-deploiement.md) · 🧩 Exemple rédigé : [P4](../exemples/hbc-val-de-furan/P4-plan-deploiement.md) · 📂 S'appuie sur : C1, C6 (reprise des données), P1, P2
 
 ## 1. Stratégie de bascule
 

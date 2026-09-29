@@ -1,6 +1,8 @@
 # C4 — Fiche besoins
 
 > **Concevoir** · Phase 2 Analyser · à rendre pour **J2**
+>
+> 📖 Comment faire : [Étape 7](../guide/E07-reformuler-le-besoin.md) · [Étape 8](../guide/E08-recits-gherkin-moscow.md) · 🧩 Exemple rédigé : [C4](../exemples/hbc-val-de-furan/C4-fiche-besoins.md) · 📂 S'appuie sur : tous vos C3 validés, M1 §1
 
 ## 1. Le besoin exprimé, et ce qu'il cache
 

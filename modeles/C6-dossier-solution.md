@@ -1,6 +1,8 @@
 # C6 — Dossier de solution
 
 > **Concevoir** · Phase 4 Préparer la mise en place · à rendre pour **J3**
+>
+> 📖 Comment faire : [Étape 16](../guide/E16-dossier-solution.md) · 🧩 Exemple rédigé : [C6](../exemples/hbc-val-de-furan/C6-dossier-solution.md) · 📂 S'appuie sur : C5 (décision du client), C4, S1, S2
 
 ## 1. La solution retenue en une page
 

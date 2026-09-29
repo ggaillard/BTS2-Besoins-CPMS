@@ -1,6 +1,8 @@
 # P3 — Journal de bord
 
 > **Piloter** · ouvert à **J0**, une entrée par séance, clôturé à **J4**
+>
+> 📖 Comment faire : [Étape 0](../guide/E00-installer-equipe-et-depot.md) · 🧩 Exemple rédigé : [P3](../exemples/hbc-val-de-furan/P3-journal-de-bord.md) · 📂 S'appuie sur : vos tickets et commits de la séance
 
 ## Équipe
 

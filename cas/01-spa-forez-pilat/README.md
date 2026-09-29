@@ -34,6 +34,24 @@ Le conseil d'administration a voté, lors de sa dernière réunion, de « modern
 
 Commencez par lire [`besoin-exprime.md`](besoin-exprime.md) : c'est le compte rendu de la réunion, rédigé par la secrétaire de l'association.
 
+## Par où commencer ?
+
+1. **Ne cherchez pas encore de solution.** Suivez le [parcours de la méthode](../../METHODE.md) ; pour la première séance, [DEMARRER.md](../../DEMARRER.md).
+2. **Lisez ce README en entier**, puis [`besoin-exprime.md`](besoin-exprime.md), en appliquant la [fiche de l'étape 1](../../guide/E01-lire-le-besoin-exprime.md) : séparez problèmes, solutions imaginées et contraintes.
+3. **Cartographiez les interlocuteurs** ci-dessous avec la [fiche de l'étape 2](../../guide/E02-parties-prenantes.md) et choisissez qui interroger en premier.
+4. **Préparez votre premier entretien** ([étape 3](../../guide/E03-preparer-entretien.md)).
+5. **Ouvrez les fichiers de données** avant la séance 2 : ils serviront à chiffrer la situation ([étape 5](../../guide/E05-chiffrer-situation-depart.md)).
+
+### Quel document sert à quoi
+
+| Document | Ce qu'il contient | Étapes où vous en aurez besoin |
+|---|---|---|
+| [`besoin-exprime.md`](besoin-exprime.md) | compte rendu de la réunion : 7 voix, 7 demandes | 1 (lire), 2 (C1) |
+| [`documents/extrait-whatsapp.md`](documents/extrait-whatsapp.md) | comment le planning fonctionne vraiment | 1, 5 (M1), 6 (S1) |
+| [`documents/animaux.csv`](documents/animaux.csv) | les animaux, leurs statuts et niveaux | 5 (M1), 6 (S1), 16 (reprise des données) |
+| [`documents/planning-promenades.csv`](documents/planning-promenades.csv) | deux semaines de promenades | 5 (M1) |
+| [`documents/formulaire-adoption-actuel.md`](documents/formulaire-adoption-actuel.md) | les données demandées aux adoptants | 6 (S1), 13 (S2 : minimisation) |
+
 ## Interlocuteurs que vous pouvez rencontrer
 
 | Personne | Rôle |
