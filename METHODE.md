@@ -45,7 +45,7 @@ flowchart LR
 
 ## 3. Les 16 artefacts
 
-Tous les modèles sont dans [`modeles/`](modeles/). Copiez-les dans `livrables/` (voir [`livrables/README.md`](livrables/README.md)) et remplacez chaque commentaire `<!-- … -->` par votre contenu (les `<!-- À COMPLÉTER -->` signalent les rubriques principales).
+Tous les modèles sont dans [`modeles/`](modeles/). Copiez-les dans `livrables/` (voir [`livrables/README.md`](livrables/README.md)) et remplacez chaque marqueur `⟪ … ⟫` par votre contenu (les `⟪À COMPLÉTER⟫` signalent les rubriques principales, les `⟪ex. …⟫` donnent un exemple).
 
 ### Concevoir
 
@@ -105,4 +105,4 @@ Tous les modèles sont dans [`modeles/`](modeles/). Copiez-les dans `livrables/`
 | **Gherkin** | `Étant donné… Quand… Alors…` — écriture d'un critère d'acceptation testable | C4, M2 |
 | **ADR** | *Architecture Decision Record* — une décision, son contexte, les options, la conséquence | C6 |
 
-Ressources à connaître : le [modèle de registre des traitements de la CNIL](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement), la [liste CNIL des traitements soumis à AIPD](https://www.cnil.fr/fr/liste-traitements-aipd-requise), le [guide d'hygiène informatique de l'ANSSI](https://cyber.gouv.fr/publications/guide-dhygiene-informatique).
+Ressources à connaître : le [modèle de registre des traitements de la CNIL](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement), la [liste CNIL des traitements soumis à AIPD](https://www.cnil.fr/fr/liste-traitements-aipd-requise), le [guide d'hygiène informatique de l'ANSSI](https://messervices.cyber.gouv.fr/guides/guide-dhygiene-informatique).

@@ -13,7 +13,7 @@ Placez ici **vos** artefacts, copiés depuis [`../modeles/`](../modeles/) et com
 
 ## Première ligne de chaque artefact
 
-Remplacez les champs d'en-tête (cas, équipe, date) et **remplacez chaque commentaire `<!-- … -->`** (y compris les exemples `<!-- ex. … -->`) par votre contenu : un commentaire restant signifie une rubrique non traitée, c'est ce que compte `outils/verifier.py`. Cochez les critères de qualité `[x]` quand ils sont vraiment remplis.
+Remplacez les champs d'en-tête (cas, équipe, date) et **remplacez chaque marqueur `⟪ … ⟫`** (y compris les exemples `⟪ex. …⟫`) par votre contenu : un marqueur restant signifie une rubrique non traitée, c'est ce que compte `outils/verifier.py`. Cochez les critères de qualité `[x]` quand ils sont vraiment remplis.
 
 ## Calculs
 

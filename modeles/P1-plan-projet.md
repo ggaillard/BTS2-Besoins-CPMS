@@ -4,13 +4,13 @@
 
 ## 1. Objectif et échéance
 
-<!-- À COMPLÉTER : objectif du projet en une phrase, date de mise en service visée, contrainte de date du client -->
+⟪À COMPLÉTER : objectif du projet en une phrase, date de mise en service visée, contrainte de date du client⟫
 
 ## 2. Découpage en lots
 
 | Lot | Contenu | Livrable | Charge estimée (j·h) | Prérequis |
 |---|---|---|---|---|
-| L1 | <!-- ex. configuration / développement du module X --> | | | |
+| L1 | ⟪ex. configuration / développement du module X⟫ | | | |
 | L2 | Reprise des données | | | |
 | L3 | Recette | | | |
 | L4 | Formation et déploiement | | | |
@@ -35,10 +35,10 @@ Reportez les jalons dans les **Milestones** GitHub du dépôt.
 
 ## 4. RACI
 
-| Activité | <!-- Client-décideur --> | <!-- Utilisateur référent --> | <!-- Équipe projet --> | <!-- Prestataire --> |
+| Activité | ⟪Client-décideur⟫ | ⟪Utilisateur référent⟫ | ⟪Équipe projet⟫ | ⟪Prestataire⟫ |
 |---|---|---|---|---|
 | Valider les besoins | A | C | R | I |
-| <!-- À COMPLÉTER --> | | | | |
+| ⟪À COMPLÉTER⟫ | | | | |
 
 *R = réalise, A = approuve (un seul par ligne), C = consulté, I = informé.*
 
@@ -46,13 +46,13 @@ Reportez les jalons dans les **Milestones** GitHub du dépôt.
 
 | Poste | Montant | Qui paie |
 |---|---|---|
-| <!-- repris de C5 --> | | |
+| ⟪repris de C5⟫ | | |
 
 ## 6. Gouvernance
 
-- Points d'avancement : <!-- fréquence, participants, support -->
-- Qui arbitre un désaccord sur le périmètre : <!-- -->
+- Points d'avancement : ⟪fréquence, participants, support⟫
+- Qui arbitre un désaccord sur le périmètre : ⟪…⟫
 
 ---
 **Critères de qualité** — [ ] charges chiffrées · [ ] un seul A par ligne du RACI · [ ] jalons présents dans GitHub · [ ] budget cohérent avec C5
-**Usage de l'IA** : <!-- À COMPLÉTER -->
+**Usage de l'IA** : ⟪À COMPLÉTER⟫

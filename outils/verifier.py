@@ -7,7 +7,7 @@ Usage :
 
 Le script ne juge pas la qualité ; il repère ce qui manque :
   - artefact absent ;
-  - champs <!-- … --> restants (tout commentaire doit être remplacé par votre contenu) ;
+  - champs ⟪…⟫ restants (chaque marqueur doit être remplacé par votre contenu) ;
   - mention « Usage de l'IA » non remplie ;
   - cases « Critères de qualité » non cochées.
 Code de sortie : 0 si tout est complet pour le jalon demandé, 1 sinon.
@@ -42,8 +42,8 @@ ATTENDUS = [
 ORDRE = ["J1", "J2", "J3", "J4"]
 VERBE = {"C": "Concevoir", "P": "Piloter", "M": "Mesurer", "S": "Sécuriser"}
 
-A_COMPLETER = re.compile(r"<!--")
-IA_VIDE = re.compile(r"\*\*Usage de l'IA\*\*\s*:\s*(<!--.*?-->)?\s*$", re.MULTILINE)
+A_COMPLETER = re.compile(r"⟪")
+IA_VIDE = re.compile(r"\*\*Usage de l'IA\*\*\s*:\s*(⟪.*?⟫)?\s*$", re.MULTILINE)
 CASE_VIDE = re.compile(r"\[ \]")
 
 
@@ -52,7 +52,7 @@ def analyser(fichier: Path) -> list[str]:
     problemes = []
     n = len(A_COMPLETER.findall(texte))
     if n:
-        problemes.append(f"{n} champ(s) <!-- … --> non remplacé(s)")
+        problemes.append(f"{n} champ(s) ⟪…⟫ non remplacé(s)")
     if "**Usage de l'IA**" in texte and IA_VIDE.search(texte):
         problemes.append("« Usage de l'IA » non renseigné")
     crit = texte.split("**Critères de qualité**", 1)

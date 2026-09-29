@@ -9,10 +9,10 @@ Au moins trois, dont obligatoirement :
 - **S1 — Solution du marché** : logiciel ou service existant (gratuit ou payant), configuré ;
 - **S2 — Solution sur mesure** : développement (éventuellement assisté par l'IA).
 
-| | S0 — <!-- nom --> | S1 — <!-- nom --> | S2 — <!-- nom --> |
+| | S0 — ⟪nom⟫ | S1 — ⟪nom⟫ | S2 — ⟪nom⟫ |
 |---|---|---|---|
 | Description en 2 lignes | | | |
-| Récits Must couverts (C4) | <!-- ex. 3/5 --> | | |
+| Récits Must couverts (C4) | ⟪ex. 3/5⟫ | | |
 
 ## 2. Grille TELOS
 
@@ -39,18 +39,18 @@ Notez de 0 (bloquant) à 3 (aucun problème). **Un 0 dans une colonne élimine l
 
 ## 4. Risques majeurs par scénario (→ P2, S3)
 
-<!-- À COMPLÉTER -->
+⟪À COMPLÉTER⟫
 
 ## 5. Recommandation
 
-> **Décision proposée : GO sur le scénario <!-- --> / NO-GO**
-> Parce que <!-- 3 arguments maximum, reliés à la grille -->.
-> Conditions : <!-- ce qui doit être vrai pour que ça marche -->.
+> **Décision proposée : GO sur le scénario ⟪…⟫ / NO-GO**
+> Parce que ⟪3 arguments maximum, reliés à la grille⟫.
+> Conditions : ⟪ce qui doit être vrai pour que ça marche⟫.
 
 ## 6. Décision du client au jalon J2
 
-<!-- À COMPLÉTER après la présentation : décision, réserves, date -->
+⟪À COMPLÉTER après la présentation : décision, réserves, date⟫
 
 ---
 **Critères de qualité** — [ ] 3 scénarios dont un sans développement · [ ] chaque note justifiée et sourcée · [ ] coûts sur 3 ans, temps humain compris · [ ] recommandation cohérente avec la grille
-**Usage de l'IA** : <!-- À COMPLÉTER -->
+**Usage de l'IA** : ⟪À COMPLÉTER⟫

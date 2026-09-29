@@ -61,7 +61,7 @@ python3 outils/verifier.py            # état de tous les livrables
 python3 outils/verifier.py --jalon J2 # uniquement ce qui est attendu au jalon J2
 ```
 
-Le script signale les artefacts manquants, les commentaires `<!-- … -->` non remplacés et les mentions « Usage de l'IA » non remplies. Il ne juge pas la qualité : c'est le rôle des critères en bas de chaque modèle et de la grille.
+Le script signale les artefacts manquants, les marqueurs `⟪ … ⟫` non remplacés et les mentions « Usage de l'IA » non remplies. Il ne juge pas la qualité : c'est le rôle des critères en bas de chaque modèle et de la grille.
 
 ## Organisation du dépôt
 

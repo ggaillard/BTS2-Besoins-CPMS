@@ -1,11 +1,11 @@
 # C2 — Guide d'entretien
 
 > **Concevoir** · Phase 1 Recueillir · un guide par interlocuteur · à rendre **avant** l'entretien
-> Interlocuteur : <!-- À COMPLÉTER --> · Durée prévue : <!-- À COMPLÉTER --> min · Mène : <!-- --> · Note : <!-- -->
+> Interlocuteur : ⟪À COMPLÉTER⟫ · Durée prévue : ⟪À COMPLÉTER⟫ min · Mène : ⟪…⟫ · Note : ⟪…⟫
 
 ## Objectifs de l'entretien
 
-À la fin, nous voulons savoir : <!-- À COMPLÉTER : 3 objectifs maximum -->
+À la fin, nous voulons savoir : ⟪À COMPLÉTER : 3 objectifs maximum⟫
 
 ## Déroulé
 
@@ -13,9 +13,9 @@
 |---|---|---|---|
 | 2 min | Présentation | Rappel du cadre, de l'objectif, de la durée ; accord pour la prise de notes | |
 | 5 min | Son rôle | *« Pouvez-vous me décrire une journée / une semaine type ? »* | |
-| 10 min | Le processus actuel | *« Racontez-moi la dernière fois que… »* <!-- À COMPLÉTER --> | *« Et ensuite ? » « Qui d'autre intervient ? »* |
-| 10 min | Les irritants | *« Qu'est-ce qui vous fait perdre du temps ? »* <!-- À COMPLÉTER --> | *« Combien de fois par semaine ? »* |
-| 5 min | Les chiffres | Volumes, fréquences, durées, coûts actuels (→ M1) <!-- À COMPLÉTER --> | |
+| 10 min | Le processus actuel | *« Racontez-moi la dernière fois que… »* ⟪À COMPLÉTER⟫ | *« Et ensuite ? » « Qui d'autre intervient ? »* |
+| 10 min | Les irritants | *« Qu'est-ce qui vous fait perdre du temps ? »* ⟪À COMPLÉTER⟫ | *« Combien de fois par semaine ? »* |
+| 5 min | Les chiffres | Volumes, fréquences, durées, coûts actuels (→ M1) ⟪À COMPLÉTER⟫ | |
 | 5 min | Les données | Quelles informations sur des personnes ? Où sont-elles ? Qui y accède ? (→ S1) | |
 | 5 min | Contraintes | Budget, délai, matériel, compétences, règles à respecter | |
 | 3 min | Clôture | *« Qu'aurais-je dû vous demander ? »* · À qui d'autre parler ? · Envoi du compte rendu | |
@@ -28,4 +28,4 @@
 
 ---
 **Critères de qualité** — [ ] au moins 60 % de questions ouvertes · [ ] une question sur les chiffres, une sur les données personnelles, une sur les contraintes · [ ] aucune solution suggérée
-**Usage de l'IA** : <!-- À COMPLÉTER -->
+**Usage de l'IA** : ⟪À COMPLÉTER⟫

@@ -18,21 +18,21 @@
 
 ## 3. Risques : lesquels se sont produits ?
 
-<!-- À COMPLÉTER à partir de P2 -->
+⟪À COMPLÉTER à partir de P2⟫
 
 ## 4. Retour du client
 
-<!-- À COMPLÉTER : ce qu'il a dit, verbatim -->
+⟪À COMPLÉTER : ce qu'il a dit, verbatim⟫
 
 ## 5. Ce que nous referions autrement
 
 | Constat | Cause | Ce que nous ferons au prochain projet |
 |---|---|---|
-| <!-- --> | | |
+| ⟪…⟫ | | |
 
 ## 6. Ce que ce projet apporte à mon portefeuille de compétences (E5)
 
-<!-- Chaque membre : quelle(s) compétence(s) du référentiel ce projet permet de justifier, avec quel artefact comme preuve -->
+⟪Chaque membre : quelle(s) compétence(s) du référentiel ce projet permet de justifier, avec quel artefact comme preuve⟫
 
 ---
 **Critères de qualité** — [ ] chiffres comparés au départ de M1 · [ ] écarts expliqués sans excuse vague · [ ] au moins 3 actions d'amélioration concrètes
