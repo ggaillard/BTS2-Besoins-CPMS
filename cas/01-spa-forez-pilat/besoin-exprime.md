@@ -7,7 +7,7 @@ Présents : 9 membres du CA, 2 salariées, 14 bénévoles · Rédaction : la sec
 
 **Point 4 — Informatique**
 
-La présidente ouvre le point : « On ne peut plus continuer comme ça. Les grandes SPA ont des applis, des sites où l'on voit tous les animaux, les gens adoptent en ligne. Il nous faut la même chose. Des étudiants en informatique du lycée Simone-Weil pourraient nous la faire gratuitement. »
+La présidente ouvre le point : « On ne peut plus continuer comme ça. Les grandes SPA ont des applis, des sites où l'on voit tous les animaux, les gens adoptent en ligne. Il nous faut la même chose. Des étudiants en informatique du lycée pourraient nous la faire gratuitement. »
 
 Karim (responsable bénévoles) : « Mon problème c'est WhatsApp. 200 messages par soir, personne ne sait qui promène qui. Certains chiens sortent trois fois dans la journée, d'autres restent au box. Il faudrait une appli où chacun réserve son chien et son créneau. »
 
