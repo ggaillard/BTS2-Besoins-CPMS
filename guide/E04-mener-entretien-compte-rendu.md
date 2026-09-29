@@ -32,6 +32,50 @@ Le compte rendu est la **preuve** de ce que le client a dit. Tout ce que vous af
 6. **Envoyez** le compte rendu au client : ouvrez un ticket « Validation C3 <interlocuteur> » et mentionnez l'enseignant (`@identifiant`). Il répond **dans son rôle**.
 7. **§6 Validation** : notez la date et les corrections du client.
 
+## 🗺️ En schéma
+
+### Diagramme de séquence — de l'entretien au compte rendu validé (étapes 3-4)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Eq as Équipe
+    participant GH as GitHub
+    participant Cl as Client (enseignant)
+    Eq->>GH: commit du guide d'entretien C2
+    Eq->>Cl: demande un créneau
+    Cl->>GH: vérifie que C2 est commité
+    alt C2 absent
+        Cl-->>Eq: créneau refusé
+    else C2 présent
+        Cl-->>Eq: créneau de 12 minutes
+        loop pour chaque thème du guide
+            Eq->>Cl: question ouverte puis relances
+            Cl-->>Eq: réponse dans le rôle
+        end
+        Note over Eq: le preneur de notes écrit mot pour mot
+        Eq->>GH: commit C3 et ticket « Validation C3 »
+        Cl->>GH: commente le ticket (corrections)
+        Eq->>GH: C3 corrigé, §6 rempli, ticket fermé
+    end
+```
+
+Lisez de haut en bas : chaque flèche est un message, dans l'ordre (numéros). Le bloc `alt` montre deux cas possibles, le bloc `loop` une répétition.
+
+### Quel niveau de certitude pour un constat (C3 §2) ?
+
+```mermaid
+flowchart TD
+    A{"Est-ce dit clairement dans un verbatim ?"} -- "non" --> V1["À VÉRIFIER<br/>c'est une déduction de l'équipe"]
+    A -- "oui" --> B{"Une autre source le contredit-elle ?"}
+    B -- "oui" --> V2["À VÉRIFIER<br/>→ question en C3 §5"]
+    B -- "non" --> C{"Une deuxième source le confirme-t-elle : autre entretien, document, fichier ?"}
+    C -- "oui" --> S["SÛR"]
+    C -- "non" --> P["PROBABLE<br/>→ chercher une deuxième source"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [C3 du club de handball](../exemples/hbc-val-de-furan/C3-compte-rendu-coach.md) : 9 verbatim numérotés, 6 constats sourcés, un constat « probable » qui déclenche un entretien supplémentaire avec un parent.

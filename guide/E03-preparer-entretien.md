@@ -32,6 +32,24 @@ L'entretien dure 12 minutes. Sans préparation, vous passerez ce temps à parler
 7. **Chronométrez-vous** : lisez le guide à voix haute ; s'il dépasse 10 minutes, coupez.
 8. **Commitez**, puis demandez le rendez-vous à l'enseignant.
 
+## 🗺️ En schéma
+
+### Ma question d'entretien est-elle bonne ?
+
+```mermaid
+flowchart TD
+    A{"Contient-elle une solution ou une technologie ?"} -- "oui" --> R1["Reformuler vers le problème :<br/>« Qu'est-ce qui vous fait perdre du temps ? »"]
+    A -- "non" --> B{"Peut-on y répondre par oui ou non ?"}
+    B -- "oui" --> C{"Est-ce une relance pour préciser un point déjà évoqué ?"}
+    C -- "oui" --> OK1["✔ À garder"]
+    C -- "non" --> R2["Transformer en « Racontez-moi… »<br/>ou « Comment… »"]
+    B -- "non" --> D{"Contient-elle du jargon : base de données, RGPD, cahier des charges… ?"}
+    D -- "oui" --> R3["Traduire en mots de tous les jours"]
+    D -- "non" --> OK2["✔ Bonne question"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [C2 du club de handball](../exemples/hbc-val-de-furan/C2-guide-entretien-coach.md) : aucune question ne parle d'application.

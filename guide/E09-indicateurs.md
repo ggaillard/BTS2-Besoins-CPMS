@@ -28,6 +28,28 @@
 4. **Pour chaque indicateur**, remplissez : départ (repris de M1 §1), cible, échéance, **qui** le mesure et **comment**.
 5. **§3 Collecte** : vérifiez que la mesure ne demande pas un effort démesuré au client. L'idéal : un indicateur que la solution produit d'elle-même (statistiques, export).
 
+## 🗺️ En schéma
+
+### Mon indicateur est-il SMART ?
+
+```mermaid
+flowchart TD
+    S{"Sait-on exactement ce qu'on compte ?"} -- "non" --> R1["Préciser l'objet compté"]
+    S -- "oui" --> M{"Existe-t-il une source pour le mesurer ?"}
+    M -- "non" --> R2["Trouver une source ou changer d'indicateur"]
+    M -- "oui" --> D{"A-t-il une valeur de départ dans M1 §1 ?"}
+    D -- "non" --> R3["Mesurer l'avant d'abord (étape 5)"]
+    D -- "oui" --> A{"La cible est-elle crédible avec les moyens du client ?"}
+    A -- "non" --> R4["Revoir la cible"]
+    A -- "oui" --> P{"Est-il relié au « afin de » du besoin ou à un récit ?"}
+    P -- "non" --> R5["L'abandonner"]
+    P -- "oui" --> T{"A-t-il une échéance ?"}
+    T -- "non" --> R6["Fixer une date"]
+    T -- "oui" --> OK["✔ Indicateur SMART"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [M1 du club de handball, §2 et §3](../exemples/hbc-val-de-furan/M1-indicateurs.md) : 5 indicateurs, dont 2 d'usage et 3 d'effet, relevés en 10 minutes par mois.

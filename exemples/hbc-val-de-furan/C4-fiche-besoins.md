@@ -11,6 +11,35 @@
 | « Les parents ne répondent pas » | Les parents répondent, mais **tard**, et le lieu du match est mal compris | C3 coach V3, V5 ; C3 parent |
 | « Si vos étudiants peuvent nous la développer » | Une solution est attendue, **pas forcément un développement** | message du président |
 
+## 1 bis. Le processus actuel (diagramme d'activité UML)
+
+```mermaid
+flowchart TB
+    subgraph LI["Ligue régionale"]
+        l1["Publie les horaires des matchs<br/>(mardi soir)"]
+    end
+    subgraph EN["Entraîneur"]
+        e1["Attend l'entraînement du jeudi<br/>⏱ 2 jours perdus"]
+        e2["Envoie la convocation sur WhatsApp<br/>(jeudi soir)"]
+        e3{"Assez de joueurs<br/>et de voitures ?"}
+        e4["Relance par téléphone<br/>(samedi matin) ⏱ 1 h 30 / semaine"]
+        e5{"Complet ?"}
+        e6["Joue le match"]
+        e7["⚠ Forfait : 60 € d'amende"]
+    end
+    subgraph PA["Parents"]
+        p1["Lisent le message<br/>(vendredi soir) ⚠ lieu mal compris"]
+        p2["Répondent… ou pas<br/>⚠ 38 % avant mercredi"]
+    end
+    l1 --> e1 --> e2 --> p1 --> p2 --> e3
+    e3 -- "oui" --> e6
+    e3 -- "non" --> e4 --> e5
+    e5 -- "oui" --> e6
+    e5 -- "non" --> e7
+```
+
+> 💡 **Pourquoi ?** Le diagramme rend visible ce que le client ne voyait pas : **l'information existe dès le mardi**, mais la convocation part le jeudi. Chaque ⚠ et ⏱ renvoie à un constat du [C3](C3-compte-rendu-coach.md) ou à un chiffre de [M1](M1-indicateurs.md).
+
 ## 2. L'énoncé du besoin en une phrase
 
 > **Pour** les entraîneurs des équipes jeunes **qui** découvrent la veille du match qu'ils n'auront ni assez de joueurs ni assez de conducteurs, **nous proposons de** connaître dès le mercredi soir les présents et les conducteurs de chaque match **afin de** supprimer les forfaits et de réduire le temps de relance.
@@ -58,6 +87,37 @@ Fonctionnalité: US-03 Vue de l'entraîneur
     Et le nombre de places de voiture confirmées
 ```
 
+## 4 bis. Diagramme de cas d'utilisation
+
+```mermaid
+flowchart LR
+    ent(("🧑 Entraîneur"))
+    par(("🧑 Parent"))
+    sec(("🧑 Secrétaire"))
+    horl(("⏰ Horloge"))
+    lic(("🗄️ Logiciel fédéral<br/>de licences"))
+    subgraph SYS["Service de convocation des équipes jeunes"]
+        uc1(["Convoquer à un match<br/>US-01"])
+        uc2(["Répondre présent ou absent<br/>US-02"])
+        uc3(["Proposer des places de voiture"])
+        uc4(["Consulter les réponses et les places<br/>US-03"])
+        uc5(["Relancer les familles sans réponse<br/>US-04"])
+        uc6(["Voir le lieu et l'adresse du match<br/>US-05"])
+        uc7(["Importer les familles de la saison<br/>US-06"])
+    end
+    ent --- uc1
+    ent --- uc4
+    par --- uc2
+    par --- uc6
+    horl --- uc5
+    sec --- uc7
+    lic --- uc7
+    uc3 -. "«extend»" .-> uc2
+    uc1 -. "«include»" .-> uc6
+```
+
+> 💡 **Pourquoi ?** L'**horloge** est un acteur : la relance est déclenchée par le temps, pas par une personne. Le **logiciel fédéral** est un acteur externe : on ne le remplace pas, on en importe les données. Aucune application n'est nommée : ce diagramme vaut pour S0, S1 ou S2.
+
 ## 5. Exigences non fonctionnelles
 
 | ID | Catégorie | Exigence (mesurable) | Justification |
@@ -74,5 +134,5 @@ Fonctionnalité: US-03 Vue de l'entraîneur
 - Non tranché : faut-il inclure les matchs amicaux ?
 
 ---
-**Critères de qualité** — [x] aucune technologie nommée dans l'énoncé du besoin · [x] ≤ 40 % des récits en Must (3 / 7) · [x] chaque Must a un critère Gherkin (US-01 : voir ticket #7) · [x] les ENF sont chiffrées
+**Critères de qualité** — [x] aucune technologie nommée dans l'énoncé du besoin · [x] ≤ 40 % des récits en Must (3 / 7) · [x] chaque Must a un critère Gherkin (US-01 : voir ticket #7) · [x] les ENF sont chiffrées · [x] processus actuel et cas d'utilisation dessinés
 **Usage de l'IA** : nous avons demandé des idées d'exigences non fonctionnelles ; gardé ENF-05 (réversibilité), que nous n'avions pas pensé à écrire.

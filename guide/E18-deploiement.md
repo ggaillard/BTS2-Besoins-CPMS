@@ -27,6 +27,26 @@ Le jour de la mise en service, ce ne sont pas des informaticiens qui utilisent l
 6. **Communication** : qui annonce quoi, à qui, quand. Le message officiel vient de l'organisation, pas de vous.
 7. **Après** : qui répond aux questions le premier mois ? Qui administre ensuite ? Avec quelle documentation ?
 
+## 🗺️ En schéma
+
+### Quelle stratégie de bascule ?
+
+```mermaid
+flowchart TD
+    A{"Peut-on garder l'ancien fonctionnement quelques semaines ?"} -- "non" --> B{"Peu d'utilisateurs et faible risque ?"}
+    B -- "oui" --> BB1["BIG BANG<br/>sauvegarde avant, répétition"]
+    B -- "non" --> BB2["BIG BANG très préparé<br/>répétition générale, support renforcé le jour J"]
+    A -- "oui" --> C{"Beaucoup d'utilisateurs, ou adoption incertaine ?"}
+    C -- "oui" --> PI["PILOTE sur un petit groupe<br/>puis généralisation"]
+    C -- "non" --> D{"Perdre une information pendant la transition serait-il grave ?"}
+    D -- "oui" --> DF["DOUBLE FONCTIONNEMENT<br/>avec une date de fin"]
+    D -- "non" --> BB3["BIG BANG"]
+```
+
+Dans tous les cas : un critère de retour arrière chiffré (P4 §1).
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [P4 du club de handball](../exemples/hbc-val-de-furan/P4-plan-deploiement.md) : pilote sur 3 équipes, double fonctionnement de 3 semaines, retour arrière à moins de 70 % d'inscrits.

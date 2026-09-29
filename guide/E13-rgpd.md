@@ -31,6 +31,37 @@ Toute organisation qui traite des données personnelles doit pouvoir dire **pour
 5. **§4 AIPD** : parcourez la liste CNIL et les 9 critères européens (données sensibles, personnes vulnérables, grande échelle, croisement, usage innovant, surveillance systématique, évaluation / notation, décision automatique, exclusion d'un droit). **Deux critères ou plus** → AIPD en principe requise. Concluez en une phrase argumentée.
 6. **§5 IA** : si la solution envoie des données à un modèle d'IA, où sont-elles traitées ? Réutilisées pour l'entraînement ? Les usagers sont-ils **informés qu'ils échangent avec une IA** (obligation de transparence de l'AI Act, en vigueur depuis le 2 août 2026) ?
 
+## 🗺️ En schéma
+
+### Quelle base légale pour le traitement ?
+
+```mermaid
+flowchart TD
+    A{"Un texte (loi, règlement) oblige-t-il à traiter ces données ?"} -- "oui" --> OL["OBLIGATION LÉGALE"]
+    A -- "non" --> B{"Est-ce un organisme public qui exerce sa mission ?"}
+    B -- "oui" --> MIP["MISSION D'INTÉRÊT PUBLIC"]
+    B -- "non" --> C{"Est-ce nécessaire pour exécuter un contrat avec la personne, ou le préparer à sa demande ?"}
+    C -- "oui" --> CT["CONTRAT<br/>ou mesures précontractuelles"]
+    C -- "non" --> D{"L'organisation a-t-elle un intérêt réel, que la personne peut raisonnablement attendre, sans atteinte disproportionnée à ses droits ?"}
+    D -- "oui" --> IL["INTÉRÊT LÉGITIME<br/>→ écrire la mise en balance"]
+    D -- "non" --> CS["CONSENTEMENT<br/>libre, éclairé, retirable<br/>→ prévoir comment le recueillir et le retirer"]
+```
+
+La sixième base, la sauvegarde des intérêts vitaux (urgence médicale…), est très rare dans nos cas.
+
+### Faut-il une analyse d'impact (AIPD) ?
+
+```mermaid
+flowchart TD
+    A{"Le traitement figure-t-il dans la liste CNIL des traitements soumis à AIPD ?"} -- "oui" --> Y1["AIPD REQUISE"]
+    A -- "non" --> B["Compter les critères européens remplis (sur 9) :<br/>données sensibles · personnes vulnérables · grande échelle ·<br/>croisement de données · usage innovant · surveillance systématique ·<br/>évaluation ou notation · décision automatique · exclusion d'un droit"]
+    B --> C{"2 critères ou plus ?"}
+    C -- "oui" --> Y2["AIPD EN PRINCIPE REQUISE"]
+    C -- "non" --> N["AIPD NON REQUISE<br/>→ le justifier dans S2 §4<br/>→ revoir si le traitement change"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [S2 du club de handball](../exemples/hbc-val-de-furan/S2-fiche-rgpd.md) : base légale « contrat d'adhésion », 4 données supprimées par minimisation, AIPD non requise (1 critère sur 9), argumentée.

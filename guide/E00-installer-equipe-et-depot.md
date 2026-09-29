@@ -44,6 +44,35 @@ git push
 
 Le message `closes #2` ferme automatiquement le ticket n° 2. Un commit par artefact (au moins), avec un message qui dit **ce qui a changé**.
 
+## 🗺️ En schéma
+
+### Diagramme d'états-transitions — la vie d'un artefact
+
+```mermaid
+stateDiagram-v2
+    state "Copié depuis le modèle" as Copie
+    state "En rédaction" as Redac
+    state "À relire" as Relire
+    state "Commité" as Commit
+    state "Soumis au client" as Soumis
+    state "Validé" as Valide
+    [*] --> Copie : cp modeles/… livrables/
+    Copie --> Redac
+    Redac --> Relire : plus aucun marqueur ⟪…⟫
+    Relire --> Redac : critère de qualité non rempli
+    Relire --> Commit : relu par le responsable qualité
+    Commit --> Soumis : C3, C4 §2, C5 (soumis au client)
+    Commit --> Valide : autres artefacts, au jalon
+    Soumis --> Redac : corrections demandées
+    Soumis --> Valide : accord du client
+    Valide --> Redac : nouvelle information
+    Valide --> [*] : jalon passé
+```
+
+Un rectangle arrondi est un **état**, une flèche une **transition**, le texte après « : » l'événement qui la déclenche. Un artefact peut revenir en rédaction à tout moment si une information nouvelle arrive.
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [Journal de bord du club de handball](../exemples/hbc-val-de-furan/P3-journal-de-bord.md) — voir l'entrée « Séance 1 ».

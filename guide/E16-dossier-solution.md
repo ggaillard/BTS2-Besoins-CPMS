@@ -22,12 +22,16 @@ Le client a dit oui à un scénario. Il faut maintenant le décrire assez préci
    - solution **sans outil** (S0) → le document d'organisation lui-même (planning type, message type, affiche).
    Rangez les images dans `livrables/annexes/` et insérez-les : `![Écran US-01](annexes/us01.png)`.
 4. **§3 — Architecture** : un schéma Mermaid avec les **acteurs**, les **outils** et les **flux de données** (qui envoie quoi à qui). Précisez l'hébergement et la localisation des données, les comptes et leurs droits, les liens avec l'existant.
-5. **§4 — ADR** : une fiche pour chaque décision **difficile à défaire** (choix de l'outil, modèle de comptes, hébergement, ce qu'on ne reprend pas). Toujours : contexte, options, décision, conséquences **positives et négatives**.
-6. **§5 — Reprise des données** : d'où viennent-elles, en quel état, comment on les reprend (ou pourquoi on ne les reprend pas). Ouvrez les vrais fichiers avant d'estimer.
+5. **§3 bis à 3 quater — Diagrammes UML de la solution** (gabarits dans l'[aide-mémoire UML](aide-memoire-uml-mermaid.md)) :
+   - **processus cible** (activité) : reprenez le processus actuel de C4 §1 bis et montrez ce qui change ; chaque ⚠ doit avoir disparu ou être traité ;
+   - **scénario principal** (séquence) : le récit Must le plus important, message par message, avec au moins un cas alternatif `alt` ;
+   - *(facultatif)* **états** d'un objet clé (réservation, candidature, devis…) ; **classes** si vous recommandez un développement sur mesure.
+6. **§4 — ADR** : une fiche pour chaque décision **difficile à défaire** (choix de l'outil, modèle de comptes, hébergement, ce qu'on ne reprend pas). Toujours : contexte, options, décision, conséquences **positives et négatives**.
+7. **§5 — Reprise des données** : d'où viennent-elles, en quel état, comment on les reprend (ou pourquoi on ne les reprend pas). Ouvrez les vrais fichiers avant d'estimer.
 
 ## Exemple
 
-[C6 du club de handball](../exemples/hbc-val-de-furan/C6-dossier-solution.md) : captures de l'outil configuré, schéma des flux, 2 ADR (outil du marché ; comptes au nom des parents).
+[C6 du club de handball](../exemples/hbc-val-de-furan/C6-dossier-solution.md) : captures de l'outil configuré, schéma des flux, processus cible, séquence, états d'une réponse, 2 ADR (outil du marché ; comptes au nom des parents).
 
 ## Pièges à éviter
 
@@ -39,6 +43,7 @@ Le client a dit oui à un scénario. Il faut maintenant le décrire assez préci
 
 - [ ] chaque Must a son écran ou son document ;
 - [ ] au moins 2 ADR ;
+- [ ] processus cible et scénario principal dessinés, cohérents avec C4 ;
 - [ ] hébergement, localisation des données et droits sont précisés ;
 - [ ] la reprise de l'existant est traitée.
 

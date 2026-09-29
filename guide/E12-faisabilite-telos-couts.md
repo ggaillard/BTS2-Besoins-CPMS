@@ -36,6 +36,29 @@ C'est le cœur du jalon J2 : vous devez dire au client **ce qu'il faut faire, et
 7. **Écrivez la recommandation** : GO sur tel scénario **ou** NO-GO argumenté, **3 arguments maximum**, reliés à la grille, et les **conditions** de réussite (« si 90 % des familles sont inscrites en 3 semaines »). Un NO-GO sur le développement, avec une alternative, est une vraie recommandation.
 8. **Après l'oral J2**, remplissez le §6 : la décision du client, ses réserves.
 
+## 🗺️ En schéma
+
+### Quel scénario recommander ? GO ou NO-GO ?
+
+```mermaid
+flowchart TD
+    A{"S0, sans développement, couvre-t-il tous les Must ?"} -- "oui" --> B{"S0 a-t-il un 0 dans la grille TELOS ?"}
+    B -- "non" --> R0["Recommander S0<br/>la solution la plus simple qui suffit"]
+    B -- "oui" --> C
+    A -- "non" --> C{"Une solution du marché S1 couvre-t-elle les Must, sans aucun 0 ?"}
+    C -- "oui" --> R1["Recommander S1<br/>+ S0 en filet si utile"]
+    C -- "non" --> D{"Le sur-mesure S2 a-t-il une maintenance assurée après votre départ, et aucun 0 ?"}
+    D -- "oui" --> R2["Recommander S2<br/>avec ses conditions"]
+    D -- "non" --> E{"Peut-on réduire le périmètre avec le client : Should → Could ?"}
+    E -- "oui" --> F["Réduire le périmètre, puis reprendre l'arbre"]
+    F --> A
+    E -- "non" --> NG["NO-GO argumenté<br/>+ alternative : réorganisation, report, autre financement"]
+```
+
+Si plusieurs scénarios passent, départagez-les par : nombre de Must couverts, total TELOS, coût sur 3 ans, risques (P2).
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [C5 du club de handball](../exemples/hbc-val-de-furan/C5-etude-faisabilite.md) : S2 éliminé par un 0 en calendaire ; S0 et S1 à égalité de points, départagés par les Must couverts et la confidentialité.

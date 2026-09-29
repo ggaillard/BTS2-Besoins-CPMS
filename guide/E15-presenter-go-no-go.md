@@ -29,6 +29,33 @@ Le client ne lira pas vos 10 documents. Il décidera en 15 minutes, sur ce que v
 5. **Répétez une fois en chronométrant.**
 6. **Après l'oral** : notez la décision et les réserves dans C5 §6 ; ajoutez les nouvelles objections dans P2 si elles révèlent un risque ; notez l'oral dans le journal P3.
 
+## 🗺️ En schéma
+
+### Diagramme de séquence — le passage d'un jalon avec oral (J2)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Eq as Équipe
+    participant V as verifier.py
+    participant GH as GitHub
+    participant Cl as Client (enseignant)
+    Eq->>V: python3 outils/verifier.py --jalon J2
+    V-->>Eq: liste des ✓ ◐ ✗
+    opt il reste des ◐ ou des ✗
+        Eq->>GH: compléter les artefacts, commit, push
+    end
+    Eq->>Cl: oral de 10 minutes
+    Cl-->>Eq: objections
+    Eq->>Cl: réponses appuyées sur des chiffres (M1) et la grille (C5)
+    Cl-->>Eq: décision Go, No-go ou à retravailler
+    Eq->>GH: C5 §6 (décision), P3 (journal), P2 (nouveaux risques)
+```
+
+Le bloc `opt` est facultatif : il n'a lieu que si la condition est vraie.
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 Dans le [journal du club de handball](../exemples/hbc-val-de-furan/P3-journal-de-bord.md) (séance 5), l'objection du président « je voulais une appli à notre nom » est levée par la personnalisation de l'outil, et la décision est notée dans [C5 §6](../exemples/hbc-val-de-furan/C5-etude-faisabilite.md).

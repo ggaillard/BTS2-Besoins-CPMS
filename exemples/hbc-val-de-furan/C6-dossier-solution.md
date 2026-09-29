@@ -32,6 +32,81 @@ flowchart LR
 - Comptes et droits : secrétaire + trésorier administrateurs ; entraîneurs gérant **leur seule équipe** ; parents (→ S3 §3).
 - Interfaces avec l'existant : import CSV depuis l'export du logiciel de licences, une fois par saison.
 
+## 3 bis. Le processus cible (diagramme d'activité UML)
+
+```mermaid
+flowchart TB
+    subgraph LI["Ligue régionale"]
+        l1["Publie les horaires<br/>(mardi soir)"]
+    end
+    subgraph EN["Entraîneur"]
+        e1["Crée le match dans l'application<br/>(mardi soir, 5 min)"]
+        e2["Consulte le tableau<br/>(mercredi 20 h)"]
+        e3{"Équipe complète<br/>et assez de places ?"}
+        e4["Appelle les seules familles<br/>sans réponse (jeudi)"]
+        e5["Joue le match"]
+    end
+    subgraph AP["Application A"]
+        a1["Notifie les familles<br/>avec lieu et adresse"]
+        a2{"Réponse avant<br/>mardi 21 h ?"}
+        a3["Rappel automatique"]
+    end
+    subgraph PA["Parents"]
+        p1["Répondent en un geste<br/>+ places de voiture"]
+    end
+    l1 --> e1 --> a1 --> a2
+    a2 -- "oui" --> p1
+    a2 -- "non" --> a3 --> p1
+    p1 --> e2 --> e3
+    e3 -- "oui" --> e5
+    e3 -- "non" --> e4 --> e5
+```
+
+> 💡 **Pourquoi ?** Comparez avec le [processus actuel de C4](C4-fiche-besoins.md) : les 2 jours perdus ont disparu (convocation le mardi), la relance est automatique, et l'entraîneur n'appelle plus que les familles sans réponse.
+
+## 3 ter. Le scénario principal (diagramme de séquence UML)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor En as Entraîneur
+    participant Ap as Application A
+    actor Pa as Parent
+    En->>Ap: crée le match (lieu, heure, départ du parking)
+    Ap->>Pa: notification de convocation
+    alt réponse avant mardi 21 h
+        Pa->>Ap: présent + 3 places
+    else pas de réponse
+        Ap->>Pa: rappel automatique (mardi 21 h)
+        Pa->>Ap: présent ou absent
+    end
+    En->>Ap: ouvre le tableau (mercredi 20 h)
+    Ap-->>En: présents, absents, sans réponse, places
+    opt équipe incomplète
+        En->>Pa: appel téléphonique aux sans-réponse
+    end
+```
+
+## 3 quater. États de la réponse d'un joueur
+
+```mermaid
+stateDiagram-v2
+    state "Sans réponse" as SR
+    state "Présent" as P
+    state "Absent" as A
+    [*] --> SR : convocation envoyée
+    SR --> SR : rappel mardi 21 h
+    SR --> P : répond présent
+    SR --> A : répond absent
+    P --> A : change d'avis
+    A --> P : change d'avis
+    P --> [*] : match joué
+    A --> [*] : match joué
+    SR --> [*] : match joué, compté sans réponse (KPI-02)
+```
+
+> 💡 **Pourquoi ?** L'état « Sans réponse » à la fin du match alimente directement l'indicateur KPI-02 de [M1](M1-indicateurs.md) : le diagramme montre d'où vient la mesure.
+
 ## 4. Décisions structurantes (ADR)
 
 ### ADR-01 — Outil du marché plutôt que développement
@@ -54,5 +129,5 @@ flowchart LR
 | Groupes WhatsApp | 3 groupes | **non repris** | fermés aux convocations 3 semaines après le lancement |
 
 ---
-**Critères de qualité** — [x] chaque Must a son écran · [x] au moins 2 ADR · [x] hébergement et localisation des données précisés · [x] reprise de l'existant traitée
+**Critères de qualité** — [x] chaque Must a son écran · [x] au moins 2 ADR · [x] hébergement et localisation des données précisés · [x] reprise de l'existant traitée · [x] processus cible et scénario principal dessinés
 **Usage de l'IA** : aucun.

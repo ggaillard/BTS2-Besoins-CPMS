@@ -34,6 +34,22 @@ Pour chaque ensemble de données, notez de **1 (faible) à 4 (vital)** :
 
 **Chaque note se justifie par une conséquence concrète**, dans votre cas, pas par « c'est important ».
 
+## 🗺️ En schéma
+
+### Cette donnée est-elle personnelle ? sensible ?
+
+```mermaid
+flowchart TD
+    A{"Permet-elle d'identifier une personne, directement ou en la croisant avec autre chose ?"} -- "non" --> N["Donnée NON personnelle<br/>→ cotez quand même DICP si le service en dépend"]
+    A -- "oui" --> B{"Révèle-t-elle la santé, l'origine, des opinions, une religion, l'orientation sexuelle, un syndicat, la biométrie, la génétique ?"}
+    B -- "oui" --> S["Donnée SENSIBLE (article 9)<br/>interdite sauf exception<br/>→ la retirer si possible, sinon justifier l'exception<br/>→ AIPD probable"]
+    B -- "non" --> C{"Concerne-t-elle un mineur, ou s'agit-il d'un n° de sécurité sociale, bancaire, d'un mot de passe ?"}
+    C -- "oui" --> H["Donnée personnelle à VIGILANCE RENFORCÉE<br/>→ confidentialité ≥ 3 dans S1"]
+    C -- "non" --> P["Donnée personnelle<br/>→ S1 et S2 normalement"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [S1 du club de handball](../exemples/hbc-val-de-furan/S1-donnees-dicp.md) : la donnée de santé est notée C=4… pour décider de l'**exclure** de l'outil.

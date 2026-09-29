@@ -21,6 +21,7 @@ Pour ça, vous suivrez le [parcours en 22 étapes](METHODE.md). Chaque étape a 
 ### ⏱ 0:00 – 0:15 · Comprendre la démarche (toute la classe)
 
 - Lisez la section [« La méthode en une minute »](METHODE.md#1-la-méthode-en-une-minute).
+- Regardez le **diagramme d'activité** de la méthode (même section) : il montre qui fait quoi et quand le client valide.
 - Parcourez l'[exemple rédigé du club de handball](exemples/hbc-val-de-furan/README.md) : lisez son besoin exprimé, puis ouvrez son [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) §1 et §2. Remarquez comment « une appli » est devenu un **problème** à résoudre.
 
 ### ⏱ 0:15 – 0:45 · Installer l'équipe et le dépôt → [fiche étape 0](guide/E00-installer-equipe-et-depot.md)

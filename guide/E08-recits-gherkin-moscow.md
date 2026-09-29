@@ -55,10 +55,62 @@ Fonctionnalité: US-03 Mettre un document de côté
 
 Ajoutez au besoin un 2e scénario pour le cas d'erreur (« Scénario: un autre lecteur tente d'emprunter le livre mis de côté »).
 
-### 4. Exigences non fonctionnelles (§5)
+### 4. Diagramme de cas d'utilisation (§4 bis)
+
+Une fois les récits écrits, dessinez **qui utilise le futur service et pour quoi faire** : un acteur par rôle de vos récits (« En tant que… »), un cas d'utilisation par récit Must (et Should si possible). N'oubliez pas les acteurs non humains : un autre logiciel dont on importe les données, ou **le temps** pour une tâche automatique (rappel, relance). Utilisez `«include»` quand un cas en contient toujours un autre, `«extend»` quand il s'y ajoute sous condition. Gabarit : [aide-mémoire UML §2](aide-memoire-uml-mermaid.md#2-diagramme-de-cas-dutilisation) ; exemple : [C4 du club, §4 bis](../exemples/hbc-val-de-furan/C4-fiche-besoins.md).
+
+### 5. Exigences non fonctionnelles (§5)
 
 Ce n'est pas *ce que fait* la solution, mais *comment* elle doit le faire. **Chiffrez-les** :
 utilisabilité (« en moins de 2 minutes sur téléphone, sans formation »), disponibilité (« consultable à l'ouverture, même en cas de panne d'internet »), sécurité (reliée à S1), coût (« ≤ 1 500 € sur 3 ans »), réversibilité (« export complet en CSV »), accessibilité.
+
+## 🗺️ En schéma
+
+### Must, Should, Could ou Won't ?
+
+```mermaid
+flowchart TD
+    A{"Sans ce récit, le client a-t-il encore intérêt à changer ?"} -- "non" --> M["MUST"]
+    A -- "oui" --> B{"Répond-il à un problème chiffré en M1, ou cité par plusieurs interlocuteurs ?"}
+    B -- "oui" --> SH["SHOULD"]
+    B -- "non" --> C{"Tient-il dans le budget et le délai ?"}
+    C -- "oui" --> CO["COULD"]
+    C -- "non" --> W["WON'T (this time)<br/>→ écrire pourquoi"]
+    M --> V{"Plus de 40 % de Must au total ?"}
+    V -- "oui" --> A
+    V -- "non" --> OK["✔ Priorisation crédible"]
+```
+
+Si vous avez trop de Must, repassez chaque Must dans l'arbre en étant plus sévères.
+
+### Diagramme d'états-transitions — d'une phrase du client à un test réussi
+
+```mermaid
+stateDiagram-v2
+    state "Demande brute (verbatim C3)" as V
+    state "Récit rédigé (C4)" as R
+    state "Priorisé (MoSCoW)" as P
+    state "Critère Gherkin écrit" as G
+    state "Couvert par le scénario retenu (C5)" as S
+    state "Test écrit (M2)" as T
+    state "Test réussi" as OK
+    state "Écarté (Won't)" as W
+    [*] --> V
+    V --> R : reformulation
+    R --> P
+    P --> W : Won't
+    P --> G : Must ou Should
+    G --> S
+    S --> T
+    T --> OK : exécuté par le client
+    T --> G : KO, critère ambigu
+    OK --> [*]
+    W --> [*]
+```
+
+Ce diagramme montre la **traçabilité** : chaque test de recette doit pouvoir remonter jusqu'à une phrase prononcée par le client.
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
 
 ## Exemple
 
@@ -75,7 +127,8 @@ utilisabilité (« en moins de 2 minutes sur téléphone, sans formation »), di
 - [ ] 6 à 12 récits, chacun avec sa source et son ticket ;
 - [ ] ≤ 40 % de Must, au moins un Won't justifié ;
 - [ ] chaque Must a au moins un scénario Gherkin ;
-- [ ] les ENF sont chiffrées.
+- [ ] les ENF sont chiffrées ;
+- [ ] le diagramme de cas d'utilisation couvre tous les Must.
 
 ---
 [← Étape 7](E07-reformuler-le-besoin.md) · [Parcours](../METHODE.md) · [Étape 9 — Définir les indicateurs →](E09-indicateurs.md)

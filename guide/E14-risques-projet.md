@@ -33,6 +33,47 @@ Ne confondez pas : **P2** = risques du **projet** (délai, budget, adoption, com
 5. **Parade** : *prévention* (ce qu'on fait pour que ça n'arrive pas) et/ou *réaction* (ce qu'on fera si ça arrive). Un **responsable** nommé, côté client ou côté équipe.
 6. **À chaque séance** (5 min, animateur) : un risque s'est-il produit ? Sa probabilité a-t-elle changé ? Notez-le dans le tableau « Évolution ». L'historique Git doit montrer que le registre **vit**.
 
+## 🗺️ En schéma
+
+### Risque projet (P2) ou menace de sécurité (S3) ?
+
+```mermaid
+flowchart TD
+    Z{"Est-ce un événement futur et incertain ?"} -- "non" --> K["Ce n'est pas un risque :<br/>c'est un constat (C3) ou une contrainte (C4)"]
+    Z -- "oui" --> A{"Touche-t-il des données, des accès, une panne, une personne malveillante ?"}
+    A -- "oui" --> S3["MENACE DE SÉCURITÉ → S3"]
+    A -- "non" --> B{"Touche-t-il le délai, le budget, l'adoption, les compétences, une décision, un fournisseur ?"}
+    B -- "oui" --> P2["RISQUE PROJET → P2"]
+    B -- "non" --> K2["Reformuler en « cause → événement → conséquence »<br/>puis reprendre l'arbre"]
+```
+
+Un même problème peut avoir les deux faces (ex. « le seul administrateur part ») : une ligne dans P2 et une dans S3, avec un renvoi.
+
+### Diagramme d'états-transitions — la vie d'un risque (P2)
+
+```mermaid
+stateDiagram-v2
+    state "Identifié" as I
+    state "Coté (probabilité × impact)" as C
+    state "Suivi (parade, responsable, ticket)" as S
+    state "Surveillé" as W
+    state "Survenu" as X
+    state "Clos" as F
+    [*] --> I
+    I --> C
+    C --> S : criticité > 8
+    C --> W : criticité ≤ 8
+    W --> S : probabilité ou impact en hausse
+    S --> W : parade efficace
+    S --> X : l'événement se produit
+    W --> X : l'événement se produit
+    X --> F : réaction appliquée, leçon notée dans M3
+    S --> F : la cause a disparu
+    F --> [*]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [P2 du club de handball](../exemples/hbc-val-de-furan/P2-registre-risques.md) : 6 risques, dont 2 d'adoption ; un risque clos après un import test ; une probabilité revue à la baisse.

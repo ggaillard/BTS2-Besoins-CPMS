@@ -35,6 +35,22 @@ Les fichiers CSV serviront à l'étape 5 : ouvrez-les juste pour voir les colonn
 5. **Listez les contradictions** (deux personnes qui veulent l'inverse) et les **oublis** (qui n'a pas parlé ? de quoi personne ne parle — données, sécurité, qui maintiendra ?).
 6. **Notez les chiffres présents** et ceux qui manquent : ils iront dans M1.
 
+## 🗺️ En schéma
+
+### Classer une phrase du besoin exprimé
+
+```mermaid
+flowchart TD
+    A{"La phrase nomme-t-elle un outil, une technologie ou une fonctionnalité ?"} -- "oui" --> SOL["🟦 SOLUTION IMAGINÉE<br/>→ question d'entretien :<br/>« Qu'est-ce qui vous fait dire ça ? »"]
+    A -- "non" --> B{"Décrit-elle une limite : budget, date, règle, personne, matériel ?"}
+    B -- "oui" --> CON["🟩 CONTRAINTE<br/>→ C4 §3 périmètre, C5 grille TELOS"]
+    B -- "non" --> C{"Décrit-elle un fait qui gêne quelqu'un ?"}
+    C -- "oui" --> PB["🟥 PROBLÈME<br/>→ à chiffrer (M1) et à vérifier en entretien"]
+    C -- "non" --> CTX["Contexte<br/>→ utile pour C1"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 Dans le [mini-cas du club de handball](../exemples/hbc-val-de-furan/README.md), « une appli pour les convocations » (🟦) cache le problème « les réponses arrivent la veille du match » (🟥), et « 60 € d'amende par forfait » est un chiffre précieux pour M1.

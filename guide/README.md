@@ -29,3 +29,11 @@ Le parcours complet, avec l'ordre des étapes et les jalons, est dans [METHODE.m
 | 21 | [Preuve de concept (optionnelle)](E21-preuve-de-concept.md) | — |
 | 22 | [Bilan](E22-bilan.md) | M3 |
 | — | [Lexique](lexique.md) | |
+
+## Schémas
+
+| | |
+|---|---|
+| 🗺️ [Diagrammes UML de la méthode](schemas-uml.md) | activité, séquences, états, classes |
+| 🌳 [Arbres de décision](arbres-de-decision.md) | 13 arbres pour les choix de chaque phase |
+| ✏️ [Aide-mémoire UML en Mermaid](aide-memoire-uml-mermaid.md) | gabarits pour dessiner vos propres diagrammes (C4, C6) |

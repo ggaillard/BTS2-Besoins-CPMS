@@ -30,6 +30,36 @@ La recette, c'est le moment où **le client** vérifie que ce qu'on lui livre fa
 5. **Au jalon J4** (ou sur votre preuve de concept), faites exécuter, remplissez « Obtenu », « OK / KO », et ouvrez un ticket par anomalie.
 6. **§3 Procès-verbal** : recette prononcée, avec réserves (lesquelles) ou refusée. Signée côté client.
 
+## 🗺️ En schéma
+
+### Diagramme de séquence — l'exécution de la recette (étape 19)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Eq as Équipe
+    participant Ut as Utilisateur réel
+    participant So as Solution (compte de test)
+    participant GH as GitHub
+    Eq->>So: prépare des données fictives
+    Eq->>Ut: remet le cahier de recette M2
+    loop pour chaque test
+        Ut->>So: exécute les étapes
+        So-->>Ut: résultat observé
+        Ut->>Ut: compare au résultat attendu
+        alt KO
+            Ut->>GH: ouvre un ticket d'anomalie
+            Eq->>So: corrige ou reparamètre
+            Ut->>So: rejoue le test
+        end
+    end
+    Ut->>Eq: signe le procès-verbal (avec ou sans réserves)
+```
+
+C'est l'**utilisateur réel** qui exécute, pas l'équipe : c'est tout l'intérêt de la recette.
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [M2 du club de handball](../exemples/hbc-val-de-furan/M2-cahier-recette.md) : 9 tests dont 3 de sécurité et 1 de réversibilité ; un KO corrigé ; recette prononcée avec réserves.

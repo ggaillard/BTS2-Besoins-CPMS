@@ -25,6 +25,7 @@ Chaque critère est noté **0** absent · **1** insuffisant · **2** attendu · 
 | Au moins trois scénarios, dont un sans développement, sont comparés objectivement (TELOS, sources) | |
 | La recommandation découle de l'analyse ; le « No-go » est accepté s'il est argumenté | |
 | La solution retenue est décrite de façon exploitable (maquettes, architecture, décisions justifiées) | |
+| Les processus sont modélisés en UML (activité actuelle et cible, cas d'utilisation, séquence du scénario principal) et cohérents avec les entretiens | |
 
 ### Piloter
 | Critère | 0-3 |

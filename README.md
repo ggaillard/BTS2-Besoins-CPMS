@@ -30,6 +30,7 @@ Chaque dossier contient une présentation de l'organisation, le **besoin tel qu'
 | en **première séance** | 👉 [**DEMARRER.md**](DEMARRER.md) — la séance 1 minute par minute |
 | à une étape donnée | 👉 [**METHODE.md**](METHODE.md) — le parcours en 22 étapes, avec pour chacune la fiche, le modèle, l'exemple et les documents de votre cas |
 | perdu devant un modèle | 👉 l'[**exemple rédigé**](exemples/hbc-val-de-furan/README.md) du même artefact, puis la [**fiche méthode**](guide/README.md) de l'étape |
+| en train de chercher à **visualiser un processus** ou à **faire un choix** | 👉 les [**diagrammes UML**](guide/schemas-uml.md) et les [**arbres de décision**](guide/arbres-de-decision.md) ; pour dessiner les vôtres : l'[**aide-mémoire UML**](guide/aide-memoire-uml-mermaid.md) |
 | bloqué sur un mot | 👉 le [**lexique**](guide/lexique.md) |
 | en train de vous demander comment vous serez évalués | 👉 [GRILLE-EVALUATION.md](GRILLE-EVALUATION.md) |
 
@@ -65,7 +66,7 @@ Le script signale les artefacts manquants, les marqueurs `⟪ … ⟫` non rempl
 ├── DEMARRER.md             ← la première séance, pas à pas
 ├── METHODE.md              ← le parcours en 22 étapes, jalons, règles du jeu
 ├── GRILLE-EVALUATION.md
-├── guide/                  ← une fiche méthode par étape + lexique
+├── guide/                  ← fiches méthode, diagrammes UML, arbres de décision, aide-mémoire UML, lexique
 ├── exemples/               ← les 16 artefacts rédigés sur un mini-cas (club de handball)
 ├── cas/                    ← les 5 organisations et leurs documents
 ├── modeles/                ← les 16 modèles d'artefacts à copier

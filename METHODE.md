@@ -33,19 +33,57 @@ Les quatre verbes **se mélangent** dans le temps : on mesure dès le premier en
 
 **La routine d'une étape :** lire la fiche 📖 → regarder l'exemple 🧩 → copier le modèle 📄 → le remplir avec **les documents de votre cas** et **vos entretiens** → cocher les critères de qualité en bas du modèle → commiter → fermer le ticket.
 
+**Le déroulement complet, en diagramme d'activité UML** (couloir de gauche : votre équipe ; couloir de droite : le client) :
+
 ```mermaid
-flowchart LR
-    J0([J0 Lancement]) --> P1[Phase 1<br/>Recueillir<br/>étapes 0-6]
-    P1 --> J1([J1 Besoin validé])
-    J1 --> P2[Phase 2<br/>Analyser<br/>étapes 7-10]
-    P2 --> P3[Phase 3<br/>Faisabilité<br/>étapes 11-15]
-    P3 --> J2{{J2 Go / No-go}}
-    J2 -- Go --> P4[Phase 4<br/>Préparer la mise en place<br/>étapes 16-20]
-    J2 -- No-go argumenté --> ALT([Recommandation<br/>alternative])
-    P4 --> J3([J3 Plan validé])
-    J3 --> P5[Phase 5<br/>Piloter et mesurer<br/>étapes 21-22]
-    P5 --> J4([J4 Bilan])
+flowchart TB
+    subgraph EQ["🧑‍💻 Équipe"]
+        direction TB
+        d(("Début")) --> e0["0 · Installer l'équipe et le dépôt"]
+        e0 --> e1["1-3 · Lire le besoin · C1 · C2"]
+        e1 --> e4["4 · Mener l'entretien · rédiger C3"]
+        e5["5-6 · Chiffrer M1 §1 · inventorier S1 §1"]
+        e7["7-10 · C4 · M1 §2 · S1 §2"]
+        e11["11-14 · Solutions · C5 · S2 · P2"]
+        e15["15 · Présenter la recommandation"]
+        e16["16-20 · C6 · P1 · P4 · M2 · S3"]
+        e21["21-22 · Preuve de concept · M3 · clôture"]
+        f(("Fin"))
+    end
+    subgraph CL["🧑‍🏫 Client (joué par l'enseignant)"]
+        direction TB
+        c1["Répond dans son rôle"]
+        c2{"Compte rendu fidèle ?"}
+        c3{"J1 · besoin validé ?"}
+        c4{"J2 · décision"}
+        c5{"J3 · plan validé ?"}
+        c6["J4 · évalue le bilan"]
+    end
+    e4 --> c1 --> c2
+    c2 -- "non : corrections" --> e4
+    c2 -- "oui" --> e5
+    e5 --> c3
+    c3 -- "non : entretien complémentaire" --> e1
+    c3 -- "oui" --> e7 --> e11 --> e15 --> c4
+    c4 -- "Go" --> e16
+    c4 -- "No-go : on prépare l'alternative" --> e16
+    c4 -- "À retravailler" --> e11
+    e16 --> c5
+    c5 -- "non" --> e16
+    c5 -- "oui" --> e21 --> c6 --> f
 ```
+
+Chaque rectangle est une activité de l'équipe, chaque losange une décision du client. Les flèches qui remontent montrent qu'on **revient en arrière** quand le client n'est pas d'accord : c'est normal, c'est prévu.
+
+**Pour comprendre les processus en schémas :**
+
+| | Contenu |
+|---|---|
+| 🗺️ [Diagrammes UML de la méthode](guide/schemas-uml.md) | activité (ci-dessus), séquences (entretien, jalon, recette), états (vie d'un artefact, d'un récit, d'un risque), classes (comment les artefacts s'enchaînent) |
+| 🌳 [Arbres de décision](guide/arbres-de-decision.md) | 13 arbres pour les choix difficiles : classer une phrase, MoSCoW, SMART, donnée sensible, base légale, AIPD, IA ou pas, quel scénario recommander, quelle bascule… |
+| ✏️ [Aide-mémoire UML en Mermaid](guide/aide-memoire-uml-mermaid.md) | pour dessiner **vos** diagrammes : processus actuel et cas d'utilisation (C4), processus cible et séquence (C6) |
+
+Les fiches méthode contiennent, dans leur section **🗺️ En schéma**, le diagramme ou l'arbre utile à l'étape.
 
 ---
 
@@ -76,8 +114,8 @@ Dans les tableaux, **« Documents du cas »** désigne les fichiers du dossier `
 
 | Étape | Ce que vous faites | Verbe | 📖 Fiche | 📄 Modèle → livrable | 🧩 Exemple | Vous vous appuyez sur | ⏱ |
 |---|---|---|---|---|---|---|---|
-| **7** | Écrire le problème réel derrière chaque demande ; l'énoncé du besoin en une phrase ; le périmètre | 🟦 | [E07](guide/E07-reformuler-le-besoin.md) | [C4 Fiche besoins](modeles/C4-fiche-besoins.md) §1-3 | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | tous les C3, M1 §1 | 1 h |
-| **8** | Écrire les récits utilisateur, leurs critères Gherkin, les prioriser (MoSCoW), chiffrer les exigences non fonctionnelles | 🟦 | [E08](guide/E08-recits-gherkin-moscow.md) | [C4](modeles/C4-fiche-besoins.md) §4-6 + un ticket par récit | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | C4 §1-3, C3 | 1 h 30 |
+| **7** | Écrire le problème réel derrière chaque demande ; l'énoncé du besoin en une phrase ; le périmètre | 🟦 | [E07](guide/E07-reformuler-le-besoin.md) | [C4 Fiche besoins](modeles/C4-fiche-besoins.md) §1-3 + processus actuel (activité UML) | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | tous les C3, M1 §1 | 1 h |
+| **8** | Écrire les récits utilisateur, leurs critères Gherkin, les prioriser (MoSCoW), chiffrer les exigences non fonctionnelles | 🟦 | [E08](guide/E08-recits-gherkin-moscow.md) | [C4](modeles/C4-fiche-besoins.md) §4-6 + cas d'utilisation UML + un ticket par récit | [C4](exemples/hbc-val-de-furan/C4-fiche-besoins.md) | C4 §1-3, C3 | 1 h 30 |
 | **9** | Fixer les indicateurs cibles (usage et effet) | 🟩 | [E09](guide/E09-indicateurs.md) | [M1](modeles/M1-indicateurs.md) §2-3 | [M1](exemples/hbc-val-de-furan/M1-indicateurs.md) | M1 §1, C4 | 45 min |
 | **10** | Coter les besoins de sécurité de chaque donnée (DICP) | 🟥 | [E06](guide/E06-donnees-et-dicp.md#étape-10--cotation-dicp-2) | [S1](modeles/S1-donnees-dicp.md) §2 | [S1](exemples/hbc-val-de-furan/S1-donnees-dicp.md) | S1 §1, C3 | 45 min |
 
@@ -104,7 +142,7 @@ Dans les tableaux, **« Documents du cas »** désigne les fichiers du dossier `
 
 | Étape | Ce que vous faites | Verbe | 📖 Fiche | 📄 Modèle → livrable | 🧩 Exemple | Vous vous appuyez sur | ⏱ |
 |---|---|---|---|---|---|---|---|
-| **16** | Décrire la solution : écrans, architecture, décisions (ADR), reprise des données | 🟦 | [E16](guide/E16-dossier-solution.md) | [C6 Dossier de solution](modeles/C6-dossier-solution.md) | [C6](exemples/hbc-val-de-furan/C6-dossier-solution.md) | C5 (décision), C4, S1, S2 | 2 h |
+| **16** | Décrire la solution : écrans, architecture, processus cible et séquence UML, décisions (ADR), reprise des données | 🟦 | [E16](guide/E16-dossier-solution.md) | [C6 Dossier de solution](modeles/C6-dossier-solution.md) | [C6](exemples/hbc-val-de-furan/C6-dossier-solution.md) | C5 (décision), C4, S1, S2 | 2 h |
 | **17** | Découper en lots, planifier, répartir (RACI), budgéter | 🟧 | [E17](guide/E17-plan-projet-raci.md) | [P1 Plan de projet](modeles/P1-plan-projet.md) | [P1](exemples/hbc-val-de-furan/P1-plan-projet.md) | C6, C5, P2 | 1 h 30 |
 | **18** | Organiser la bascule et l'accompagnement des utilisateurs | 🟧 | [E18](guide/E18-deploiement.md) | [P4 Plan de déploiement](modeles/P4-plan-deploiement.md) | [P4](exemples/hbc-val-de-furan/P4-plan-deploiement.md) | C1, C6, P1, P2 | 1 h |
 | **19** | Écrire les tests que le client exécutera | 🟩 | [E19](guide/E19-recette.md) | [M2 Cahier de recette](modeles/M2-cahier-recette.md) | [M2](exemples/hbc-val-de-furan/M2-cahier-recette.md) | C4 (Gherkin, ENF), S3 | 1 h 30 |
@@ -170,6 +208,102 @@ Dans les tableaux, **« Documents du cas »** désigne les fichiers du dossier `
 | S2 | Fiche RGPD | 🟥 | 13 | J2 | [modèle](modeles/S2-fiche-rgpd.md) | [exemple](exemples/hbc-val-de-furan/S2-fiche-rgpd.md) | Le traitement est licite, minimisé, et l'AIPD est tranchée |
 | S3 | Plan de sécurisation | 🟥 | 20 | J3 | [modèle](modeles/S3-plan-securisation.md) | [exemple](exemples/hbc-val-de-furan/S3-plan-securisation.md) | Menaces réalistes → mesures applicables, sauvegarde et réversibilité |
 
+**Comment les artefacts s'enchaînent** (diagramme de classes UML) : chaque notion renvoie à celle dont elle dépend. C'est cette chaîne qui permet de justifier chaque test de recette par une phrase du client.
+
+```mermaid
+classDiagram
+    direction LR
+    class PartiePrenante {
+        <<C1>>
+        nom
+        role
+        influence
+        interet
+    }
+    class Entretien {
+        <<C2 C3>>
+        date
+        objectifs
+    }
+    class Verbatim {
+        <<C3>>
+        numero
+        texte
+    }
+    class Constat {
+        <<C3>>
+        texte
+        certitude
+    }
+    class Besoin {
+        <<C4>>
+        enonce
+        perimetre
+    }
+    class RecitUtilisateur {
+        <<C4>>
+        id
+        moscow
+    }
+    class CritereAcceptation {
+        <<C4>>
+        etantDonne
+        quand
+        alors
+    }
+    class Indicateur {
+        <<M1>>
+        depart
+        cible
+        echeance
+    }
+    class Scenario {
+        <<C5>>
+        noteTELOS
+        cout3ans
+    }
+    class Donnee {
+        <<S1>>
+        sensible
+        D I C P
+    }
+    class Menace {
+        <<S3>>
+        source
+        gravite
+    }
+    class Mesure {
+        <<S3>>
+        type
+        responsable
+    }
+    class Risque {
+        <<P2>>
+        criticite
+        parade
+    }
+    class TestRecette {
+        <<M2>>
+        attendu
+        obtenu
+    }
+    PartiePrenante "1" -- "0..*" Entretien : est interrogée
+    Entretien "1" *-- "1..*" Verbatim : contient
+    Constat "0..*" --> "1..*" Verbatim : s'appuie sur
+    Besoin "1" --> "1..*" Constat : reformule
+    Besoin "1" *-- "1..*" RecitUtilisateur : se découpe en
+    RecitUtilisateur "1" *-- "0..*" CritereAcceptation : vérifié par
+    CritereAcceptation "1" --> "1..*" TestRecette : devient
+    Besoin "1" --> "1..*" Indicateur : mesuré par
+    Scenario "0..*" --> "0..*" RecitUtilisateur : couvre
+    Menace "0..*" --> "1..*" Donnee : vise
+    Mesure "1..*" --> "1..*" Menace : réduit
+    Mesure "0..*" --> "0..1" TestRecette : vérifiée par
+    Risque "0..*" --> "1" Scenario : concerne
+```
+
+Chaque classe est une notion de la méthode ; l'étiquette `<<C3>>` indique dans quel artefact on la trouve. Les multiplicités (`1`, `0..*`, `1..*`) se lisent : « un besoin se découpe en **un ou plusieurs** récits ». Le losange plein (composition) signifie que l'élément n'existe pas sans son parent.
+
 ---
 
 ## 5. Les règles du jeu
@@ -195,6 +329,26 @@ Dans les tableaux, **« Documents du cas »** désigne les fichiers du dossier `
 | « On ne sait pas remplir un modèle. » | Regardez l'artefact correspondant dans l'[exemple rédigé](exemples/hbc-val-de-furan/README.md), puis la fiche méthode de l'étape. |
 | « Un terme nous échappe. » | [Lexique](guide/lexique.md). |
 | « `verifier.py` affiche encore des ◐. » | Il reste des `⟪ … ⟫`, une ligne « Usage de l'IA » vide ou des critères non cochés : le message indique le fichier. |
+
+**Ou suivez l'arbre :**
+
+```mermaid
+flowchart TD
+    Q1{"Le dépôt d'équipe existe-t-il ?"} -- "non" --> A0["Étape 0"]
+    Q1 -- "oui" --> Q2{"Avons-nous au moins 3 comptes rendus C3 validés ?"}
+    Q2 -- "non" --> Q3{"Nos guides d'entretien C2 sont-ils prêts ?"}
+    Q3 -- "non" --> A1["Étapes 1 à 3"]
+    Q3 -- "oui" --> A4["Étape 4 : demander un entretien"]
+    Q2 -- "oui" --> Q4{"M1 §1 et S1 §1 sont-ils remplis ?"}
+    Q4 -- "non" --> A5["Étapes 5 et 6, puis jalon J1"]
+    Q4 -- "oui" --> Q5{"Le client a-t-il pris sa décision au J2 ?"}
+    Q5 -- "non" --> Q6{"C4 est-il complet : récits, Gherkin, MoSCoW, ENF ?"}
+    Q6 -- "non" --> A7["Étapes 7 à 10"]
+    Q6 -- "oui" --> A11["Étapes 11 à 15, puis jalon J2"]
+    Q5 -- "oui" --> Q7{"C6, P1, P4, M2 et S3 sont-ils commités ?"}
+    Q7 -- "non" --> A16["Étapes 16 à 20, puis jalon J3"]
+    Q7 -- "oui" --> A21["Étapes 21 et 22, puis jalon J4"]
+```
 
 ---
 

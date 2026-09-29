@@ -30,6 +30,28 @@ Avant de proposer de développer quoi que ce soit, un professionnel vérifie ce 
 5. **Vérifiez ce que l'IA vous dit** : si vous demandez « quels logiciels pour… », une partie des réponses peut être inventée ou périmée. Un produit n'entre dans le comparatif que si vous avez **ouvert son site**.
 6. **Si vous posez une question à un éditeur** (chat, formulaire de contact), restez factuels et ne donnez aucune donnée personnelle du cas.
 
+## 🗺️ En schéma
+
+### Une IA est-elle la bonne réponse ?
+
+```mermaid
+flowchart TD
+    A{"Les bonnes réponses sont-elles déjà écrites quelque part, à jour : FAQ, base, documents ?"} -- "non" --> A0["D'abord écrire et mettre à jour les sources.<br/>Une IA sans source fiable invente."]
+    A -- "oui" --> B{"Une réponse fausse peut-elle nuire : santé, sécurité, argent, droits ?"}
+    B -- "oui" --> C{"Peut-on exclure ces sujets et garantir le passage à un humain ?"}
+    C -- "non" --> NO1["Pas d'IA en réponse directe au public.<br/>Éventuellement une aide pour le personnel."]
+    C -- "oui" --> D
+    B -- "non" --> D{"Des données personnelles ou sensibles transitent-elles ?"}
+    D -- "oui" --> E{"L'hébergement est-il conforme : UE, pas de réutilisation pour l'entraînement, HDS si santé ?"}
+    E -- "non" --> NO2["Écarter ce fournisseur"]
+    E -- "oui" --> F
+    D -- "non" --> F{"Peut-on mesurer la qualité avant la mise en service : jeu de questions, seuil fixé à l'avance ?"}
+    F -- "non" --> NO3["Construire d'abord le jeu d'évaluation"]
+    F -- "oui" --> OK["IA envisageable :<br/>un scénario à comparer comme les autres (TELOS)<br/>+ informer l'usager qu'il parle à une IA (AI Act)"]
+```
+
+> Tous les schémas : [diagrammes UML](schemas-uml.md) · [arbres de décision](arbres-de-decision.md)
+
 ## Exemple
 
 [Comparatif du club de handball](../exemples/hbc-val-de-furan/annexes/comparatif-applications.md) : 5 critères éliminatoires fixés avant, 3 applications, 1 retenue, 1 éliminée avec la raison.
