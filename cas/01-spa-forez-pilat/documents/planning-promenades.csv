@@ -1,0 +1,65 @@
+date;jour;creneau;chien;benevole;niveau_benevole;sortie_faite;note
+2026-09-07;lun;09:00;Rocky;Paul;débutant;oui;
+2026-09-07;lun;14:00;Nala;Hugo;formé;?;remplacé par ?
+2026-09-07;lun;14:00;Nala;Sandrine;formé;oui;
+2026-09-07;lun;15:30;Praline;Odile;débutant;?;noté sur WhatsApp
+2026-09-08;mar;10:30;Filou;Odile;débutant;oui;
+2026-09-08;mar;10:30;Maya;Chloé;débutant;oui;noté sur WhatsApp
+2026-09-08;mar;10:30;Oural;Hugo;formé;?;écrit au crayon
+2026-09-09;mer;10:30;Nouchka;Chloé;débutant;oui;remplacé par ?
+2026-09-09;mer;15:30;Nala;Nadia;débutant;oui;
+2026-09-09;mer;15:30;Rocky;Gérard;formé;oui;
+2026-09-10;jeu;09:00;Pistache;Mehdi;débutant;oui;remplacé par ?
+2026-09-10;jeu;10:30;Hercule;Nadia;débutant;oui;écrit au crayon
+2026-09-10;jeu;15:30;Filou;Paul;débutant;?;
+2026-09-10;jeu;15:30;Nala;Gérard;formé;oui;
+2026-09-11;ven;09:00;Filou;Odile;débutant;non;écrit au crayon
+2026-09-11;ven;10:30;Filou;Mehdi;débutant;oui;
+2026-09-11;ven;14:00;Maya;Nadia;débutant;oui;
+2026-09-12;sam;09:00;Tonic;Karim;formé;non;remplacé par ?
+2026-09-12;sam;09:00;Tonic;Yves;formé;oui;noté sur WhatsApp
+2026-09-12;sam;14:00;Filou;Gérard;formé;?;
+2026-09-12;sam;14:00;Hercule;Sandrine;formé;non;noté sur WhatsApp
+2026-09-12;sam;14:00;Nala;Chloé;débutant;?;
+2026-09-12;sam;14:00;Nouchka;Mehdi;débutant;oui;remplacé par ?
+2026-09-12;sam;15:30;Bijou;Paul;débutant;oui;
+2026-09-12;sam;15:30;Nala;Mehdi;débutant;oui;remplacé par ?
+2026-09-13;dim;09:00;Tonic;Gérard;formé;non;
+2026-09-13;dim;09:00;Tonic;Yves;formé;oui;écrit au crayon
+2026-09-13;dim;10:30;Bijou;Nadia;débutant;oui;
+2026-09-13;dim;14:00;Bijou;Paul;débutant;oui;
+2026-09-13;dim;14:00;Sultan;Karim;formé;oui;noté sur WhatsApp
+2026-09-13;dim;14:00;Tonic;Yves;formé;?;remplacé par ?
+2026-09-13;dim;15:30;Praline;Jordan;débutant;oui;
+2026-09-13;dim;15:30;Tonic;Nadia;débutant;?;remplacé par ?
+2026-09-14;lun;10:30;Filou;Karim;formé;oui;écrit au crayon
+2026-09-14;lun;14:00;Oural;Mehdi;débutant;?;noté sur WhatsApp
+2026-09-15;mar;10:30;Filou;Karim;formé;?;
+2026-09-15;mar;10:30;Praline;Chloé;débutant;non;
+2026-09-16;mer;10:30;Praline;Hugo;formé;?;
+2026-09-16;mer;14:00;Nala;Sandrine;formé;oui;écrit au crayon
+2026-09-16;mer;15:30;Filou;Mehdi;débutant;oui;
+2026-09-16;mer;15:30;Nouchka;Paul;débutant;oui;remplacé par ?
+2026-09-17;jeu;09:00;Rocky;Odile;débutant;?;remplacé par ?
+2026-09-17;jeu;10:30;Luna;Gérard;formé;oui;
+2026-09-17;jeu;10:30;Nala;Paul;débutant;oui;noté sur WhatsApp
+2026-09-17;jeu;14:00;Luna;Sandrine;formé;non;écrit au crayon
+2026-09-18;ven;10:30;Nala;Odile;débutant;oui;écrit au crayon
+2026-09-18;ven;14:00;Nouchka;Odile;débutant;oui;
+2026-09-18;ven;15:30;Nala;Yves;formé;oui;noté sur WhatsApp
+2026-09-19;sam;09:00;Filou;Karim;formé;oui;remplacé par ?
+2026-09-19;sam;09:00;Filou;Paul;débutant;oui;
+2026-09-19;sam;09:00;Luna;Gérard;formé;non;
+2026-09-19;sam;10:30;Bijou;Nadia;débutant;oui;
+2026-09-19;sam;10:30;Tonic;Karim;formé;?;écrit au crayon
+2026-09-19;sam;14:00;Pistache;Yves;formé;oui;
+2026-09-19;sam;15:30;Nouchka;Jordan;débutant;?;
+2026-09-19;sam;15:30;Oural;Chloé;débutant;oui;
+2026-09-20;dim;09:00;Pistache;Mehdi;débutant;oui;
+2026-09-20;dim;10:30;Tonic;Nadia;débutant;oui;écrit au crayon
+2026-09-20;dim;10:30;Tonic;Sandrine;formé;?;écrit au crayon
+2026-09-20;dim;14:00;Filou;Jordan;débutant;oui;
+2026-09-20;dim;14:00;Hercule;Chloé;débutant;?;remplacé par ?
+2026-09-20;dim;14:00;Tonic;Paul;débutant;oui;noté sur WhatsApp
+2026-09-20;dim;15:30;Nala;Karim;formé;oui;noté sur WhatsApp
+2026-09-20;dim;15:30;Pistache;Yves;formé;oui;

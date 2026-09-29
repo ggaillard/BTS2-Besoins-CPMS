@@ -1,0 +1,216 @@
+id;date_demande;canal;type_evenement;nb_couverts;date_evenement;date_devis_envoye;delai_jours;montant_devis_ttc;relance;statut;regimes_allergies_notes
+D25-001;2025-01-05;Comptoir;Mariage;120;2025-02-22;2025-01-13;8;7310;non;Signé;tante de la mariée allergique fruits à coque
+D25-002;2025-01-08;Mail;Buffet séminaire;59;2025-01-23;2025-01-13;5;1850;non;Perdu — sans réponse du client;
+D25-003;2025-01-10;Formulaire site;Mariage;117;2025-03-18;;;;;Sans devis (oublié / pas eu le temps);1 invité sans gluten
+D25-004;2025-01-10;Messenger;Repas d'entreprise;74;2025-02-15;2025-01-13;3;4000;oui;Signé;
+D25-005;2025-01-12;Mail;Mariage;138;2025-04-04;;;;;Sans devis (oublié / pas eu le temps);
+D25-006;2025-01-12;Messenger;Repas d'entreprise;61;2025-02-14;2025-01-24;12;2330;non;Signé;sans porc x6
+D25-007;2025-01-13;Formulaire site;Obsèques (collation);48;2025-02-08;2025-01-25;12;860;oui;Perdu — budget;
+D25-008;2025-01-13;Téléphone;Repas d'entreprise;29;2025-02-10;;;;;Sans devis (oublié / pas eu le temps);tante de la mariée allergique fruits à coque
+D25-009;2025-01-14;Téléphone;Buffet séminaire;33;2025-02-26;2025-01-24;10;1040;non;Perdu — sans réponse du client;sans porc x6
+D25-010;2025-01-14;Formulaire site;Mariage;169;2025-07-26;;;;;Sans devis (oublié / pas eu le temps);
+D25-011;2025-01-15;Formulaire site;Obsèques (collation);74;2025-02-06;2025-02-05;21;1210;oui;Perdu — concurrent;
+D25-012;2025-01-15;Formulaire site;Mariage;161;2025-02-05;2025-02-05;21;13450;non;Perdu — sans réponse du client;
+D25-013;2025-01-16;Téléphone;Buffet séminaire;28;2025-02-17;2025-01-21;5;830;oui;Perdu — sans réponse du client;1 diabétique
+D25-014;2025-01-17;Messenger;Mariage;123;2025-03-23;2025-01-29;12;10070;non;Signé;
+D25-015;2025-01-18;Formulaire site;Mariage;178;2025-06-15;;;;;Sans devis (oublié / pas eu le temps);1 invité sans gluten
+D25-016;2025-01-19;Téléphone;Anniversaire / fête familiale;45;2025-03-11;;;;;Sans devis (oublié / pas eu le temps);
+D25-017;2025-01-19;Téléphone;Communion / baptême;44;2025-03-18;2025-01-25;6;1900;non;Perdu — concurrent;enfant allergie arachide (prénom noté au cahier)
+D25-018;2025-01-22;Mail;Mariage;107;2025-10-04;;;;;Sans devis (oublié / pas eu le temps);tante de la mariée allergique fruits à coque
+D25-019;2025-01-22;Mail;Repas d'entreprise;44;2025-03-14;;;;;Sans devis (oublié / pas eu le temps);2 végétariens
+D25-020;2025-01-23;Comptoir;Obsèques (collation);51;2025-03-10;;;;;Sans devis (oublié / pas eu le temps);
+D25-021;2025-01-24;Téléphone;Communion / baptême;42;2025-03-01;;;;;Sans devis (oublié / pas eu le temps);
+D25-022;2025-01-25;Comptoir;Mariage;106;2025-04-02;2025-01-30;5;7370;non;Perdu — concurrent;
+D25-023;2025-01-25;Mail;Mariage;172;2025-07-22;2025-02-04;10;10900;oui;Perdu — concurrent;
+D25-024;2025-01-26;Messenger;Mariage;103;2025-10-14;;;;;Sans devis (oublié / pas eu le temps);2 végétariens
+D25-025;2025-01-26;Téléphone;Communion / baptême;33;2025-03-24;;;;;Sans devis (oublié / pas eu le temps);1 diabétique
+D25-026;2025-01-26;Comptoir;Anniversaire / fête familiale;50;2025-02-10;2025-02-16;21;2210;non;Signé;
+D25-027;2025-01-26;Messenger;Mariage;124;2025-08-17;2025-02-03;8;10160;oui;Signé;allergie crustacés — le directeur
+D25-028;2025-01-27;Téléphone;Repas d'entreprise;40;2025-03-07;2025-02-02;6;1980;oui;Perdu — sans réponse du client;1 diabétique
+D25-029;2025-01-27;Comptoir;Mariage;159;2025-08-09;2025-02-17;21;9370;non;Signé;
+D25-030;2025-01-29;Formulaire site;Mariage;144;2025-10-17;2025-02-03;5;9580;non;Perdu — budget;
+D25-031;2025-01-29;Téléphone;Repas d'entreprise;87;2025-02-21;2025-02-06;8;4120;non;Perdu — budget;
+D25-032;2025-01-30;Téléphone;Buffet séminaire;47;2025-02-15;2025-02-14;15;1460;non;Signé;1 diabétique
+D25-033;2025-01-30;Mail;Buffet séminaire;45;2025-03-28;;;;;Sans devis (oublié / pas eu le temps);
+D25-034;2025-01-30;Comptoir;Mariage;133;2025-05-08;;;;;Sans devis (oublié / pas eu le temps);sans porc x6
+D25-035;2025-01-31;Messenger;Repas d'entreprise;114;2025-03-09;2025-02-05;5;3730;non;Signé;
+D25-036;2025-01-31;Téléphone;Anniversaire / fête familiale;46;2025-02-14;2025-02-15;15;2140;non;Perdu — budget;
+D25-037;2025-01-31;Téléphone;Mariage;166;2025-07-07;2025-02-12;12;10280;non;Perdu — concurrent;sans porc x6
+D25-038;2025-01-31;Téléphone;Mariage;121;2025-10-20;2025-02-15;15;11250;non;Signé;tante de la mariée allergique fruits à coque
+D25-039;2025-01-31;Téléphone;Mariage;107;2025-09-11;2025-02-08;8;9600;non;Perdu — concurrent;
+D25-040;2025-02-01;Téléphone;Obsèques (collation);68;2025-03-20;;;;;Sans devis (oublié / pas eu le temps);
+D25-041;2025-02-01;Formulaire site;Mariage;135;2025-03-19;2025-02-07;6;8360;oui;Perdu — concurrent;
+D25-042;2025-02-02;Formulaire site;Repas d'entreprise;86;2025-02-17;;;;;Sans devis (oublié / pas eu le temps);
+D25-043;2025-02-03;Formulaire site;Repas d'entreprise;49;2025-02-18;;;;;Sans devis (oublié / pas eu le temps);enfant allergie arachide (prénom noté au cahier)
+D25-044;2025-02-03;Mail;Buffet séminaire;23;2025-02-28;2025-02-15;12;500;oui;Perdu — concurrent;vegan x2
+D25-045;2025-02-03;Formulaire site;Buffet séminaire;16;2025-03-09;2025-02-13;10;380;non;Signé;1 invité sans gluten
+D25-046;2025-02-03;Mail;Repas d'entreprise;53;2025-02-14;2025-02-15;12;2340;non;Perdu — concurrent;
+D25-047;2025-02-03;Téléphone;Repas d'entreprise;31;2025-03-18;2025-02-09;6;970;non;Signé;1 invité sans gluten
+D25-048;2025-02-03;Mail;Communion / baptême;45;2025-03-03;2025-02-24;21;2100;non;Perdu — concurrent;vegan x2
+D25-049;2025-02-04;Téléphone;Mariage;160;2025-03-12;2025-02-25;21;9130;non;Perdu — sans réponse du client;
+D25-050;2025-02-05;Téléphone;Anniversaire / fête familiale;33;2025-03-31;;;;;Sans devis (oublié / pas eu le temps);allergie crustacés — le directeur
+D25-051;2025-02-05;Comptoir;Mariage;165;2025-09-20;2025-02-10;5;13500;non;Perdu — budget;
+D25-052;2025-02-06;Formulaire site;Mariage;152;2025-07-20;2025-02-14;8;11220;non;Perdu — budget;
+D25-053;2025-02-06;Téléphone;Mariage;105;2025-04-25;;;;;Sans devis (oublié / pas eu le temps);allergie crustacés — le directeur
+D25-054;2025-02-06;Comptoir;Obsèques (collation);37;2025-04-01;;;;;Sans devis (oublié / pas eu le temps);
+D25-055;2025-02-07;Formulaire site;Repas d'entreprise;117;2025-03-18;2025-02-13;6;5870;non;Perdu — sans réponse du client;
+D25-056;2025-02-07;Téléphone;Mariage;129;2025-10-30;2025-02-19;12;7700;non;Perdu — budget;enfant allergie arachide (prénom noté au cahier)
+D25-057;2025-02-07;Téléphone;Communion / baptême;37;2025-03-27;;;;;Sans devis (oublié / pas eu le temps);enfant allergie arachide (prénom noté au cahier)
+D25-058;2025-02-07;Téléphone;Communion / baptême;42;2025-03-22;;;;;Sans devis (oublié / pas eu le temps);
+D25-059;2025-02-08;Mail;Repas d'entreprise;107;2025-03-02;2025-02-18;10;3110;oui;Perdu — sans réponse du client;
+D25-060;2025-02-08;Messenger;Anniversaire / fête familiale;51;2025-03-31;2025-02-18;10;2340;non;Perdu — concurrent;sans porc x6
+D25-061;2025-02-09;Téléphone;Buffet séminaire;53;2025-04-04;2025-02-14;5;1390;non;Perdu — sans réponse du client;tante de la mariée allergique fruits à coque
+D25-062;2025-02-09;Messenger;Buffet séminaire;29;2025-04-07;;;;;Sans devis (oublié / pas eu le temps);sans porc x6
+D25-063;2025-02-10;Formulaire site;Buffet séminaire;59;2025-03-03;;;;;Sans devis (oublié / pas eu le temps);
+D25-064;2025-02-10;Messenger;Anniversaire / fête familiale;69;2025-03-22;2025-02-15;5;3380;non;Perdu — sans réponse du client;1 allergie lait (grand-père)
+D25-065;2025-02-10;Formulaire site;Mariage;161;2025-07-20;2025-02-13;3;13510;non;Signé;
+D25-066;2025-02-11;Messenger;Anniversaire / fête familiale;22;2025-04-02;;;;;Sans devis (oublié / pas eu le temps);
+D25-067;2025-02-11;Mail;Anniversaire / fête familiale;24;2025-03-25;2025-03-04;21;1110;non;Signé;1 diabétique
+D25-068;2025-02-11;Comptoir;Mariage;132;2025-06-12;2025-02-21;10;12220;non;Perdu — budget;
+D25-069;2025-02-12;Mail;Anniversaire / fête familiale;44;2025-03-13;2025-02-18;6;2140;non;Signé;2 végétariens
+D25-070;2025-02-12;Mail;Repas d'entreprise;38;2025-03-01;2025-02-27;15;1620;non;Signé;vegan x2
+D25-071;2025-02-13;Formulaire site;Mariage;84;2025-10-18;;;;;Sans devis (oublié / pas eu le temps);
+D25-072;2025-02-13;Mail;Mariage;167;2025-04-22;2025-02-23;10;13270;non;Perdu — sans réponse du client;
+D25-073;2025-02-14;Téléphone;Mariage;178;2025-10-12;;;;;Sans devis (oublié / pas eu le temps);tante de la mariée allergique fruits à coque
+D25-074;2025-02-15;Téléphone;Mariage;149;2025-08-31;;;;;Sans devis (oublié / pas eu le temps);tante de la mariée allergique fruits à coque
+D25-075;2025-02-15;Téléphone;Buffet séminaire;57;2025-03-10;2025-02-18;3;1580;non;Signé;
+D25-076;2025-02-15;Téléphone;Anniversaire / fête familiale;33;2025-03-14;2025-02-21;6;1340;oui;Perdu — sans réponse du client;
+D25-077;2025-02-15;Mail;Mariage;148;2025-07-27;2025-03-08;21;10680;non;Perdu — concurrent;sans porc x6
+D25-078;2025-02-15;Messenger;Anniversaire / fête familiale;24;2025-03-02;2025-03-08;21;1090;non;Perdu — budget;
+D25-079;2025-02-16;Téléphone;Buffet séminaire;18;2025-04-03;2025-02-21;5;410;non;Perdu — budget;
+D25-080;2025-02-19;Téléphone;Obsèques (collation);64;2025-02-24;2025-03-03;12;930;oui;Perdu — concurrent;
+D25-081;2025-02-20;Messenger;Mariage;174;2025-06-25;2025-03-04;12;12290;oui;Signé;
+D25-082;2025-02-20;Formulaire site;Mariage;164;2025-11-23;2025-03-02;10;9610;non;Perdu — sans réponse du client;1 invité sans gluten
+D25-083;2025-02-21;Formulaire site;Mariage;120;2025-06-25;2025-02-26;5;6890;non;Perdu — concurrent;
+D25-084;2025-02-21;Formulaire site;Repas d'entreprise;81;2025-03-16;2025-03-14;21;3880;non;Perdu — concurrent;tante de la mariée allergique fruits à coque
+D25-085;2025-02-21;Formulaire site;Repas d'entreprise;112;2025-03-06;2025-02-24;3;3620;non;Perdu — sans réponse du client;
+D25-086;2025-02-22;Comptoir;Mariage;142;2025-11-08;2025-03-06;12;12120;oui;Perdu — budget;
+D25-087;2025-02-22;Messenger;Buffet séminaire;19;2025-04-23;2025-03-02;8;440;non;Perdu — budget;1 allergie lait (grand-père)
+D25-088;2025-02-22;Messenger;Mariage;149;2025-06-04;2025-03-06;12;9900;non;Perdu — concurrent;
+D25-089;2025-02-23;Mail;Repas d'entreprise;97;2025-03-26;2025-02-26;3;3240;non;Signé;2 végétariens
+D25-090;2025-02-23;Formulaire site;Anniversaire / fête familiale;48;2025-04-22;2025-02-26;3;1620;non;Signé;
+D25-091;2025-02-24;Mail;Mariage;88;2025-10-07;2025-03-04;8;6010;oui;Perdu — sans réponse du client;
+D25-092;2025-02-24;Comptoir;Mariage;172;2025-05-11;2025-03-01;5;13320;oui;Signé;
+D25-093;2025-02-25;Téléphone;Repas d'entreprise;97;2025-04-18;;;;;Sans devis (oublié / pas eu le temps);tante de la mariée allergique fruits à coque
+D25-094;2025-02-25;Téléphone;Repas d'entreprise;79;2025-03-28;2025-02-28;3;2750;non;Signé;sans porc x6
+D25-095;2025-02-25;Mail;Mariage;142;2025-10-16;2025-03-03;6;12630;non;Signé;vegan x2
+D25-096;2025-02-25;Formulaire site;Mariage;81;2025-07-26;2025-03-03;6;7590;non;Perdu — concurrent;sans porc x6
+D25-097;2025-02-25;Mail;Mariage;133;2025-09-19;2025-03-18;21;10190;non;Signé;tante de la mariée allergique fruits à coque
+D25-098;2025-02-26;Téléphone;Mariage;105;2025-03-09;2025-03-06;8;7490;non;Perdu — budget;
+D25-099;2025-02-26;Comptoir;Buffet séminaire;38;2025-03-12;2025-03-19;21;990;oui;Signé;
+D25-100;2025-02-28;Mail;Repas d'entreprise;102;2025-03-07;2025-03-05;5;2990;non;Perdu — sans réponse du client;
+D25-101;2025-02-28;Téléphone;Anniversaire / fête familiale;42;2025-04-20;2025-03-10;10;1670;non;Perdu — concurrent;tante de la mariée allergique fruits à coque
+D25-102;2025-03-02;Téléphone;Mariage;146;2025-09-27;;;;;Sans devis (oublié / pas eu le temps);
+D25-103;2025-03-02;Téléphone;Anniversaire / fête familiale;64;2025-04-20;2025-03-08;6;2060;non;Perdu — concurrent;
+D25-104;2025-03-02;Téléphone;Mariage;137;2025-10-19;;;;;Sans devis (oublié / pas eu le temps);1 diabétique
+D25-105;2025-03-03;Mail;Buffet séminaire;42;2025-03-13;2025-03-09;6;1090;non;Perdu — sans réponse du client;
+D25-106;2025-03-03;Formulaire site;Mariage;131;2025-08-08;2025-03-06;3;9200;non;Signé;1 invité sans gluten
+D25-107;2025-03-04;Téléphone;Communion / baptême;47;2025-04-25;2025-03-07;3;2230;oui;Signé;tante de la mariée allergique fruits à coque
+D25-108;2025-03-04;Comptoir;Repas d'entreprise;104;2025-04-28;2025-03-10;6;3100;oui;Perdu — concurrent;
+D25-109;2025-03-04;Téléphone;Communion / baptême;53;2025-03-18;;;;;Sans devis (oublié / pas eu le temps);
+D25-110;2025-03-06;Messenger;Mariage;152;2025-09-06;2025-03-21;15;13580;oui;Signé;1 diabétique
+D25-111;2025-03-06;Téléphone;Anniversaire / fête familiale;63;2025-04-25;2025-03-16;10;2250;oui;Perdu — concurrent;
+D25-112;2025-03-06;Mail;Anniversaire / fête familiale;66;2025-03-24;2025-03-18;12;2350;non;Signé;1 diabétique
+D25-113;2025-03-06;Comptoir;Mariage;155;2025-05-25;2025-03-21;15;10050;non;Perdu — sans réponse du client;
+D25-114;2025-03-08;Messenger;Buffet séminaire;56;2025-05-07;;;;;Sans devis (oublié / pas eu le temps);vegan x2
+D25-115;2025-03-08;Messenger;Mariage;140;2025-08-13;2025-03-16;8;9760;non;Perdu — sans réponse du client;allergie crustacés — le directeur
+D25-116;2025-03-09;Mail;Anniversaire / fête familiale;37;2025-03-20;2025-03-14;5;1220;non;Signé;tante de la mariée allergique fruits à coque
+D25-117;2025-03-09;Téléphone;Buffet séminaire;51;2025-04-01;2025-03-19;10;920;non;Signé;1 invité sans gluten
+D25-118;2025-03-10;Messenger;Buffet séminaire;35;2025-05-07;2025-03-16;6;710;oui;Signé;vegan x2
+D25-119;2025-03-10;Comptoir;Communion / baptême;31;2025-03-21;;;;;Sans devis (oublié / pas eu le temps);
+D25-120;2025-03-15;Mail;Buffet séminaire;16;2025-03-29;2025-03-23;8;490;oui;Signé;
+D25-121;2025-03-17;Téléphone;Buffet séminaire;22;2025-03-22;2025-04-01;15;510;oui;Perdu — sans réponse du client;sans porc x6
+D25-122;2025-03-17;Formulaire site;Buffet séminaire;53;2025-04-10;2025-03-23;6;970;non;Signé;
+D25-123;2025-03-19;Mail;Buffet séminaire;32;2025-05-02;2025-03-27;8;900;non;Perdu — concurrent;tante de la mariée allergique fruits à coque
+D25-124;2025-03-19;Comptoir;Repas d'entreprise;64;2025-04-21;2025-04-03;15;3160;non;Perdu — sans réponse du client;enfant allergie arachide (prénom noté au cahier)
+D25-125;2025-03-20;Téléphone;Buffet séminaire;32;2025-04-30;2025-03-26;6;630;non;Signé;
+D25-126;2025-03-20;Formulaire site;Anniversaire / fête familiale;23;2025-04-15;2025-03-26;6;1080;non;Perdu — budget;1 invité sans gluten
+D25-127;2025-03-20;Mail;Anniversaire / fête familiale;38;2025-05-18;2025-03-28;8;1820;non;Signé;vegan x2
+D25-128;2025-03-21;Comptoir;Repas d'entreprise;23;2025-04-26;2025-03-29;8;860;non;Perdu — budget;
+D25-129;2025-03-21;Formulaire site;Obsèques (collation);43;2025-05-03;2025-03-24;3;540;non;Signé;
+D25-130;2025-03-21;Téléphone;Mariage;130;2025-11-18;2025-03-26;5;8800;non;Perdu — sans réponse du client;enfant allergie arachide (prénom noté au cahier)
+D25-131;2025-03-22;Formulaire site;Buffet séminaire;15;2025-05-01;2025-03-28;6;460;non;Perdu — sans réponse du client;1 diabétique
+D25-132;2025-03-22;Formulaire site;Repas d'entreprise;119;2025-05-02;2025-03-27;5;3480;non;Perdu — concurrent;tante de la mariée allergique fruits à coque
+D25-133;2025-03-22;Formulaire site;Obsèques (collation);79;2025-05-08;2025-03-28;6;1410;non;Perdu — concurrent;
+D25-134;2025-03-22;Comptoir;Buffet séminaire;27;2025-04-22;2025-03-30;8;650;non;Signé;1 invité sans gluten
+D25-135;2025-03-27;Formulaire site;Buffet séminaire;23;2025-04-27;;;;;Sans devis (oublié / pas eu le temps);
+D25-136;2025-03-28;Téléphone;Anniversaire / fête familiale;28;2025-04-06;2025-04-07;10;1330;oui;Perdu — budget;enfant allergie arachide (prénom noté au cahier)
+D25-137;2025-03-29;Téléphone;Buffet séminaire;39;2025-04-11;;;;;Sans devis (oublié / pas eu le temps);
+D25-138;2025-03-29;Téléphone;Repas d'entreprise;20;2025-04-13;2025-04-04;6;970;non;Perdu — sans réponse du client;1 invité sans gluten
+D25-139;2025-03-29;Mail;Mariage;110;2025-07-09;;;;;Sans devis (oublié / pas eu le temps);
+D25-140;2025-03-30;Comptoir;Mariage;167;2025-07-24;2025-04-02;3;11580;non;Perdu — budget;sans porc x6
+D25-141;2025-03-30;Mail;Repas d'entreprise;24;2025-04-27;2025-04-11;12;830;non;Perdu — sans réponse du client;1 allergie lait (grand-père)
+D25-142;2025-03-31;Mail;Buffet séminaire;19;2025-05-21;2025-04-08;8;590;non;Perdu — concurrent;
+D25-143;2025-04-03;Mail;Anniversaire / fête familiale;69;2025-04-21;2025-04-11;8;2520;oui;Perdu — sans réponse du client;enfant allergie arachide (prénom noté au cahier)
+D25-144;2025-04-03;Téléphone;Buffet séminaire;38;2025-05-01;;;;;Sans devis (oublié / pas eu le temps);
+D25-145;2025-04-03;Mail;Mariage;99;2025-12-14;;;;;Sans devis (oublié / pas eu le temps);vegan x2
+D25-146;2025-04-03;Comptoir;Repas d'entreprise;100;2025-05-18;2025-04-13;10;3610;non;Signé;
+D25-147;2025-04-04;Téléphone;Communion / baptême;58;2025-04-10;2025-04-19;15;2700;non;Signé;
+D25-148;2025-04-04;Formulaire site;Mariage;162;2025-06-27;2025-04-16;12;11800;oui;Perdu — sans réponse du client;1 diabétique
+D25-149;2025-04-05;Messenger;Mariage;90;2025-10-28;2025-04-20;15;7580;oui;Perdu — concurrent;
+D25-150;2025-04-05;Messenger;Communion / baptême;34;2025-05-24;2025-04-13;8;1540;non;Perdu — sans réponse du client;tante de la mariée allergique fruits à coque
+D25-151;2025-04-05;Mail;Anniversaire / fête familiale;67;2025-05-12;2025-04-10;5;2720;non;Signé;allergie crustacés — le directeur
+D25-152;2025-04-06;Comptoir;Mariage;103;2025-11-03;;;;;Sans devis (oublié / pas eu le temps);
+D25-153;2025-04-06;Téléphone;Repas d'entreprise;93;2025-05-03;2025-04-14;8;3260;non;Perdu — sans réponse du client;
+D25-154;2025-04-09;Comptoir;Repas d'entreprise;32;2025-04-28;;;;;Sans devis (oublié / pas eu le temps);1 allergie lait (grand-père)
+D25-155;2025-04-09;Messenger;Communion / baptême;48;2025-05-19;2025-04-24;15;1580;non;Signé;
+D25-156;2025-04-09;Téléphone;Buffet séminaire;52;2025-05-07;2025-04-19;10;1190;non;Perdu — concurrent;vegan x2
+D25-157;2025-04-10;Téléphone;Anniversaire / fête familiale;40;2025-05-29;2025-04-13;3;1300;non;Signé;2 végétariens
+D25-158;2025-04-10;Téléphone;Anniversaire / fête familiale;34;2025-05-29;2025-04-18;8;1610;non;Signé;
+D25-159;2025-04-10;Téléphone;Buffet séminaire;27;2025-04-28;2025-04-13;3;640;non;Perdu — sans réponse du client;tante de la mariée allergique fruits à coque
+D25-160;2025-04-11;Messenger;Anniversaire / fête familiale;69;2025-05-06;2025-04-19;8;2490;non;Perdu — sans réponse du client;enfant allergie arachide (prénom noté au cahier)
+D25-161;2025-04-11;Messenger;Anniversaire / fête familiale;51;2025-05-04;2025-04-23;12;2110;non;Perdu — sans réponse du client;sans porc x6
+D25-162;2025-04-12;Formulaire site;Mariage;95;2025-05-05;;;;;Sans devis (oublié / pas eu le temps);
+D25-163;2025-04-13;Formulaire site;Repas d'entreprise;54;2025-05-26;2025-04-25;12;1790;non;Perdu — concurrent;vegan x2
+D25-164;2025-04-13;Formulaire site;Obsèques (collation);68;2025-05-24;2025-04-16;3;1000;oui;Signé;
+D25-165;2025-04-14;Comptoir;Repas d'entreprise;58;2025-06-04;2025-04-24;10;3180;non;Perdu — budget;1 diabétique
+D25-166;2025-04-14;Formulaire site;Obsèques (collation);62;2025-05-05;;;;;Sans devis (oublié / pas eu le temps);
+D25-167;2025-04-15;Mail;Mariage;113;2025-11-21;2025-05-06;21;7550;non;Perdu — concurrent;
+D25-168;2025-04-15;Formulaire site;Communion / baptême;47;2025-04-22;2025-04-23;8;2090;non;Signé;enfant allergie arachide (prénom noté au cahier)
+D25-169;2025-04-16;Messenger;Anniversaire / fête familiale;49;2025-05-29;2025-05-01;15;2300;non;Perdu — sans réponse du client;
+D25-170;2025-04-17;Messenger;Anniversaire / fête familiale;66;2025-05-22;2025-04-20;3;2610;non;Signé;
+D25-171;2025-04-17;Comptoir;Repas d'entreprise;58;2025-05-07;2025-04-23;6;2970;non;Perdu — sans réponse du client;
+D25-172;2025-04-18;Mail;Repas d'entreprise;41;2025-05-06;;;;;Sans devis (oublié / pas eu le temps);
+D25-173;2025-04-18;Téléphone;Mariage;157;2025-07-29;2025-05-03;15;11290;non;Perdu — sans réponse du client;
+D25-174;2025-04-19;Messenger;Mariage;179;2025-05-24;2025-04-27;8;15730;non;Perdu — budget;sans porc x6
+D25-175;2025-04-19;Messenger;Communion / baptême;43;2025-06-01;2025-04-24;5;1710;non;Perdu — budget;vegan x2
+D25-176;2025-04-21;Messenger;Repas d'entreprise;71;2025-05-10;2025-05-01;10;3470;non;Perdu — concurrent;
+D25-177;2025-04-21;Messenger;Anniversaire / fête familiale;22;2025-06-11;;;;;Sans devis (oublié / pas eu le temps);
+D25-178;2025-04-23;Téléphone;Repas d'entreprise;26;2025-05-09;2025-05-05;12;920;non;Perdu — concurrent;1 diabétique
+D25-179;2025-04-23;Téléphone;Mariage;133;2025-10-12;2025-05-03;10;7490;non;Perdu — budget;
+D25-180;2025-04-24;Messenger;Mariage;125;2025-12-22;2025-05-04;10;7860;non;Perdu — concurrent;1 invité sans gluten
+D25-181;2025-04-24;Messenger;Mariage;139;2025-08-19;2025-05-02;8;9500;non;Signé;2 végétariens
+D25-182;2025-04-24;Messenger;Mariage;121;2025-10-03;2025-04-30;6;7970;non;Perdu — sans réponse du client;
+D25-183;2025-04-26;Formulaire site;Buffet séminaire;41;2025-05-16;;;;;Sans devis (oublié / pas eu le temps);1 invité sans gluten
+D25-184;2025-04-26;Formulaire site;Obsèques (collation);71;2025-06-13;2025-05-02;6;930;non;Perdu — sans réponse du client;
+D25-185;2025-04-27;Téléphone;Mariage;87;2025-11-26;2025-05-09;12;7620;oui;Perdu — budget;1 allergie lait (grand-père)
+D25-186;2025-04-29;Mail;Obsèques (collation);75;2025-05-23;2025-05-20;21;1000;non;Perdu — sans réponse du client;
+D25-187;2025-05-01;Téléphone;Buffet séminaire;15;2025-05-30;;;;;Sans devis (oublié / pas eu le temps);sans porc x6
+D25-188;2025-05-01;Téléphone;Buffet séminaire;31;2025-06-07;2025-05-02;1;620;oui;Perdu — sans réponse du client;tante de la mariée allergique fruits à coque
+D25-189;2025-05-01;Formulaire site;Anniversaire / fête familiale;29;2025-06-28;2025-05-11;10;1160;oui;Perdu — concurrent;1 allergie lait (grand-père)
+D25-190;2025-05-02;Messenger;Obsèques (collation);31;2025-06-12;;;;;Sans devis (oublié / pas eu le temps);
+D25-191;2025-05-02;Mail;Repas d'entreprise;86;2025-06-11;2025-05-07;5;4660;non;Signé;
+D25-192;2025-05-03;Téléphone;Mariage;84;2025-12-05;2025-05-15;12;6180;non;Perdu — sans réponse du client;
+D25-193;2025-05-05;Formulaire site;Repas d'entreprise;55;2025-07-04;;;;;Sans devis (oublié / pas eu le temps);1 invité sans gluten
+D25-194;2025-05-05;Téléphone;Obsèques (collation);24;2025-05-14;2025-05-26;21;310;oui;Signé;
+D25-195;2025-05-08;Téléphone;Mariage;131;2025-06-18;2025-05-09;1;11460;non;Perdu — concurrent;sans porc x6
+D25-196;2025-05-09;Comptoir;Mariage;164;2025-11-24;2025-05-24;15;14330;non;Signé;sans porc x6
+D25-197;2025-05-09;Téléphone;Buffet séminaire;48;2025-06-10;2025-05-11;2;1090;oui;Signé;
+D25-198;2025-05-10;Téléphone;Anniversaire / fête familiale;67;2025-06-11;2025-05-11;1;2150;non;Signé;
+D25-199;2025-05-11;Comptoir;Repas d'entreprise;38;2025-06-03;2025-05-21;10;1390;non;Perdu — concurrent;vegan x2
+D25-200;2025-05-13;Messenger;Mariage;178;2025-08-10;2025-05-16;3;16630;non;Signé;
+D25-201;2025-05-16;Mail;Mariage;90;2025-07-12;2025-05-26;10;5440;oui;Perdu — concurrent;
+D25-202;2025-05-21;Comptoir;Mariage;177;2026-01-20;2025-05-23;2;15590;non;Signé;2 végétariens
+D25-203;2025-05-21;Téléphone;Repas d'entreprise;81;2025-06-20;2025-06-11;21;2910;non;Signé;
+D25-204;2025-05-22;Messenger;Anniversaire / fête familiale;27;2025-06-10;2025-06-01;10;1040;oui;Perdu — budget;
+D25-205;2025-05-23;Téléphone;Repas d'entreprise;87;2025-06-25;2025-06-13;21;3060;non;Perdu — budget;allergie crustacés — le directeur
+D25-206;2025-05-29;Mail;Obsèques (collation);38;2025-06-30;2025-05-30;1;600;non;Perdu — budget;
+D25-207;2025-05-30;Comptoir;Communion / baptême;27;2025-06-29;2025-06-09;10;1230;oui;Signé;
+D25-208;2025-06-02;Téléphone;Repas d'entreprise;52;2025-07-16;2025-06-07;5;2220;non;Signé;
+D25-209;2025-06-03;Messenger;Repas d'entreprise;117;2025-07-08;2025-06-06;3;5070;non;Signé;1 diabétique
+D25-210;2025-06-04;Comptoir;Obsèques (collation);56;2025-08-01;2025-06-16;12;730;oui;Perdu — sans réponse du client;
+D25-211;2025-06-08;Formulaire site;Anniversaire / fête familiale;37;2025-07-05;2025-06-12;4;1680;non;Perdu — sans réponse du client;1 allergie lait (grand-père)
+D25-212;2025-06-13;Messenger;Mariage;154;2025-10-10;2025-06-21;8;10280;non;Perdu — concurrent;
+D25-213;2025-06-14;Téléphone;Buffet séminaire;37;2025-07-03;2025-06-29;15;1100;non;Signé;
+D25-214;2025-06-25;Mail;Anniversaire / fête familiale;57;2025-08-16;2025-07-07;12;2450;non;Perdu — concurrent;1 allergie lait (grand-père)
+D25-215;2025-06-29;Mail;Anniversaire / fête familiale;36;2025-08-13;2025-07-03;4;1650;non;Perdu — budget;tante de la mariée allergique fruits à coque

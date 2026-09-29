@@ -1,0 +1,26 @@
+id;nom;espece;sexe;date_entree;motif_entree;statut;niveau_manipulation;identification;remarques
+A001;Tonic;Chien;M;02/05/2025;Abandon;À l'adoption;orange;FICTIF-751673;"Antibiotique 2x/jour jusqu'au 28/10 ; sortie 20 min max"
+A002;Nala;Chien;F;juil. 2026;Décès du propriétaire;Réservé;vert;FICTIF-102657;
+A003;Rocky;Chien;M;24/03/2025;Fourrière;Réservé;vert;FICTIF-571497;Réservé adoption, visite prévue
+A004;Oural;Chien;M;janv. 2025;Saisie;Quarantaine;rouge;FICTIF-516512;Mord à la manipulation des pattes. Bénévoles formés uniquement
+A005;Bijou;Chien;F;15/09/25;Fourrière;À l'adoption;vert;FICTIF-638535;
+A006;Pistache;Chien;F;20/03/25;Abandon;Box 12;vert;FICTIF-406311;
+A007;Maya;Chien;F;2025-10-22;Saisie;Réservé;orange;FICTIF-705472;Tire fort en laisse
+A008;Sultan;Chien;M;13/11/25;Fourrière;À l'adoption;rouge;FICTIF-195089;Arrivé saisie judiciaire. Pas de contact avec autres chiens
+A009;Filou;Chien;M;févr. 2026;Abandon;En soins;vert;FICTIF-941533;
+A010;Ramsès;Chien;M;sept. 2026;Décès du propriétaire;Réservé;;FICTIF-540366;
+A011;Luna;Chien;F;01/08/2026;Décès du propriétaire;Réservé;vert;FICTIF-235265;Vermifuge à refaire ?
+A012;Hercule;Chien;M;20/02/2025;Saisie;Famille d'accueil;orange;FICTIF-592873;
+A013;Nouchka;Chien;F;2025-05-26;Abandon;Réservé;vert;FICTIF-578985;Senior, 12 ans
+A014;Ziggy;Chien;M;26/04/26;Décès du propriétaire;Famille d'accueil;;FICTIF-422570;Arrivé samedi
+A015;Praline;Chien;F;juil. 2026;Fourrière;Quarantaine;vert;FICTIF-408673;Post-opératoire stérilisation, pas de course
+A016;Minou;Chat;M;01/12/2025;Abandon;Famille d'accueil;;FICTIF-580486;Craintif
+A017;Caramel;Chat;F;2026-07-15;Fourrière;Famille d'accueil;;FICTIF-636102;Typhus : rappel ?
+A018;Pixel;Chat;M;19/05/26;Fourrière;Réservé;;FICTIF-203152;Typhus : rappel ?
+A019;Grisou;Chat;F;août 2026;Abandon;Réservé;;FICTIF-602421;
+A020;Olive;Chat;F;28/11/25;Abandon;À l'adoption;;FICTIF-531290;
+A021;Mistigri;Chat;M;04/06/2026;Abandon;Réservé;;FICTIF-976981;
+A022;Suzette;Chat;M;20/09/2025;Décès du propriétaire;À l'adoption;;FICTIF-381580;FIV+
+A023;Tigrou;Chat;M;06/08/25;Saisie;En soins;;FICTIF-615887;
+A024;Plume;Chat;M;sept. 2026;Décès du propriétaire;À l'adoption;;FICTIF-826187;Craintif
+A025;Cannelle;Chat;M;déc. 2025;Saisie;À l'adoption;;FICTIF-921494;Craintif

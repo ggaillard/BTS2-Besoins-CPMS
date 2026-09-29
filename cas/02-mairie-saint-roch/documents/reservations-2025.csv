@@ -1,0 +1,214 @@
+id;date;salle;type_demandeur;demandeur;telephone;statut;tarif_euros;caution;materiel_prete;remarque
+R25-001;2025-01-05;Salle des fêtes;Association;Amicale des sapeurs-pompiers;06 39 98 05 23;Confirmée;0;rendue;20 tables, 100 chaises;
+R25-002;2025-01-05;Salle de réunion;Association;Club photo;06 39 98 05 60;Confirmée;0;;;
+R25-003;2025-01-07;Salle de réunion;Association;AS Saint-Roch foot;06 39 98 84 63;Confirmée;0;;;noté par Sophie
+R25-004;2025-01-09;Salle de réunion;Particulier commune;Robert Julie;06 39 98 21 23;Confirmée;0;;;
+R25-005;2025-01-14;Salle de réunion;Particulier extérieur;Faure Bruno;06 39 98 43 01;Confirmée;0;;20 tables, 100 chaises;
+R25-006;2025-01-14;Salle du Moulin;Particulier commune;Morel Sandrine;06 39 98 38 28;Confirmée;90;rendue;;mariage
+R25-007;2025-01-15;Salle des fêtes;Particulier commune;Lambert Hugo;06 39 98 10 72;Confirmée;180;rendue;10 tables;anniversaire
+R25-008;2025-01-16;Salle des fêtes;Association;Sou des écoles;06 39 98 09 71;Confirmée;0;rendue;1 barnum;à confirmer
+R25-009;2025-01-17;Salle du Moulin;Association;Club de l'amitié;06 39 98 77 27;Confirmée;0;rendue;sono;noté par Sophie
+R25-010;2025-01-18;Salle du Moulin;Association;Boule saint-rochoise;06 39 98 78 11;Confirmée;0;non rendue ?;10 tables;
+R25-011;2025-01-19;Salle de réunion;Particulier commune;Muller Chloé;06 39 98 42 96;Confirmée;0;;1 friteuse;
+R25-012;2025-01-20;Salle du Moulin;Association;AS Saint-Roch foot;06 39 98 68 98;Confirmée;0;rendue;2 barnums, sono;
+R25-013;2025-01-21;Salle du Moulin;Association;Gym volontaire;06 39 98 32 96;Confirmée;0;rendue;1 friteuse;à confirmer
+R25-014;2025-01-21;Salle des fêtes;Particulier commune;Morel Gérard;06 39 98 19 77;Confirmée;180;non rendue ?;;
+R25-015;2025-01-22;Salle de réunion;Association;Comité des fêtes;06 39 98 99 26;Confirmée;0;;1 friteuse;
+R25-016;2025-01-22;Salle du Moulin;Association;Gym volontaire;06 39 98 77 61;Confirmée;0;rendue;1 barnum;
+R25-017;2025-01-24;Salle des fêtes;Association;Comité des fêtes;06 39 98 52 08;Confirmée;0;rendue;1 friteuse;noté par l'adjoint au marché
+R25-018;2025-01-26;Salle du Moulin;Particulier commune;Bernard Paul;06 39 98 35 38;Annulée;190;;;
+R25-019;2025-01-28;Salle du Moulin;Particulier commune;Vincent Chloé;06 39 98 99 91;Confirmée;90;rendue;2 barnums, sono;noté par l'adjoint au marché
+R25-020;2025-01-28;Salle des fêtes;Particulier commune;Faure Yves;06 39 98 90 26;En attente chèques;180;;40 tables, 200 chaises;anniversaire
+R25-021;2025-02-01;Salle du Moulin;Association;Comité des fêtes;06 39 98 67 59;Confirmée;0;rendue;1 friteuse;
+R25-022;2025-02-02;Salle du Moulin;Particulier commune;Roux Gérard;06 39 98 98 14;Confirmée;190;rendue;40 tables, 200 chaises;anniversaire
+R25-023;2025-02-03;Salle des fêtes;Entreprise;SARL Transports Rival;04 99 37 90 81;Confirmée;350;rendue;;
+R25-024;2025-02-04;Salle des fêtes;Particulier commune;Durand Mehdi;06 39 98 03 70;En attente chèques;180;;1 barnum;noté par Sophie
+R25-025;2025-02-05;Salle des fêtes;Particulier commune;Simon Julie;06 39 98 88 31;Confirmée;180;rendue;2 barnums, sono;à confirmer
+R25-026;2025-02-06;Salle du Moulin;Association;Comité des fêtes;06 39 98 95 09;Confirmée;0;rendue;2 barnums, sono;noté par l'adjoint au marché
+R25-027;2025-02-08;Salle des fêtes;Association;Club photo;06 39 98 11 56;Confirmée;0;rendue;20 tables, 100 chaises;
+R25-028;2025-02-09;Salle du Moulin;Particulier extérieur;Fournier Sandrine;06 39 98 45 77;Confirmée;310;rendue;1 friteuse;
+R25-029;2025-02-09;Salle des fêtes;Association;Comité des fêtes;06 39 98 60 33;Confirmée;0;rendue;1 friteuse;
+R25-030;2025-02-14;Salle des fêtes;Association;AS Saint-Roch foot;06 39 98 06 33;Confirmée;0;rendue;1 barnum;
+R25-031;2025-02-16;Salle des fêtes;Particulier extérieur;Fontaine Gérard;06 39 98 14 96;Confirmée;620;rendue;10 tables;
+R25-032;2025-02-18;Salle du Moulin;Particulier commune;Dubois Bruno;06 39 98 06 69;Confirmée;90;rendue;40 tables, 200 chaises;
+R25-033;2025-02-18;Salle des fêtes;Particulier extérieur;Lefèvre Chloé;06 39 98 82 83;Confirmée;300;rendue;2 barnums, sono;
+R25-034;2025-02-19;Salle des fêtes;Association;Club de l'amitié;06 39 98 70 21;Confirmée;0;rendue;;à confirmer
+R25-035;2025-02-23;Salle du Moulin;Entreprise;Cabinet Faure & associés;04 99 14 34 93;Confirmée;175;rendue;1 barnum;
+R25-036;2025-02-24;Salle des fêtes;Association;Club photo;06 39 98 58 34;Confirmée;0;rendue;;
+R25-037;2025-02-24;Salle du Moulin;Entreprise;Cabinet Faure & associés;04 99 76 41 70;Confirmée;175;rendue;2 barnums, sono;
+R25-038;2025-02-25;Salle des fêtes;Particulier commune;Roux Julie;06 39 98 44 69;Confirmée;180;rendue;1 friteuse;
+R25-039;2025-02-26;Salle des fêtes;Association;Gym volontaire;06 39 98 58 48;Confirmée;0;rendue;1 friteuse;
+R25-040;2025-02-26;Salle du Moulin;Particulier commune;Roux Théo;06 39 98 61 69;Confirmée;90;encaissée partiellement;;
+R25-041;2025-02-27;Salle des fêtes;Association;Théâtre du Moulin;06 39 98 05 08;Confirmée;0;rendue;;
+R25-042;2025-03-02;Salle du Moulin;Particulier extérieur;Laurent Karim;06 39 98 55 85;Confirmée;310;rendue;sono;mariage
+R25-043;2025-03-03;Salle du Moulin;Particulier commune;Roux Mehdi;06 39 98 12 82;Confirmée;90;rendue;1 friteuse;mariage
+R25-044;2025-03-04;Salle du Moulin;Association;AS Saint-Roch foot;06 39 98 89 37;Confirmée;0;rendue;sono;
+R25-045;2025-03-06;Salle du Moulin;Particulier commune;Dupont Bruno;06 39 98 14 08;Confirmée;90;rendue;1 barnum;
+R25-046;2025-03-07;Salle du Moulin;Association;Club photo;06 39 98 68 48;Confirmée;0;rendue;40 tables, 200 chaises;
+R25-047;2025-03-08;Salle de réunion;Particulier commune;Fournier Odile;06 39 98 22 39;Confirmée;0;;;
+R25-048;2025-03-11;Salle de réunion;Association;Boule saint-rochoise;06 39 98 75 12;Confirmée;0;;40 tables, 200 chaises;à confirmer
+R25-049;2025-03-11;Salle du Moulin;Association;Gym volontaire;06 39 98 30 19;Confirmée;0;non rendue ?;;noté par Sophie
+R25-050;2025-03-13;Salle des fêtes;Particulier commune;Bonnet Sarah;06 39 98 80 12;Confirmée;180;rendue;;
+R25-051;2025-03-14;Salle de réunion;Association;Théâtre du Moulin;06 39 98 37 19;Confirmée;0;;;
+R25-052;2025-03-15;Salle du Moulin;Particulier extérieur;Moreau Julie;06 39 98 94 79;Confirmée;310;rendue;2 barnums, sono;
+R25-053;2025-03-17;Salle de réunion;Association;Théâtre du Moulin;06 39 98 02 83;Confirmée;0;;;
+R25-054;2025-03-18;Salle des fêtes;Association;Amicale des sapeurs-pompiers;06 39 98 11 89;Confirmée;0;rendue;10 tables;
+R25-055;2025-03-19;Salle des fêtes;Association;Gym volontaire;06 39 98 56 08;Confirmée;0;non rendue ?;40 tables, 200 chaises;à confirmer
+R25-056;2025-03-22;Salle des fêtes;Association;Comité des fêtes;06 39 98 76 65;Confirmée;0;rendue;sono;
+R25-057;2025-03-23;Salle du Moulin;Particulier commune;Muller Sarah;06 39 98 36 85;Confirmée;190;rendue;2 barnums, sono;noté par l'adjoint au marché
+R25-058;2025-03-25;Salle des fêtes;Association;Amicale des sapeurs-pompiers;06 39 98 67 54;Confirmée;0;encaissée partiellement;2 barnums, sono;à confirmer
+R25-059;2025-03-26;Salle des fêtes;Particulier commune;Michel Sandrine;06 39 98 13 30;Confirmée;180;rendue;sono;mariage
+R25-060;2025-03-27;Salle des fêtes;Particulier commune;Michel Sandrine;06 39 98 69 10;En attente chèques;180;;;
+R25-061;2025-03-28;Salle du Moulin;Association;Club de l'amitié;06 39 98 29 49;Confirmée;0;rendue;1 friteuse;
+R25-062;2025-04-01;Salle du Moulin;Particulier extérieur;Leroy Yves;06 39 98 71 86;Confirmée;150;rendue;;à confirmer
+R25-063;2025-04-04;Salle de réunion;Association;AS Saint-Roch foot;06 39 98 76 76;Confirmée;0;;2 barnums, sono;noté par l'adjoint au marché
+R25-064;2025-04-04;Salle du Moulin;Association;Théâtre du Moulin;06 39 98 94 92;Confirmée;0;rendue;1 friteuse;noté par l'adjoint au marché
+R25-065;2025-04-07;Salle des fêtes;Association;Sou des écoles;06 39 98 06 90;Confirmée;0;rendue;10 tables;noté par Sophie
+R25-066;2025-04-08;Salle des fêtes;Association;Sou des écoles;06 39 98 01 18;Confirmée;0;rendue;1 barnum;à confirmer
+R25-067;2025-04-09;Salle de réunion;Particulier commune;Girard Mireille;06 39 98 26 41;Confirmée;0;;1 barnum;
+R25-068;2025-04-10;Salle des fêtes;Particulier commune;Morel Karim;06 39 98 77 50;Confirmée;180;rendue;10 tables;à confirmer
+R25-069;2025-04-13;Salle du Moulin;Particulier extérieur;Vincent Bruno;06 39 98 01 46;Confirmée;310;rendue;;noté par Sophie
+R25-070;2025-04-15;Salle des fêtes;Particulier commune;Bertrand Théo;06 39 98 06 37;Confirmée;180;rendue;20 tables, 100 chaises;
+R25-071;2025-04-16;Salle des fêtes;Association;Comité des fêtes;06 39 98 52 23;Confirmée;0;rendue;1 friteuse;noté par Sophie
+R25-072;2025-04-17;Salle des fêtes;Association;Théâtre du Moulin;06 39 98 32 67;Confirmée;0;rendue;1 barnum;
+R25-073;2025-04-18;Salle de réunion;Particulier extérieur;Petit Amandine;06 39 98 55 33;Confirmée;0;;1 barnum;
+R25-074;2025-04-21;Salle des fêtes;Association;Amicale des sapeurs-pompiers;06 39 98 78 59;Confirmée;0;rendue;2 barnums, sono;à confirmer
+R25-075;2025-04-23;Salle de réunion;Particulier commune;Roux Karim;06 39 98 45 66;Confirmée;0;;1 barnum;noté par Sophie
+R25-076;2025-04-25;Salle de réunion;Association;Boule saint-rochoise;06 39 98 54 08;Confirmée;0;;;
+R25-077;2025-04-25;Salle du Moulin;Association;Théâtre du Moulin;06 39 98 74 39;Confirmée;0;rendue;1 friteuse;
+R25-078;2025-04-26;Salle des fêtes;Association;AS Saint-Roch foot;06 39 98 46 96;Confirmée;0;rendue;;noté par Sophie
+R25-079;2025-04-27;Salle de réunion;Particulier extérieur;Roux Odile;06 39 98 41 72;Confirmée;0;;;noté par l'adjoint au marché
+R25-080;2025-04-27;Salle du Moulin;Particulier commune;Robert Sandrine;06 39 98 36 99;Confirmée;190;rendue;sono;
+R25-081;2025-05-07;Salle du Moulin;Association;Amicale des sapeurs-pompiers;06 39 98 09 01;Confirmée;0;rendue;1 barnum;noté par Sophie
+R25-082;2025-05-08;Salle des fêtes;Association;Chorale La Clé des Chants;06 39 98 68 71;Confirmée;0;rendue;20 tables, 100 chaises;
+R25-083;2025-05-09;Salle des fêtes;Particulier commune;Bonnet Gérard;06 39 98 35 27;Confirmée;380;rendue;;
+R25-084;2025-05-10;Salle des fêtes;Entreprise;Crédit local agence;04 99 19 71 50;Confirmée;350;rendue;;
+R25-085;2025-05-10;Salle du Moulin;Association;AS Saint-Roch foot;06 39 98 83 25;Annulée;0;;;
+R25-086;2025-05-11;Salle des fêtes;Particulier commune;Simon Jordan;06 39 98 32 63;En attente chèques;380;;sono;noté par l'adjoint au marché
+R25-087;2025-05-12;Salle du Moulin;Particulier commune;Rousseau Nadia;06 39 98 81 82;Confirmée;90;rendue;sono;mariage
+R25-088;2025-05-14;Salle des fêtes;Particulier commune;Faure Yves;06 39 98 25 69;Annulée;180;;1 friteuse;anniversaire
+R25-089;2025-05-18;Salle des fêtes;Particulier extérieur;Robert Karim;06 39 98 19 24;Confirmée;620;rendue;sono;noté par Sophie
+R25-090;2025-05-18;Salle du Moulin;Association;Gym volontaire;06 39 98 86 73;Confirmée;0;encaissée partiellement;40 tables, 200 chaises;noté par l'adjoint au marché
+R25-091;2025-05-19;Salle du Moulin;Association;AS Saint-Roch foot;06 39 98 97 22;Annulée;0;;40 tables, 200 chaises;
+R25-092;2025-05-21;Salle du Moulin;Particulier commune;Laurent Kevin;06 39 98 06 71;Confirmée;90;encaissée partiellement;1 barnum;mariage
+R25-093;2025-05-21;Salle de réunion;Entreprise;SARL Transports Rival;04 99 44 68 60;Confirmée;0;;;
+R25-094;2025-05-22;Salle des fêtes;Particulier commune;David Mireille;06 39 98 84 60;Confirmée;180;rendue;2 barnums, sono;
+R25-095;2025-05-24;Salle de réunion;Particulier commune;Richard Léa;06 39 98 82 16;Confirmée;0;;10 tables;noté par Sophie
+R25-096;2025-06-01;Salle des fêtes;Entreprise;Cabinet Faure & associés;04 99 57 61 81;Confirmée;350;rendue;;
+R25-097;2025-06-02;Salle de réunion;Entreprise;SARL Transports Rival;04 99 90 50 91;Confirmée;0;;;
+R25-098;2025-06-02;Salle du Moulin;Particulier commune;Petit Julie;06 39 98 98 06;Confirmée;90;rendue;;mariage
+R25-099;2025-06-03;Salle de réunion;Particulier commune;Richard Nadia;06 39 98 58 22;Confirmée;0;;20 tables, 100 chaises;noté par Sophie
+R25-100;2025-06-07;Salle du Moulin;Particulier commune;Fournier Bruno;06 39 98 33 98;Confirmée;190;rendue;2 barnums, sono;anniversaire
+R25-101;2025-06-07;Salle de réunion;Association;Boule saint-rochoise;06 39 98 04 25;Confirmée;0;;1 friteuse;noté par Sophie
+R25-102;2025-06-08;Salle des fêtes;Particulier commune;Martin Hugo;06 39 98 21 72;Annulée;380;;40 tables, 200 chaises;noté par Sophie
+R25-103;2025-06-10;Salle du Moulin;Association;Amicale des sapeurs-pompiers;06 39 98 71 55;Confirmée;0;rendue;2 barnums, sono;à confirmer
+R25-104;2025-06-11;Salle du Moulin;Association;Amicale des sapeurs-pompiers;06 39 98 67 65;Confirmée;0;rendue;;
+R25-105;2025-06-13;Salle des fêtes;Association;Comité des fêtes;06 39 98 23 03;Confirmée;0;rendue;;
+R25-106;2025-06-14;Salle des fêtes;Particulier commune;Chapuis Émilie;06 39 98 99 95;Confirmée;380;rendue;40 tables, 200 chaises;mariage
+R25-107;2025-06-14;Salle des fêtes;Association;Boule saint-rochoise;06 39 98 84 60;Confirmée;0;;2 barnums, sono;noté par l'adjoint au marché
+R25-108;2025-06-15;Salle de réunion;Particulier extérieur;Fontaine Nadia;06 39 98 98 70;Confirmée;0;;1 barnum;à confirmer
+R25-109;2025-06-16;Salle des fêtes;Particulier commune;Rousseau Jordan;06 39 98 53 90;Confirmée;180;rendue;;noté par Sophie
+R25-110;2025-06-20;Salle des fêtes;Particulier extérieur;Bernard Chloé;06 39 98 92 37;Confirmée;620;rendue;1 barnum;mariage
+R25-111;2025-06-23;Salle du Moulin;Association;Comité des fêtes;06 39 98 66 16;Confirmée;0;rendue;10 tables;
+R25-112;2025-06-28;Salle des fêtes;Particulier commune;Martin Sandrine;06 39 98 39 21;Confirmée;380;rendue;;à confirmer
+R25-113;2025-07-05;Salle du Moulin;Particulier extérieur;Roux Bruno;06 39 98 02 43;Confirmée;310;rendue;;
+R25-114;2025-07-05;Salle des fêtes;Particulier commune;Roux Sandrine;06 39 98 87 76;Confirmée;380;rendue;sono;
+R25-115;2025-07-06;Salle du Moulin;Association;Comité des fêtes;06 39 98 10 17;Confirmée;0;rendue;;à confirmer
+R25-116;2025-07-06;Salle des fêtes;Particulier commune;Lambert Mireille;06 39 98 90 92;Confirmée;380;rendue;;noté par Sophie
+R25-117;2025-07-07;Salle du Moulin;Particulier commune;Fontaine Gérard;06 39 98 25 62;Confirmée;90;rendue;40 tables, 200 chaises;
+R25-118;2025-07-07;Salle de réunion;Particulier commune;Thomas Bruno;06 39 98 09 82;Confirmée;0;;1 barnum;
+R25-119;2025-07-08;Salle du Moulin;Association;Gym volontaire;06 39 98 70 46;Confirmée;0;rendue;sono;noté par Sophie
+R25-120;2025-07-09;Salle des fêtes;Entreprise;Crédit local agence;04 99 60 29 76;Confirmée;350;rendue;10 tables;à confirmer
+R25-121;2025-07-11;Salle du Moulin;Association;Club photo;06 39 98 92 11;Confirmée;0;rendue;;
+R25-122;2025-07-11;Salle de réunion;Association;AS Saint-Roch foot;06 39 98 95 46;Confirmée;0;;;
+R25-123;2025-07-12;Salle de réunion;Particulier commune;Durand Bruno;06 39 98 67 17;Annulée;0;;sono;
+R25-124;2025-07-13;Salle des fêtes;Association;Sou des écoles;06 39 98 16 27;Confirmée;0;non rendue ?;10 tables;
+R25-125;2025-07-14;Salle des fêtes;Entreprise;Crédit local agence;04 99 22 60 73;Confirmée;350;rendue;;à confirmer
+R25-126;2025-07-16;Salle de réunion;Particulier commune;David Amandine;06 39 98 40 33;Confirmée;0;;2 barnums, sono;
+R25-127;2025-07-17;Salle des fêtes;Association;Club de l'amitié;06 39 98 17 74;Confirmée;0;rendue;;
+R25-128;2025-07-18;Salle des fêtes;Association;AS Saint-Roch foot;06 39 98 95 80;Confirmée;0;rendue;sono;noté par Sophie
+R25-129;2025-07-20;Salle de réunion;Association;AS Saint-Roch foot;06 39 98 16 62;Confirmée;0;;sono;à confirmer
+R25-130;2025-07-21;Salle des fêtes;Entreprise;Cabinet Faure & associés;04 99 95 81 67;Confirmée;350;rendue;;
+R25-131;2025-07-21;Salle du Moulin;Association;Théâtre du Moulin;06 39 98 51 80;Confirmée;0;rendue;1 friteuse;
+R25-132;2025-08-05;Salle du Moulin;Particulier commune;Muller Nadia;06 39 98 81 90;Confirmée;90;rendue;40 tables, 200 chaises;noté par Sophie
+R25-133;2025-08-06;Salle des fêtes;Association;Gym volontaire;06 39 98 20 00;Confirmée;0;rendue;;
+R25-134;2025-08-08;Salle des fêtes;Particulier commune;Vincent Théo;06 39 98 21 49;Confirmée;380;rendue;;
+R25-135;2025-08-09;Salle du Moulin;Particulier commune;Lefèvre Paul;06 39 98 35 95;Confirmée;190;rendue;20 tables, 100 chaises;à confirmer
+R25-136;2025-08-10;Salle de réunion;Association;Amicale des sapeurs-pompiers;06 39 98 66 88;Confirmée;0;;;
+R25-137;2025-08-12;Salle des fêtes;Association;Amicale des sapeurs-pompiers;06 39 98 46 58;Confirmée;0;rendue;2 barnums, sono;
+R25-138;2025-08-18;Salle de réunion;Particulier commune;Moreau Jordan;06 39 98 65 27;Confirmée;0;;10 tables;
+R25-139;2025-08-20;Salle du Moulin;Particulier commune;Laurent Chloé;06 39 98 36 51;Confirmée;90;rendue;;
+R25-140;2025-08-24;Salle des fêtes;Association;AS Saint-Roch foot;06 39 98 89 66;Confirmée;0;rendue;20 tables, 100 chaises;
+R25-141;2025-08-25;Salle des fêtes;Association;Club de l'amitié;06 39 98 49 09;Confirmée;0;encaissée partiellement;;
+R25-142;2025-08-26;Salle de réunion;Particulier extérieur;Roux Bruno;06 39 98 50 05;Confirmée;0;;;noté par l'adjoint au marché
+R25-143;2025-08-28;Salle du Moulin;Particulier extérieur;Bertrand Léa;06 39 98 94 81;Confirmée;150;rendue;;
+R25-144;2025-09-01;Salle de réunion;Association;Club de l'amitié;06 39 98 80 54;En attente chèques;0;;;noté par Sophie
+R25-145;2025-09-02;Salle de réunion;Particulier commune;Michel Kevin;06 39 98 36 42;Confirmée;0;;;
+R25-146;2025-09-03;Salle de réunion;Particulier extérieur;Moreau Mehdi;06 39 98 49 34;Confirmée;0;;20 tables, 100 chaises;
+R25-147;2025-09-03;Salle du Moulin;Association;Comité des fêtes;06 39 98 33 97;Confirmée;0;rendue;20 tables, 100 chaises;
+R25-148;2025-09-05;Salle du Moulin;Association;Chorale La Clé des Chants;06 39 98 21 43;Confirmée;0;rendue;10 tables;noté par Sophie
+R25-149;2025-09-06;Salle des fêtes;Particulier commune;Dubois Mireille;06 39 98 53 49;En attente chèques;380;;;mariage
+R25-150;2025-09-06;Salle de réunion;Particulier commune;Bernard Léa;06 39 98 93 19;Confirmée;0;;1 barnum;
+R25-151;2025-09-07;Salle du Moulin;Particulier commune;Lefèvre Gérard;06 39 98 37 41;Confirmée;190;rendue;;à confirmer
+R25-152;2025-09-10;Salle des fêtes;Particulier extérieur;Dupont Léa;06 39 98 56 17;Confirmée;300;rendue;;anniversaire
+R25-153;2025-09-11;Salle des fêtes;Particulier commune;Lefèvre Yves;06 39 98 10 52;Confirmée;180;rendue;40 tables, 200 chaises;anniversaire
+R25-154;2025-09-14;Salle du Moulin;Particulier extérieur;Roux Théo;06 39 98 20 10;Confirmée;310;rendue;20 tables, 100 chaises;noté par Sophie
+R25-155;2025-09-15;Salle des fêtes;Association;Théâtre du Moulin;06 39 98 63 11;Confirmée;0;rendue;10 tables;noté par Sophie
+R25-156;2025-09-15;Salle du Moulin;Particulier commune;Simon Jordan;06 39 98 36 69;Confirmée;90;rendue;20 tables, 100 chaises;
+R25-157;2025-09-17;Salle des fêtes;Particulier commune;André Lucas;06 39 98 73 55;Confirmée;180;rendue;10 tables;anniversaire
+R25-158;2025-09-17;Salle du Moulin;Association;Gym volontaire;06 39 98 82 99;Confirmée;0;rendue;;
+R25-159;2025-09-19;Salle du Moulin;Particulier extérieur;Durand Karim;06 39 98 09 16;Confirmée;310;rendue;1 friteuse;à confirmer
+R25-160;2025-09-19;Salle des fêtes;Particulier extérieur;Roux Nadia;06 39 98 28 67;Confirmée;620;rendue;;noté par Sophie
+R25-161;2025-09-20;Salle du Moulin;Association;Comité des fêtes;06 39 98 03 22;Confirmée;0;rendue;;à confirmer
+R25-162;2025-09-24;Salle de réunion;Association;Comité des fêtes;06 39 98 85 16;Confirmée;0;;10 tables;
+R25-163;2025-09-24;Salle des fêtes;Association;Club de l'amitié;06 39 98 09 37;Confirmée;0;non rendue ?;1 barnum;
+R25-164;2025-10-01;Salle du Moulin;Association;AS Saint-Roch foot;06 39 98 47 63;Confirmée;0;rendue;10 tables;noté par l'adjoint au marché
+R25-165;2025-10-02;Salle des fêtes;Particulier commune;Mercier Amandine;06 39 98 91 36;Annulée;180;;1 barnum;à confirmer
+R25-166;2025-10-02;Salle de réunion;Particulier extérieur;Girard Amandine;06 39 98 54 29;Confirmée;0;;1 barnum;
+R25-167;2025-10-03;Salle des fêtes;Entreprise;Crédit local agence;04 99 54 95 41;Confirmée;350;rendue;;
+R25-168;2025-10-03;Salle du Moulin;Entreprise;SARL Transports Rival;04 99 44 38 98;Confirmée;175;rendue;40 tables, 200 chaises;
+R25-169;2025-10-06;Salle des fêtes;Particulier commune;Durand Léa;06 39 98 82 72;Confirmée;180;rendue;;à confirmer
+R25-170;2025-10-10;Salle des fêtes;Particulier commune;Bonnet Théo;06 39 98 69 84;Confirmée;380;rendue;20 tables, 100 chaises;
+R25-171;2025-10-13;Salle des fêtes;Particulier extérieur;Morel Sarah;06 39 98 82 51;Confirmée;300;rendue;;noté par Sophie
+R25-172;2025-10-17;Salle des fêtes;Entreprise;SARL Transports Rival;04 99 44 69 48;Confirmée;350;rendue;;
+R25-173;2025-10-18;Salle des fêtes;Particulier extérieur;Girard Kevin;06 39 98 51 14;Confirmée;620;rendue;;
+R25-174;2025-10-18;Salle des fêtes;Association;Sou des écoles;06 39 98 18 43;Confirmée;0;;20 tables, 100 chaises;à confirmer
+R25-175;2025-10-19;Salle des fêtes;Particulier commune;Bernard Léa;06 39 98 47 46;Confirmée;380;rendue;sono;
+R25-176;2025-10-21;Salle du Moulin;Particulier extérieur;Fontaine Paul;06 39 98 36 74;Confirmée;150;rendue;;noté par Sophie
+R25-177;2025-10-22;Salle des fêtes;Association;Comité des fêtes;06 39 98 80 78;Confirmée;0;rendue;;noté par Sophie
+R25-178;2025-10-24;Salle du Moulin;Particulier commune;Thomas Sarah;06 39 98 55 08;Annulée;190;;20 tables, 100 chaises;noté par Sophie
+R25-179;2025-10-25;Salle des fêtes;Particulier commune;Simon Mehdi;06 39 98 09 66;Confirmée;380;rendue;20 tables, 100 chaises;noté par Sophie
+R25-180;2025-10-27;Salle du Moulin;Particulier extérieur;Michel Chloé;06 39 98 93 51;En attente chèques;150;;;anniversaire
+R25-181;2025-11-05;Salle du Moulin;Association;Club photo;06 39 98 02 20;Confirmée;0;encaissée partiellement;40 tables, 200 chaises;à confirmer
+R25-182;2025-11-05;Salle des fêtes;Entreprise;Crédit local agence;04 99 50 25 45;Confirmée;350;rendue;;
+R25-183;2025-11-07;Salle des fêtes;Particulier extérieur;Moreau Hugo;06 39 98 66 58;Confirmée;620;rendue;1 friteuse;
+R25-184;2025-11-07;Salle du Moulin;Particulier commune;Bernard Amandine;06 39 98 67 05;Confirmée;190;rendue;1 friteuse;noté par l'adjoint au marché
+R25-185;2025-11-14;Salle du Moulin;Association;AS Saint-Roch foot;06 39 98 17 01;Confirmée;0;rendue;;à confirmer
+R25-186;2025-11-15;Salle du Moulin;Particulier commune;Bonnet Léa;06 39 98 30 74;Confirmée;190;rendue;10 tables;anniversaire
+R25-187;2025-11-15;Salle du Moulin;Association;Club de l'amitié;06 39 98 71 90;Confirmée;0;;;concours de belote — déplacé salle de réunion le jour même ?
+R25-188;2025-11-16;Salle du Moulin;Association;Amicale des sapeurs-pompiers;06 39 98 74 73;Confirmée;0;rendue;1 friteuse;
+R25-189;2025-11-20;Salle du Moulin;Particulier commune;Thomas Bruno;06 39 98 48 66;Confirmée;90;rendue;10 tables;à confirmer
+R25-190;2025-11-23;Salle des fêtes;Association;Sou des écoles;06 39 98 18 01;Confirmée;0;rendue;1 friteuse;
+R25-191;2025-11-24;Salle des fêtes;Particulier extérieur;Lefèvre Julie;06 39 98 68 14;Annulée;300;;;noté par Sophie
+R25-192;2025-11-25;Salle du Moulin;Particulier commune;Roux Kevin;06 39 98 82 44;Confirmée;90;rendue;sono;
+R25-193;2025-11-25;Salle des fêtes;Particulier commune;Mercier Mehdi;06 39 98 62 07;Confirmée;180;rendue;1 friteuse;noté par l'adjoint au marché
+R25-194;2025-12-01;Salle des fêtes;Particulier commune;Leroy Paul;06 39 98 41 93;Confirmée;180;non rendue ?;1 friteuse;
+R25-195;2025-12-03;Salle des fêtes;Particulier commune;Robert Lucas;06 39 98 11 21;En attente chèques;180;;1 barnum;noté par l'adjoint au marché
+R25-196;2025-12-03;Salle du Moulin;Particulier commune;Roux Gérard;06 39 98 01 83;Confirmée;90;rendue;sono;anniversaire
+R25-197;2025-12-05;Salle de réunion;Entreprise;Cabinet Faure & associés;04 99 72 71 24;Confirmée;0;;40 tables, 200 chaises;
+R25-198;2025-12-05;Salle des fêtes;Entreprise;SARL Transports Rival;04 99 48 91 28;Confirmée;350;encaissée partiellement;;à confirmer
+R25-199;2025-12-07;Salle du Moulin;Particulier commune;Durand Léa;06 39 98 51 61;Confirmée;190;rendue;1 barnum;mariage
+R25-200;2025-12-07;Salle de réunion;Association;Chorale La Clé des Chants;06 39 98 89 78;En attente chèques;0;;40 tables, 200 chaises;
+R25-201;2025-12-08;Salle des fêtes;Entreprise;Cabinet Faure & associés;04 99 17 32 70;Confirmée;350;rendue;2 barnums, sono;
+R25-202;2025-12-09;Salle de réunion;Particulier extérieur;Laurent Lucas;06 39 98 05 73;Confirmée;0;;1 barnum;
+R25-203;2025-12-09;Salle des fêtes;Association;Théâtre du Moulin;06 39 98 72 40;Annulée;0;;2 barnums, sono;noté par Sophie
+R25-204;2025-12-15;Salle des fêtes;Association;Gym volontaire;06 39 98 39 71;Confirmée;0;rendue;1 barnum;
+R25-205;2025-12-17;Salle des fêtes;Entreprise;SARL Transports Rival;04 99 25 48 37;Confirmée;350;rendue;1 friteuse;à confirmer
+R25-206;2025-12-18;Salle de réunion;Association;Théâtre du Moulin;06 39 98 39 54;Confirmée;0;;2 barnums, sono;
+R25-207;2025-12-21;Salle des fêtes;Particulier commune;Richard Théo;06 39 98 69 11;Confirmée;380;rendue;20 tables, 100 chaises;à confirmer
+R25-208;2025-12-22;Salle du Moulin;Particulier extérieur;Lefèvre Karim;06 39 98 50 79;En attente chèques;150;;2 barnums, sono;anniversaire
+R25-209;2025-12-25;Salle des fêtes;Association;Gym volontaire;06 39 98 32 78;Confirmée;0;rendue;1 friteuse;
+R25-210;2025-12-26;Salle des fêtes;Association;Gym volontaire;06 39 98 75 91;Confirmée;0;rendue;;noté par Sophie
+R25-211;2025-12-27;Salle du Moulin;Association;Comité des fêtes;06 39 98 80 04;Confirmée;0;rendue;sono;
+R25-212;2025-12-28;Salle du Moulin;Association;Gym volontaire;06 39 98 68 48;Confirmée;0;rendue;40 tables, 200 chaises;
+R25-213;2025-12-28;Salle des fêtes;Association;Sou des écoles;06 39 98 89 21;Confirmée;0;rendue;1 friteuse;noté par Sophie

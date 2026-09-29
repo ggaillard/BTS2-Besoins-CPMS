@@ -1,0 +1,102 @@
+date;heure;praticien;type_seance;patient;prevenu
+2026-03-02;14:00;Associé 1;Kiné respiratoire enfant;P-5241;Prévenu moins de 24 h avant
+2026-03-02;14:00;Collaborateur;Rééducation épaule;P-5982;Prévenu moins de 24 h avant
+2026-03-03;09:30;Associé 3;Rééducation genou;P-2520;Prévenu moins de 24 h avant
+2026-03-03;13:30;Associé 2;Cervicalgie;P-7656;Prévenu moins de 24 h avant
+2026-03-03;16:00;Associé 2;Lombalgie;P-7325;Non prévenu
+2026-03-03;16:30;Associé 4;Cervicalgie;P-7656;Prévenu moins de 24 h avant
+2026-03-03;18:00;Associé 2;Rééducation cheville;P-6173;Prévenu par SMS au portable du kiné
+2026-03-04;13:00;Associé 1;Rééducation épaule;P-7656;Non prévenu
+2026-03-04;13:00;Associé 4;Rééducation épaule;P-6620;Non prévenu
+2026-03-04;15:00;Associé 1;Rééducation genou;P-7072;Prévenu par SMS au portable du kiné
+2026-03-04;16:00;Associé 1;Rééducation post-AVC;P-8116;Non prévenu
+2026-03-05;07:30;Associé 4;Rééducation genou;P-5252;Non prévenu
+2026-03-05;12:30;Associé 1;Rééducation épaule;P-6276;Prévenu moins de 24 h avant
+2026-03-06;07:30;Associé 2;Lombalgie;P-6089;Non prévenu
+2026-03-06;09:30;Associé 2;Cervicalgie;P-2520;Prévenu moins de 24 h avant
+2026-03-06;13:30;Associé 4;Rééducation post-AVC;P-1216;Non prévenu
+2026-03-06;14:30;Associé 3;Lombalgie;P-3380;Non prévenu
+2026-03-06;14:30;Associé 4;Kiné respiratoire enfant;P-9176;Prévenu moins de 24 h avant
+2026-03-06;18:30;Associé 1;Rééducation post-AVC;P-6989;Prévenu moins de 24 h avant
+2026-03-07;09:00;Associé 2;Rééducation genou;P-6454;Prévenu moins de 24 h avant
+2026-03-07;10:30;Associé 3;Lombalgie;P-5274;Non prévenu
+2026-03-07;12:00;Associé 4;Rééducation genou;P-6443;Non prévenu
+2026-03-07;13:30;Associé 2;Rééducation genou;P-7825;Non prévenu
+2026-03-07;13:30;Associé 3;Kiné respiratoire enfant;P-8128;Non prévenu
+2026-03-09;07:30;Associé 3;Rééducation genou;P-3690;Non prévenu
+2026-03-09;08:00;Associé 2;Rééducation épaule;P-6443;Prévenu moins de 24 h avant
+2026-03-09;08:30;Associé 3;Rééducation post-AVC;P-2654;Non prévenu
+2026-03-09;09:00;Collaborateur;Rééducation cheville;P-8204;Non prévenu
+2026-03-09;11:00;Associé 3;Rééducation post-AVC;P-8452;Prévenu moins de 24 h avant
+2026-03-09;13:00;Associé 4;Rééducation post-AVC;P-9103;Non prévenu
+2026-03-10;08:00;Associé 1;Rééducation épaule;P-8128;Non prévenu
+2026-03-10;10:30;Associé 2;Cervicalgie;P-9912;Non prévenu
+2026-03-11;08:30;Associé 4;Kiné respiratoire enfant;P-9912;Prévenu moins de 24 h avant
+2026-03-11;09:00;Collaborateur;Rééducation genou;P-6089;Prévenu moins de 24 h avant
+2026-03-11;14:30;Associé 3;Kiné respiratoire enfant;P-7825;Non prévenu
+2026-03-11;19:00;Associé 4;Lombalgie;P-6173;Non prévenu
+2026-03-12;11:30;Associé 1;Rééducation post-AVC;P-3690;Prévenu moins de 24 h avant
+2026-03-12;13:00;Associé 3;Rééducation épaule;P-5982;Prévenu par SMS au portable du kiné
+2026-03-13;11:00;Associé 2;Kiné respiratoire enfant;P-1216;Prévenu moins de 24 h avant
+2026-03-13;13:00;Associé 1;Rééducation genou;P-5982;Prévenu par SMS au portable du kiné
+2026-03-13;19:30;Associé 1;Rééducation cheville;P-5037;Non prévenu
+2026-03-14;08:30;Associé 4;Kiné respiratoire enfant;P-2988;Prévenu moins de 24 h avant
+2026-03-14;11:00;Associé 4;Rééducation épaule;P-6276;Non prévenu
+2026-03-14;11:00;Collaborateur;Rééducation épaule;P-6173;Non prévenu
+2026-03-14;13:30;Collaborateur;Rééducation épaule;P-4992;Prévenu moins de 24 h avant
+2026-03-14;14:00;Associé 4;Rééducation post-AVC;P-5252;Prévenu par SMS au portable du kiné
+2026-03-14;17:00;Associé 1;Rééducation post-AVC;P-8128;Prévenu par SMS au portable du kiné
+2026-03-14;18:30;Associé 3;Kiné respiratoire enfant;P-9895;Prévenu moins de 24 h avant
+2026-03-14;19:00;Associé 1;Rééducation cheville;P-3340;Non prévenu
+2026-03-16;07:00;Collaborateur;Lombalgie;P-5252;Prévenu moins de 24 h avant
+2026-03-16;07:30;Associé 2;Cervicalgie;P-5274;Prévenu moins de 24 h avant
+2026-03-16;09:30;Collaborateur;Rééducation genou;P-6443;Non prévenu
+2026-03-17;09:00;Collaborateur;Rééducation épaule;P-1216;Non prévenu
+2026-03-17;10:30;Associé 2;Rééducation post-AVC;P-1601;Prévenu moins de 24 h avant
+2026-03-17;11:30;Associé 4;Lombalgie;P-5971;Prévenu moins de 24 h avant
+2026-03-17;12:00;Associé 3;Rééducation genou;P-5982;Non prévenu
+2026-03-17;13:30;Associé 2;Rééducation cheville;P-6851;Non prévenu
+2026-03-17;18:00;Associé 2;Cervicalgie;P-5982;Non prévenu
+2026-03-18;07:00;Associé 2;Cervicalgie;P-9914;Non prévenu
+2026-03-18;08:00;Associé 1;Rééducation cheville;P-2988;Prévenu moins de 24 h avant
+2026-03-18;13:00;Collaborateur;Rééducation cheville;P-9036;Non prévenu
+2026-03-19;09:00;Associé 1;Rééducation cheville;P-8452;Prévenu moins de 24 h avant
+2026-03-19;12:00;Associé 2;Rééducation cheville;P-9692;Prévenu moins de 24 h avant
+2026-03-19;14:30;Associé 4;Kiné respiratoire enfant;P-5252;Non prévenu
+2026-03-20;12:30;Associé 1;Cervicalgie;P-3169;Prévenu moins de 24 h avant
+2026-03-20;12:30;Collaborateur;Rééducation genou;P-9176;Non prévenu
+2026-03-20;17:30;Associé 2;Lombalgie;P-9692;Prévenu moins de 24 h avant
+2026-03-20;17:30;Collaborateur;Kiné respiratoire enfant;P-9914;Non prévenu
+2026-03-21;07:00;Collaborateur;Lombalgie;P-6851;Prévenu par SMS au portable du kiné
+2026-03-21;08:00;Collaborateur;Rééducation genou;P-8204;Prévenu moins de 24 h avant
+2026-03-21;13:30;Associé 4;Rééducation genou;P-1601;Non prévenu
+2026-03-21;17:00;Associé 3;Rééducation genou;P-8452;Non prévenu
+2026-03-23;10:00;Associé 2;Cervicalgie;P-3990;Prévenu moins de 24 h avant
+2026-03-23;14:00;Associé 4;Kiné respiratoire enfant;P-6851;Non prévenu
+2026-03-23;17:00;Associé 3;Rééducation épaule;P-3690;Non prévenu
+2026-03-23;18:00;Associé 3;Rééducation post-AVC;P-2988;Non prévenu
+2026-03-24;11:30;Associé 3;Cervicalgie;P-7656;Non prévenu
+2026-03-24;11:30;Associé 3;Rééducation genou;P-7325;Non prévenu
+2026-03-24;17:00;Associé 2;Cervicalgie;P-2940;Non prévenu
+2026-03-24;19:00;Associé 2;Rééducation post-AVC;P-2654;Non prévenu
+2026-03-25;08:30;Associé 1;Kiné respiratoire enfant;P-7656;Prévenu par SMS au portable du kiné
+2026-03-25;14:30;Collaborateur;Rééducation genou;P-7693;Prévenu moins de 24 h avant
+2026-03-25;15:30;Associé 2;Rééducation post-AVC;P-2654;Prévenu moins de 24 h avant
+2026-03-26;07:30;Associé 2;Kiné respiratoire enfant;P-5252;Non prévenu
+2026-03-26;10:30;Associé 4;Kiné respiratoire enfant;P-6443;Non prévenu
+2026-03-26;12:00;Associé 3;Lombalgie;P-3380;Prévenu par SMS au portable du kiné
+2026-03-26;15:30;Associé 2;Rééducation cheville;P-2988;Non prévenu
+2026-03-26;17:30;Associé 3;Cervicalgie;P-5922;Non prévenu
+2026-03-27;09:00;Collaborateur;Kiné respiratoire enfant;P-5971;Non prévenu
+2026-03-27;14:00;Associé 3;Rééducation épaule;P-7325;Non prévenu
+2026-03-28;11:00;Collaborateur;Rééducation post-AVC;P-5971;Prévenu moins de 24 h avant
+2026-03-28;12:00;Associé 1;Kiné respiratoire enfant;P-2220;Prévenu moins de 24 h avant
+2026-03-28;12:00;Associé 3;Rééducation épaule;P-9895;Non prévenu
+2026-03-28;12:30;Collaborateur;Cervicalgie;P-6687;Non prévenu
+2026-03-30;07:30;Associé 4;Kiné respiratoire enfant;P-3690;Non prévenu
+2026-03-30;14:30;Associé 2;Rééducation cheville;P-4992;Non prévenu
+2026-03-30;17:30;Associé 4;Cervicalgie;P-9176;Non prévenu
+2026-03-30;18:30;Associé 4;Lombalgie;P-5252;Non prévenu
+2026-03-31;08:30;Associé 4;Lombalgie;P-6989;Prévenu moins de 24 h avant
+2026-04-01;11:30;Collaborateur;Lombalgie;P-6989;Non prévenu
+2026-04-01;18:00;Associé 1;Cervicalgie;P-6089;Non prévenu

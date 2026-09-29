@@ -1,0 +1,356 @@
+jour;heure;motif;pris_par;duree_min;rappel_necessaire
+lundi;07:09;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+lundi;07:16;Urgence ressentie (douleur, chute);Secrétaire;2;
+lundi;08:03;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+lundi;08:19;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+lundi;08:25;Patient suivi — prendre les rendez-vous suivants;Non décroché;;a rappelé lui-même
+lundi;08:27;Fournisseur, démarchage commercial;Secrétaire;4;
+lundi;08:28;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+lundi;08:43;Question administrative (ordonnance, remboursement, attestation);Secrétaire;2;
+lundi;08:44;Question administrative (ordonnance, remboursement, attestation);Secrétaire;5;
+lundi;08:49;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+lundi;08:58;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+lundi;09:06;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+lundi;09:14;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;7;
+lundi;09:18;Question administrative (ordonnance, remboursement, attestation);Secrétaire;5;
+lundi;09:43;Demande d'information (tarifs, accès, horaires);Secrétaire;2;
+lundi;09:44;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);4;
+lundi;10:03;Patient suivi — prendre les rendez-vous suivants;Non décroché;;a rappelé lui-même
+lundi;10:11;Nouveau patient — demande de premier rendez-vous;Secrétaire;3;
+lundi;10:17;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+lundi;10:17;Fournisseur, démarchage commercial;Secrétaire;2;
+lundi;10:22;Nouveau patient — demande de premier rendez-vous;Secrétaire;3;
+lundi;10:35;Nouveau patient — demande de premier rendez-vous;Secrétaire;3;
+lundi;10:36;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;7;
+lundi;10:41;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+lundi;10:59;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);4;
+lundi;11:34;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+lundi;11:35;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;2;
+lundi;11:42;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+lundi;11:42;Nouveau patient — demande de premier rendez-vous;Secrétaire;4;
+lundi;11:59;Demande d'information (tarifs, accès, horaires);Secrétaire;2;
+lundi;12:26;Question administrative (ordonnance, remboursement, attestation);Secrétaire;3;
+lundi;12:28;Question administrative (ordonnance, remboursement, attestation);Secrétaire;3;
+lundi;12:29;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+lundi;12:32;Patient suivi — prendre les rendez-vous suivants;Non décroché;;oui
+lundi;12:56;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+lundi;13:10;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+lundi;13:23;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);7;
+lundi;13:23;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);3;
+lundi;13:32;Question administrative (ordonnance, remboursement, attestation);Répondeur;;non
+lundi;14:25;Fournisseur, démarchage commercial;Répondeur;;oui
+lundi;14:56;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+lundi;15:08;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+lundi;15:30;Nouveau patient — demande de premier rendez-vous;Répondeur;;non
+lundi;15:42;Nouveau patient — demande de premier rendez-vous;Non décroché;;a rappelé lui-même
+lundi;15:43;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+lundi;16:08;Question administrative (ordonnance, remboursement, attestation);Non décroché;;oui
+lundi;16:30;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+lundi;16:42;Patient suivi — prendre les rendez-vous suivants;Répondeur;;non
+lundi;16:45;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+lundi;17:12;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;non
+lundi;17:15;Nouveau patient — demande de premier rendez-vous;Répondeur;;oui
+lundi;17:18;Patient suivi — prendre les rendez-vous suivants;Non décroché;;oui
+lundi;17:31;Question administrative (ordonnance, remboursement, attestation);Répondeur;;non
+lundi;17:46;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+lundi;17:59;Médecin / chirurgien / pharmacien (prescripteur);Répondeur;;a rappelé lui-même
+lundi;18:01;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;a rappelé lui-même
+lundi;18:01;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+lundi;18:21;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+lundi;18:24;Question administrative (ordonnance, remboursement, attestation);Kiné (en séance);4;
+lundi;18:28;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+lundi;18:28;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);3;
+lundi;18:36;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+lundi;19:04;Fournisseur, démarchage commercial;Kiné (en séance);1;
+lundi;19:09;Demande d'information (tarifs, accès, horaires);Répondeur;;non
+lundi;19:22;Fournisseur, démarchage commercial;Non décroché;;oui
+lundi;19:24;Nouveau patient — demande de premier rendez-vous;Répondeur;;non
+lundi;19:31;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mardi;08:05;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;5;
+mardi;08:06;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);5;
+mardi;08:10;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;7;
+mardi;08:12;Nouveau patient — demande de premier rendez-vous;Secrétaire;4;
+mardi;08:13;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+mardi;08:17;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+mardi;08:21;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+mardi;08:23;Médecin / chirurgien / pharmacien (prescripteur);Non décroché;;oui
+mardi;08:26;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+mardi;08:29;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+mardi;08:40;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+mardi;08:42;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+mardi;08:44;Nouveau patient — demande de premier rendez-vous;Secrétaire;3;
+mardi;08:46;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);4;
+mardi;08:46;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+mardi;08:53;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+mardi;09:05;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;6;
+mardi;09:51;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+mardi;09:53;Fournisseur, démarchage commercial;Secrétaire;2;
+mardi;10:03;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+mardi;10:09;Urgence ressentie (douleur, chute);Secrétaire;2;
+mardi;10:10;Nouveau patient — demande de premier rendez-vous;Non décroché;;non
+mardi;10:20;Médecin / chirurgien / pharmacien (prescripteur);Kiné (en séance);4;
+mardi;10:22;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;3;
+mardi;10:25;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+mardi;10:30;Question administrative (ordonnance, remboursement, attestation);Secrétaire;2;
+mardi;10:39;Nouveau patient — demande de premier rendez-vous;Secrétaire;4;
+mardi;10:39;Demande d'information (tarifs, accès, horaires);Secrétaire;2;
+mardi;11:39;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+mardi;11:43;Question administrative (ordonnance, remboursement, attestation);Secrétaire;4;
+mardi;11:50;Question administrative (ordonnance, remboursement, attestation);Secrétaire;6;
+mardi;12:29;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+mardi;12:48;Patient suivi — prendre les rendez-vous suivants;Répondeur;;a rappelé lui-même
+mardi;12:55;Urgence ressentie (douleur, chute);Kiné (en séance);2;
+mardi;12:57;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+mardi;13:09;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);3;
+mardi;13:21;Urgence ressentie (douleur, chute);Kiné (en séance);2;
+mardi;13:21;Fournisseur, démarchage commercial;Répondeur;;a rappelé lui-même
+mardi;13:48;Nouveau patient — demande de premier rendez-vous;Répondeur;;non
+mardi;14:21;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;a rappelé lui-même
+mardi;14:29;Patient suivi — prendre les rendez-vous suivants;Répondeur;;oui
+mardi;14:31;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+mardi;14:40;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);6;
+mardi;14:50;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;non
+mardi;14:59;Patient suivi — prendre les rendez-vous suivants;Non décroché;;a rappelé lui-même
+mardi;15:02;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);3;
+mardi;15:20;Médecin / chirurgien / pharmacien (prescripteur);Répondeur;;oui
+mardi;15:35;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);2;
+mardi;15:38;Nouveau patient — demande de premier rendez-vous;Non décroché;;non
+mardi;15:45;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;a rappelé lui-même
+mardi;15:57;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+mardi;16:04;Patient suivi — prendre les rendez-vous suivants;Non décroché;;a rappelé lui-même
+mardi;16:17;Médecin / chirurgien / pharmacien (prescripteur);Répondeur;;oui
+mardi;16:19;Demande d'information (tarifs, accès, horaires);Kiné (en séance);2;
+mardi;16:23;Nouveau patient — demande de premier rendez-vous;Répondeur;;non
+mardi;16:24;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+mardi;16:45;Urgence ressentie (douleur, chute);Kiné (en séance);3;
+mardi;17:01;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);4;
+mardi;17:07;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);3;
+mardi;17:15;Demande d'information (tarifs, accès, horaires);Non décroché;;oui
+mardi;17:40;Nouveau patient — demande de premier rendez-vous;Répondeur;;oui
+mardi;17:49;Fournisseur, démarchage commercial;Répondeur;;non
+mardi;17:49;Urgence ressentie (douleur, chute);Kiné (en séance);4;
+mardi;18:04;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+mardi;18:05;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);6;
+mardi;18:23;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+mardi;18:35;Fournisseur, démarchage commercial;Kiné (en séance);3;
+mardi;18:40;Médecin / chirurgien / pharmacien (prescripteur);Kiné (en séance);3;
+mardi;18:46;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+mardi;18:55;Urgence ressentie (douleur, chute);Répondeur;;non
+mardi;19:00;Question administrative (ordonnance, remboursement, attestation);Répondeur;;oui
+mardi;19:01;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+mardi;19:02;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mardi;19:27;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mardi;19:48;Patient suivi — prendre les rendez-vous suivants;Répondeur;;oui
+mardi;19:56;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+mercredi;07:08;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+mercredi;08:06;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;a rappelé lui-même
+mercredi;08:19;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+mercredi;08:21;Fournisseur, démarchage commercial;Secrétaire;1;
+mercredi;08:23;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;non
+mercredi;08:24;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+mercredi;08:26;Urgence ressentie (douleur, chute);Secrétaire;4;
+mercredi;08:31;Question administrative (ordonnance, remboursement, attestation);Secrétaire;6;
+mercredi;08:32;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+mercredi;08:33;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+mercredi;08:33;Urgence ressentie (douleur, chute);Secrétaire;2;
+mercredi;08:47;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+mercredi;08:53;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;non
+mercredi;08:56;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;3;
+mercredi;09:18;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+mercredi;09:26;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+mercredi;09:27;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mercredi;09:41;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+mercredi;09:48;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;8;
+mercredi;09:51;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+mercredi;09:56;Nouveau patient — demande de premier rendez-vous;Non décroché;;non
+mercredi;09:57;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+mercredi;10:01;Nouveau patient — demande de premier rendez-vous;Secrétaire;3;
+mercredi;10:02;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+mercredi;10:12;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;3;
+mercredi;10:21;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+mercredi;10:22;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);7;
+mercredi;10:29;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;non
+mercredi;10:29;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;3;
+mercredi;10:39;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+mercredi;10:43;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+mercredi;10:52;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+mercredi;10:56;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+mercredi;10:57;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;3;
+mercredi;11:24;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;7;
+mercredi;11:26;Question administrative (ordonnance, remboursement, attestation);Secrétaire;6;
+mercredi;11:31;Fournisseur, démarchage commercial;Secrétaire;4;
+mercredi;11:32;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mercredi;11:39;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+mercredi;11:40;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+mercredi;12:43;Demande d'information (tarifs, accès, horaires);Répondeur;;non
+mercredi;12:57;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);5;
+mercredi;13:46;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mercredi;13:54;Patient suivi — prendre les rendez-vous suivants;Répondeur;;oui
+mercredi;14:06;Question administrative (ordonnance, remboursement, attestation);Répondeur;;a rappelé lui-même
+mercredi;14:22;Nouveau patient — demande de premier rendez-vous;Répondeur;;non
+mercredi;14:32;Urgence ressentie (douleur, chute);Kiné (en séance);3;
+mercredi;14:34;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+mercredi;14:45;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);6;
+mercredi;14:51;Médecin / chirurgien / pharmacien (prescripteur);Non décroché;;non
+mercredi;14:56;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;non
+mercredi;15:02;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+mercredi;15:06;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+mercredi;15:06;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+mercredi;15:42;Question administrative (ordonnance, remboursement, attestation);Kiné (en séance);3;
+mercredi;15:49;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+mercredi;15:52;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+mercredi;16:03;Nouveau patient — demande de premier rendez-vous;Répondeur;;oui
+mercredi;16:30;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);3;
+mercredi;16:45;Fournisseur, démarchage commercial;Non décroché;;oui
+mercredi;16:53;Question administrative (ordonnance, remboursement, attestation);Non décroché;;a rappelé lui-même
+mercredi;16:57;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;a rappelé lui-même
+mercredi;17:04;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+mercredi;17:18;Demande d'information (tarifs, accès, horaires);Non décroché;;oui
+mercredi;17:25;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+mercredi;17:39;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+mercredi;18:32;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);3;
+mercredi;18:42;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+mercredi;19:01;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+mercredi;19:17;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;a rappelé lui-même
+mercredi;19:19;Fournisseur, démarchage commercial;Répondeur;;oui
+mercredi;19:40;Nouveau patient — demande de premier rendez-vous;Répondeur;;oui
+mercredi;19:49;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);2;
+jeudi;07:16;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+jeudi;07:27;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+jeudi;07:52;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+jeudi;08:15;Nouveau patient — demande de premier rendez-vous;Secrétaire;3;
+jeudi;08:48;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+jeudi;08:50;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+jeudi;08:58;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);3;
+jeudi;08:59;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+jeudi;09:00;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;4;
+jeudi;09:04;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+jeudi;09:07;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+jeudi;09:10;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+jeudi;09:11;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+jeudi;09:19;Nouveau patient — demande de premier rendez-vous;Secrétaire;6;
+jeudi;09:34;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+jeudi;09:37;Question administrative (ordonnance, remboursement, attestation);Secrétaire;4;
+jeudi;09:39;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;5;
+jeudi;09:44;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+jeudi;09:45;Fournisseur, démarchage commercial;Secrétaire;4;
+jeudi;09:46;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+jeudi;09:48;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);4;
+jeudi;10:00;Question administrative (ordonnance, remboursement, attestation);Secrétaire;4;
+jeudi;10:06;Question administrative (ordonnance, remboursement, attestation);Secrétaire;2;
+jeudi;10:10;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+jeudi;10:10;Question administrative (ordonnance, remboursement, attestation);Secrétaire;4;
+jeudi;10:25;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+jeudi;11:02;Médecin / chirurgien / pharmacien (prescripteur);Secrétaire;4;
+jeudi;11:18;Patient suivi — prendre les rendez-vous suivants;Secrétaire;3;
+jeudi;11:23;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+jeudi;11:40;Urgence ressentie (douleur, chute);Secrétaire;4;
+jeudi;12:16;Demande d'information (tarifs, accès, horaires);Secrétaire;1;
+jeudi;12:20;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+jeudi;12:22;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+jeudi;12:44;Question administrative (ordonnance, remboursement, attestation);Non décroché;;oui
+jeudi;12:53;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+jeudi;12:58;Demande d'information (tarifs, accès, horaires);Non décroché;;a rappelé lui-même
+jeudi;13:08;Nouveau patient — demande de premier rendez-vous;Répondeur;;non
+jeudi;13:19;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+jeudi;13:41;Urgence ressentie (douleur, chute);Non décroché;;a rappelé lui-même
+jeudi;13:42;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+jeudi;13:57;Fournisseur, démarchage commercial;Répondeur;;oui
+jeudi;14:19;Question administrative (ordonnance, remboursement, attestation);Répondeur;;a rappelé lui-même
+jeudi;14:24;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+jeudi;14:27;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);3;
+jeudi;14:44;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);2;
+jeudi;14:58;Fournisseur, démarchage commercial;Répondeur;;oui
+jeudi;15:06;Patient suivi — prendre les rendez-vous suivants;Répondeur;;oui
+jeudi;16:20;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+jeudi;16:50;Fournisseur, démarchage commercial;Non décroché;;oui
+jeudi;16:57;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+jeudi;17:19;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+jeudi;17:30;Médecin / chirurgien / pharmacien (prescripteur);Répondeur;;a rappelé lui-même
+jeudi;17:40;Patient suivi — prendre les rendez-vous suivants;Répondeur;;oui
+jeudi;17:57;Question administrative (ordonnance, remboursement, attestation);Non décroché;;oui
+jeudi;18:05;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+jeudi;18:16;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+jeudi;18:23;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+jeudi;18:25;Question administrative (ordonnance, remboursement, attestation);Non décroché;;a rappelé lui-même
+jeudi;18:51;Urgence ressentie (douleur, chute);Kiné (en séance);5;
+jeudi;19:13;Patient suivi — prendre les rendez-vous suivants;Non décroché;;oui
+jeudi;19:19;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);4;
+jeudi;19:23;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);4;
+jeudi;19:33;Fournisseur, démarchage commercial;Kiné (en séance);2;
+jeudi;19:39;Question administrative (ordonnance, remboursement, attestation);Répondeur;;oui
+jeudi;19:44;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+jeudi;19:57;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+vendredi;07:00;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+vendredi;07:03;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+vendredi;08:04;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+vendredi;08:07;Nouveau patient — demande de premier rendez-vous;Non décroché;;a rappelé lui-même
+vendredi;08:24;Médecin / chirurgien / pharmacien (prescripteur);Non décroché;;oui
+vendredi;08:29;Nouveau patient — demande de premier rendez-vous;Secrétaire;5;
+vendredi;08:31;Question administrative (ordonnance, remboursement, attestation);Secrétaire;3;
+vendredi;08:33;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+vendredi;08:45;Patient suivi — prendre les rendez-vous suivants;Secrétaire;2;
+vendredi;08:49;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+vendredi;08:59;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+vendredi;09:11;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+vendredi;09:12;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;3;
+vendredi;09:13;Patient suivi — prendre les rendez-vous suivants;Secrétaire;4;
+vendredi;09:18;Question administrative (ordonnance, remboursement, attestation);Secrétaire;3;
+vendredi;09:37;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+vendredi;09:48;Question administrative (ordonnance, remboursement, attestation);Secrétaire;3;
+vendredi;10:07;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+vendredi;10:08;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+vendredi;10:23;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+vendredi;10:31;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+vendredi;10:32;Nouveau patient — demande de premier rendez-vous;Secrétaire;4;
+vendredi;10:37;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+vendredi;10:40;Nouveau patient — demande de premier rendez-vous;Secrétaire;4;
+vendredi;10:58;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+vendredi;11:16;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;2;
+vendredi;11:19;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+vendredi;11:38;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+vendredi;11:43;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+vendredi;11:44;Patient suivi — déplacer ou annuler un rendez-vous;Secrétaire;1;
+vendredi;11:50;Nouveau patient — demande de premier rendez-vous;Secrétaire;7;
+vendredi;12:24;Question administrative (ordonnance, remboursement, attestation);Secrétaire;6;
+vendredi;12:37;Question administrative (ordonnance, remboursement, attestation);Répondeur;;oui
+vendredi;12:41;Question administrative (ordonnance, remboursement, attestation);Kiné (en séance);5;
+vendredi;12:55;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);5;
+vendredi;12:59;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);7;
+vendredi;13:00;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+vendredi;13:09;Fournisseur, démarchage commercial;Non décroché;;a rappelé lui-même
+vendredi;13:18;Nouveau patient — demande de premier rendez-vous;Non décroché;;a rappelé lui-même
+vendredi;13:25;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);5;
+vendredi;13:36;Demande d'information (tarifs, accès, horaires);Kiné (en séance);1;
+vendredi;14:07;Médecin / chirurgien / pharmacien (prescripteur);Non décroché;;oui
+vendredi;14:55;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);6;
+vendredi;15:40;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);1;
+vendredi;15:41;Patient suivi — prendre les rendez-vous suivants;Non décroché;;oui
+vendredi;15:46;Patient suivi — prendre les rendez-vous suivants;Non décroché;;a rappelé lui-même
+vendredi;15:47;Demande d'information (tarifs, accès, horaires);Répondeur;;a rappelé lui-même
+vendredi;15:50;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;non
+vendredi;16:14;Nouveau patient — demande de premier rendez-vous;Répondeur;;a rappelé lui-même
+vendredi;16:30;Fournisseur, démarchage commercial;Répondeur;;a rappelé lui-même
+vendredi;16:48;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;a rappelé lui-même
+vendredi;16:54;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;non
+vendredi;17:09;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+vendredi;17:12;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;non
+vendredi;17:12;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;non
+vendredi;17:13;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;oui
+vendredi;17:14;Nouveau patient — demande de premier rendez-vous;Répondeur;;oui
+vendredi;17:19;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+vendredi;17:28;Patient suivi — déplacer ou annuler un rendez-vous;Kiné (en séance);2;
+vendredi;17:34;Demande d'information (tarifs, accès, horaires);Répondeur;;oui
+vendredi;17:43;Patient suivi — prendre les rendez-vous suivants;Kiné (en séance);3;
+vendredi;17:53;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;a rappelé lui-même
+vendredi;18:03;Nouveau patient — demande de premier rendez-vous;Non décroché;;a rappelé lui-même
+vendredi;18:27;Patient suivi — prendre les rendez-vous suivants;Répondeur;;a rappelé lui-même
+vendredi;18:35;Patient suivi — prendre les rendez-vous suivants;Répondeur;;non
+vendredi;18:40;Patient suivi — déplacer ou annuler un rendez-vous;Non décroché;;oui
+vendredi;18:49;Question administrative (ordonnance, remboursement, attestation);Répondeur;;a rappelé lui-même
+vendredi;18:57;Demande d'information (tarifs, accès, horaires);Non décroché;;oui
+vendredi;19:00;Demande d'information (tarifs, accès, horaires);Kiné (en séance);1;
+vendredi;19:02;Nouveau patient — demande de premier rendez-vous;Kiné (en séance);7;
+vendredi;19:25;Patient suivi — déplacer ou annuler un rendez-vous;Répondeur;;non
+vendredi;19:35;Nouveau patient — demande de premier rendez-vous;Non décroché;;oui
+vendredi;19:50;Fournisseur, démarchage commercial;Non décroché;;non

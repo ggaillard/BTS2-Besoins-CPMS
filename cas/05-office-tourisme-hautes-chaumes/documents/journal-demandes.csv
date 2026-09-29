@@ -1,0 +1,151 @@
+date;heure;canal;langue;categorie;demande;temps_traitement_min;delai_reponse_h;reponse_presente_dans_faq
+2025-07-14;12:10;Accueil physique;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;10;0;oui
+2025-07-14;14:15;Accueil physique;EN;Pratique / horaires;Opening hours of the tourist office?;4;0;partielle (horaires périmés)
+2025-07-14;16:15;Téléphone;FR;Pratique / horaires;Y a-t-il une navette depuis la gare ?;2;0;partielle (horaires périmés)
+2025-07-15;08:03;Messagerie Facebook/Instagram;FR;Hébergement;Hébergement accessible en fauteuil roulant ?;11;12;non (base régionale)
+2025-07-15;08:28;Messagerie Facebook/Instagram;FR;Restauration;Une bonne table pour un anniversaire ?;9;8;non (base régionale)
+2025-07-15;10:26;Téléphone;FR;Hébergement;Vous avez encore de la place pour le 14 juillet ?;4;0;non (base régionale)
+2025-07-15;13:02;Téléphone;FR;Restauration;Restaurant sans gluten ?;6;0;non (base régionale)
+2025-07-15;14:59;Accueil physique;FR;Hébergement;Pouvez-vous me réserver un hôtel ?;4;0;non (base régionale)
+2025-07-15;16:29;Accueil physique;FR;Autre;Puis-je déposer mes flyers ?;2;0;non
+2025-07-15;16:43;Accueil physique;FR;Événements;Feu d'artifice le 14 juillet ?;9;0;non
+2025-07-16;09:55;Messagerie Facebook/Instagram;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;2;48;oui
+2025-07-16;11:25;Téléphone;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;3;0;oui
+2025-07-16;12:58;Accueil physique;FR;Pratique / horaires;Où se garer pour les pistes ?;1;0;partielle (horaires périmés)
+2025-07-16;14:40;Accueil physique;FR;Événements;Marché de producteurs quel jour ?;9;0;non
+2025-07-16;16:27;Accueil physique;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;3;0;oui
+2025-07-16;16:43;Téléphone;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;11;0;oui
+2025-07-16;17:40;Messagerie Facebook/Instagram;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;3;20;oui
+2025-07-17;08:18;Messagerie Facebook/Instagram;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;6;48;oui
+2025-07-17;10:00;Accueil physique;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;10;0;oui
+2025-07-17;12:16;Accueil physique;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;9;0;oui
+2025-07-17;13:58;Messagerie Facebook/Instagram;FR;Hébergement;Chambre d'hôtes avec chien acceptée ?;6;1;non (base régionale)
+2025-07-17;16:07;Messagerie Facebook/Instagram;FR;Hébergement;Hébergement accessible en fauteuil roulant ?;9;4;non (base régionale)
+2025-07-17;18:41;Accueil physique;FR;Autre;Puis-je déposer mes flyers ?;4;0;non
+2025-07-17;18:50;Accueil physique;FR;Restauration;Une bonne table pour un anniversaire ?;6;0;non (base régionale)
+2025-07-18;09:09;Messagerie Facebook/Instagram;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;4;4;oui
+2025-07-18;10:30;Accueil physique;FR;Restauration;Restaurant ouvert lundi soir ?;2;0;non (base régionale)
+2025-07-18;15:02;Téléphone;FR;Randonnée / activités;Balade facile avec poussette ?;3;0;oui
+2025-07-18;15:56;Mail;EN;Pratique / horaires;Opening hours of the tourist office?;2;26;partielle (horaires périmés)
+2025-07-18;18:54;Téléphone;FR;Randonnée / activités;Où louer des VTT électriques ?;12;0;oui
+2025-07-18;19:03;Messagerie Facebook/Instagram;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;6;8;non (base régionale)
+2025-07-19;09:49;Accueil physique;FR;Événements;Feu d'artifice le 14 juillet ?;12;0;non
+2025-07-19;13:35;Messagerie Facebook/Instagram;FR;Hébergement;Vous avez encore de la place pour le 14 juillet ?;12;26;non (base régionale)
+2025-07-19;16:14;Accueil physique;FR;Hébergement;Hébergement accessible en fauteuil roulant ?;8;0;non (base régionale)
+2025-07-19;17:45;Messagerie Facebook/Instagram;FR;Pratique / horaires;Toilettes publiques ouvertes ?;3;26;partielle (horaires périmés)
+2025-07-19;19:06;Messagerie Facebook/Instagram;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;8;12;oui
+2025-07-20;08:40;Mail;FR;Randonnée / activités;Balade facile avec poussette ?;10;20;oui
+2025-07-20;12:42;Téléphone;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;4;0;oui
+2025-07-20;18:23;Messagerie Facebook/Instagram;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;6;20;oui
+2025-07-20;18:34;Téléphone;EN;Restauration;Is there a vegetarian restaurant?;2;0;non (base régionale)
+2025-07-21;09:11;Téléphone;FR;Restauration;Où manger une fourme de Montbrison ?;3;0;non (base régionale)
+2025-07-21;09:27;Téléphone;FR;Réclamation;Le gîte ne correspondait pas aux photos, je veux être remboursé;12;0;oui (procédure)
+2025-07-21;09:49;Téléphone;FR;Autre;Recrutez-vous des saisonniers ?;10;0;non
+2025-07-21;12:26;Accueil physique;NL;Hébergement;Camping open in juni?;11;0;non (base régionale)
+2025-07-21;17:55;Mail;FR;Événements;Programme de la fête des Jasseries ?;3;20;non
+2025-07-22;14:48;Accueil physique;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;12;0;oui
+2025-07-22;18:39;Accueil physique;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;5;0;oui
+2025-07-22;20:46;Mail;EN;Restauration;Is there a vegetarian restaurant?;10;72;non (base régionale)
+2025-07-23;09:50;Mail;FR;Pratique / horaires;Y a-t-il une navette depuis la gare ?;3;48;partielle (horaires périmés)
+2025-07-23;14:25;Téléphone;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;3;0;non (base régionale)
+2025-07-23;16:54;Accueil physique;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;8;0;oui
+2025-07-23;17:40;Téléphone;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;5;0;oui
+2025-07-23;18:20;Messagerie Facebook/Instagram;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;2;20;non (base régionale)
+2025-07-23;18:31;Mail;FR;Pratique / horaires;Vous êtes ouverts dimanche ?;3;2;partielle (horaires périmés)
+2025-07-24;10:27;Messagerie Facebook/Instagram;FR;Événements;Marché de producteurs quel jour ?;10;20;non
+2025-07-24;12:09;Téléphone;FR;Autre;Recrutez-vous des saisonniers ?;2;0;non
+2025-07-24;13:41;Accueil physique;FR;Restauration;Restaurant sans gluten ?;2;0;non (base régionale)
+2025-07-24;16:00;Téléphone;FR;Sécurité / urgence;Mon père n'est pas revenu de randonnée, il est parti vers les crêtes;10;0;oui (112)
+2025-07-24;23:34;Messagerie Facebook/Instagram;FR;Pratique / horaires;Toilettes publiques ouvertes ?;3;8;partielle (horaires périmés)
+2025-07-25;09:51;Téléphone;FR;Restauration;Une bonne table pour un anniversaire ?;7;0;non (base régionale)
+2025-07-25;12:03;Téléphone;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;8;0;oui
+2025-07-25;12:26;Messagerie Facebook/Instagram;NL;Hébergement;Camping open in juni?;8;4;non (base régionale)
+2025-07-25;13:09;Accueil physique;FR;Événements;Programme de la fête des Jasseries ?;4;0;non
+2025-07-25;13:24;Téléphone;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;10;0;oui
+2025-07-25;14:38;Messagerie Facebook/Instagram;FR;Événements;Programme de la fête des Jasseries ?;3;8;non
+2025-07-25;17:43;Mail;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;5;20;oui
+2025-07-25;18:01;Téléphone;FR;Hébergement;Vous avez encore de la place pour le 14 juillet ?;5;0;non (base régionale)
+2025-07-26;07:38;Mail;FR;Restauration;Où manger une fourme de Montbrison ?;2;2;non (base régionale)
+2025-07-26;09:30;Mail;FR;Restauration;Restaurant ouvert lundi soir ?;2;8;non (base régionale)
+2025-07-26;12:40;Accueil physique;FR;Événements;Programme de la fête des Jasseries ?;12;0;non
+2025-07-26;14:55;Téléphone;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;12;0;oui
+2025-07-27;09:15;Messagerie Facebook/Instagram;FR;Pratique / horaires;Toilettes publiques ouvertes ?;4;48;partielle (horaires périmés)
+2025-07-27;09:40;Mail;FR;Pratique / horaires;Y a-t-il une navette depuis la gare ?;2;72;partielle (horaires périmés)
+2025-07-27;10:15;Messagerie Facebook/Instagram;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;6;8;oui
+2025-07-27;14:15;Téléphone;FR;Hébergement;Vous avez encore de la place pour le 14 juillet ?;12;0;non (base régionale)
+2025-07-27;16:05;Mail;FR;Hébergement;Vous avez encore de la place pour le 14 juillet ?;3;1;non (base régionale)
+2025-07-27;16:15;Messagerie Facebook/Instagram;FR;Randonnée / activités;Où louer des VTT électriques ?;8;26;oui
+2025-07-27;16:31;Téléphone;FR;Randonnée / activités;Balade facile avec poussette ?;11;0;oui
+2025-07-27;17:03;Accueil physique;FR;Pratique / horaires;Y a-t-il une navette depuis la gare ?;3;0;partielle (horaires périmés)
+2025-07-27;17:03;Téléphone;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;5;0;oui
+2025-07-27;21:40;Mail;FR;Randonnée / activités;Balade facile avec poussette ?;10;4;oui
+2026-02-09;01:18;Messagerie Facebook/Instagram;FR;Autre;Recrutez-vous des saisonniers ?;3;20;non
+2026-02-09;15:16;Accueil physique;EN;Pratique / horaires;Opening hours of the tourist office?;1;0;partielle (horaires périmés)
+2026-02-09;16:29;Téléphone;NL;Hébergement;Camping open in juni?;7;0;non (base régionale)
+2026-02-09;16:50;Mail;FR;Pratique / horaires;Vous êtes ouverts dimanche ?;2;2;partielle (horaires périmés)
+2026-02-09;16:53;Téléphone;FR;Autre;Recrutez-vous des saisonniers ?;9;0;non
+2026-02-09;19:32;Mail;FR;Restauration;Où manger une fourme de Montbrison ?;5;20;non (base régionale)
+2026-02-10;10:54;Accueil physique;FR;Pratique / horaires;Vous êtes ouverts dimanche ?;2;0;partielle (horaires périmés)
+2026-02-10;12:34;Accueil physique;NL;Pratique / horaires;Is er een pinautomaat in het dorp?;2;0;partielle (horaires périmés)
+2026-02-10;12:50;Messagerie Facebook/Instagram;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;5;1;oui
+2026-02-10;13:18;Téléphone;FR;Neige / pistes / météo;Les pistes de fond sont ouvertes aujourd'hui ?;8;0;non (information du jour)
+2026-02-10;16:27;Téléphone;FR;Restauration;Une bonne table pour un anniversaire ?;9;0;non (base régionale)
+2026-02-10;22:34;Mail;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;6;12;oui
+2026-02-11;00:02;Messagerie Facebook/Instagram;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;9;20;oui
+2026-02-11;10:37;Accueil physique;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;7;0;oui
+2026-02-11;12:13;Accueil physique;FR;Pratique / horaires;Toilettes publiques ouvertes ?;1;0;partielle (horaires périmés)
+2026-02-11;12:55;Accueil physique;FR;Restauration;Restaurant ouvert lundi soir ?;10;0;non (base régionale)
+2026-02-11;13:58;Messagerie Facebook/Instagram;FR;Neige / pistes / météo;Les pistes de fond sont ouvertes aujourd'hui ?;2;12;non (information du jour)
+2026-02-11;16:23;Mail;FR;Neige / pistes / météo;Location de raquettes où ?;3;2;non (information du jour)
+2026-02-11;16:40;Téléphone;FR;Randonnée / activités;Balade facile avec poussette ?;11;0;oui
+2026-02-12;09:06;Accueil physique;FR;Sécurité / urgence;Mon père n'est pas revenu de randonnée, il est parti vers les crêtes;3;0;oui (112)
+2026-02-12;12:05;Accueil physique;FR;Événements;Programme de la fête des Jasseries ?;6;0;non
+2026-02-12;12:48;Messagerie Facebook/Instagram;FR;Pratique / horaires;Vous êtes ouverts dimanche ?;1;12;partielle (horaires périmés)
+2026-02-12;15:55;Téléphone;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;8;0;oui
+2026-02-12;19:31;Mail;FR;Hébergement;Pouvez-vous me réserver un hôtel ?;2;20;non (base régionale)
+2026-02-13;09:24;Accueil physique;FR;Autre;Puis-je déposer mes flyers ?;4;0;non
+2026-02-13;09:25;Accueil physique;FR;Hébergement;Pouvez-vous me réserver un hôtel ?;11;0;non (base régionale)
+2026-02-13;15:47;Messagerie Facebook/Instagram;FR;Neige / pistes / météo;Faut-il des chaînes pour monter au col ?;12;20;non (information du jour)
+2026-02-13;17:49;Accueil physique;FR;Événements;Feu d'artifice le 14 juillet ?;11;0;non
+2026-02-13;18:40;Accueil physique;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;3;0;oui
+2026-02-14;09:50;Mail;FR;Restauration;Restaurant ouvert lundi soir ?;6;8;non (base régionale)
+2026-02-14;10:24;Accueil physique;NL;Pratique / horaires;Is er een pinautomaat in het dorp?;1;0;partielle (horaires périmés)
+2026-02-14;12:04;Accueil physique;FR;Neige / pistes / météo;Il y aura de la neige aux vacances ?;3;0;non (information du jour)
+2026-02-14;15:28;Accueil physique;NL;Pratique / horaires;Is er een pinautomaat in het dorp?;3;0;partielle (horaires périmés)
+2026-02-14;15:53;Accueil physique;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;11;0;non (base régionale)
+2026-02-14;15:58;Accueil physique;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;3;0;non (base régionale)
+2026-02-14;15:59;Accueil physique;FR;Hébergement;Chambre d'hôtes avec chien acceptée ?;12;0;non (base régionale)
+2026-02-15;08:52;Mail;EN;Neige / pistes / météo;Is there enough snow for snowshoeing this weekend?;3;2;non (information du jour)
+2026-02-15;10:04;Mail;FR;Pratique / horaires;Toilettes publiques ouvertes ?;3;48;partielle (horaires périmés)
+2026-02-15;13:49;Accueil physique;FR;Événements;Programme de la fête des Jasseries ?;5;0;non
+2026-02-15;14:05;Accueil physique;FR;Randonnée / activités;Tour des Hautes-Chaumes en 2 jours, faut-il réserver le gîte ?;6;0;oui
+2026-02-15;17:38;Mail;FR;Événements;Feu d'artifice le 14 juillet ?;4;20;non
+2026-02-15;19:14;Mail;FR;Restauration;Restaurant sans gluten ?;12;72;non (base régionale)
+2026-02-16;09:09;Messagerie Facebook/Instagram;NL;Randonnée / activités;Wandelroute met kinderen van 6 jaar?;9;48;oui
+2026-02-16;10:44;Messagerie Facebook/Instagram;NL;Hébergement;Camping open in juni?;11;20;non (base régionale)
+2026-02-16;11:18;Mail;FR;Autre;Puis-je déposer mes flyers ?;9;2;non
+2026-02-16;13:21;Messagerie Facebook/Instagram;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;7;8;non (base régionale)
+2026-02-16;14:56;Mail;FR;Autre;Recrutez-vous des saisonniers ?;6;26;non
+2026-02-16;16:54;Accueil physique;FR;Restauration;Une bonne table pour un anniversaire ?;9;0;non (base régionale)
+2026-02-16;18:33;Mail;FR;Autre;Puis-je déposer mes flyers ?;7;8;non
+2026-02-17;20:53;Messagerie Facebook/Instagram;FR;Événements;Feu d'artifice le 14 juillet ?;12;20;non
+2026-02-18;11:07;Accueil physique;FR;Autre;Puis-je déposer mes flyers ?;3;0;non
+2026-02-18;13:28;Accueil physique;FR;Neige / pistes / météo;Faut-il des chaînes pour monter au col ?;6;0;non (information du jour)
+2026-02-18;14:58;Accueil physique;FR;Pratique / horaires;Toilettes publiques ouvertes ?;2;0;partielle (horaires périmés)
+2026-02-19;10:35;Mail;EN;Neige / pistes / météo;Is there enough snow for snowshoeing this weekend?;7;2;non (information du jour)
+2026-02-19;12:14;Messagerie Facebook/Instagram;FR;Pratique / horaires;Y a-t-il une navette depuis la gare ?;3;8;partielle (horaires périmés)
+2026-02-19;18:03;Téléphone;EN;Restauration;Is there a vegetarian restaurant?;7;0;non (base régionale)
+2026-02-19;18:34;Téléphone;FR;Randonnée / activités;Activités en cas de pluie avec enfants ?;9;0;oui
+2026-02-19;21:31;Messagerie Facebook/Instagram;FR;Événements;Marché de producteurs quel jour ?;12;2;non
+2026-02-20;11:39;Mail;EN;Pratique / horaires;Opening hours of the tourist office?;1;48;partielle (horaires périmés)
+2026-02-20;13:12;Accueil physique;NL;Pratique / horaires;Is er een pinautomaat in het dorp?;3;0;partielle (horaires périmés)
+2026-02-20;15:39;Téléphone;FR;Restauration;Restaurant sans gluten ?;10;0;non (base régionale)
+2026-02-20;15:45;Téléphone;FR;Randonnée / activités;Le sentier des crêtes est-il balisé ?;4;0;oui
+2026-02-21;12:46;Téléphone;FR;Événements;Marché de producteurs quel jour ?;5;0;non
+2026-02-21;15:15;Téléphone;EN;Restauration;Is there a vegetarian restaurant?;11;0;non (base régionale)
+2026-02-21;16:44;Accueil physique;FR;Hébergement;Quel est le meilleur gîte pour 8 personnes ?;9;0;non (base régionale)
+2026-02-21;18:44;Téléphone;FR;Randonnée / activités;Où louer des VTT électriques ?;11;0;oui
+2026-02-22;12:57;Messagerie Facebook/Instagram;FR;Autre;Recrutez-vous des saisonniers ?;9;2;non
+2026-02-22;14:15;Messagerie Facebook/Instagram;EN;Restauration;Is there a vegetarian restaurant?;4;1;non (base régionale)
+2026-02-22;15:24;Messagerie Facebook/Instagram;FR;Restauration;Restaurant sans gluten ?;9;4;non (base régionale)
+2026-02-22;16:31;Téléphone;FR;Événements;Feu d'artifice le 14 juillet ?;2;0;non
