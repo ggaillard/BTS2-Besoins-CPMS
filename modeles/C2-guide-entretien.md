@@ -1,6 +1,7 @@
 # C2 — Guide d'entretien
 
 > **Concevoir** · Phase 1 Recueillir · un guide par interlocuteur · à rendre **avant** l'entretien
+>
 > Interlocuteur : ⟪À COMPLÉTER⟫ · Durée prévue : ⟪À COMPLÉTER⟫ min · Mène : ⟪…⟫ · Note : ⟪…⟫
 
 ## Objectifs de l'entretien

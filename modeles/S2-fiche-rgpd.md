@@ -1,6 +1,7 @@
 # S2 — Fiche RGPD du traitement
 
 > **Sécuriser** · Phase 3 · à rendre pour **J2**
+>
 > Une fiche par traitement (finalité distincte). Structure inspirée du modèle de registre de la CNIL.
 
 ## 1. Description du traitement

@@ -1,6 +1,7 @@
 # C1 — Carte des parties prenantes
 
 > **Concevoir** · Phase 1 Recueillir · à rendre pour **J1**
+>
 > Cas : ⟪À COMPLÉTER : nom du cas⟫ · Équipe : ⟪À COMPLÉTER⟫
 
 ## 1. Qui est concerné ?

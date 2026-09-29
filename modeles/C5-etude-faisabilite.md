@@ -44,7 +44,9 @@ Notez de 0 (bloquant) à 3 (aucun problème). **Un 0 dans une colonne élimine l
 ## 5. Recommandation
 
 > **Décision proposée : GO sur le scénario ⟪…⟫ / NO-GO**
+>
 > Parce que ⟪3 arguments maximum, reliés à la grille⟫.
+>
 > Conditions : ⟪ce qui doit être vrai pour que ça marche⟫.
 
 ## 6. Décision du client au jalon J2

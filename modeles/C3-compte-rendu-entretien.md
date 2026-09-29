@@ -1,6 +1,7 @@
 # C3 — Compte rendu d'entretien
 
 > **Concevoir** · Phase 1 Recueillir · un compte rendu par entretien · envoyé au client **sous 48 h** pour validation
+>
 > Date : ⟪…⟫ · Interlocuteur(s) : ⟪…⟫ · Équipe présente : ⟪…⟫ · Durée réelle : ⟪…⟫
 
 ## 1. Ce qui a été dit (faits et verbatim)

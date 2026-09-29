@@ -1,6 +1,7 @@
 # P2 — Registre des risques projet
 
 > **Piloter** · ouvert en Phase 3, tenu à jour jusqu'à **J4**
+>
 > Risques **projet** (délai, budget, adoption, compétences…). Les risques **de sécurité** vont dans S3.
 
 Criticité = Probabilité (1-4) × Impact (1-4). Au-delà de 8 : une parade obligatoire et un ticket GitHub ouvert.
