@@ -19,7 +19,8 @@
 - **Décisions prises** (et qui a décidé) : ⟪…⟫
 - **Bloquants** : ⟪…⟫
 - **Prévu à la prochaine séance** (qui fait quoi) : ⟪…⟫
-- **Temps passé** par membre : ⟪…⟫
+- **Qui a fait quoi** (un tiret par membre, avec le lien du commit ou du ticket) : ⟪…⟫
+- **Temps passé** par membre : ⟪ex. « Léa 2 h, Hugo 1,5 h »⟫
 
 ⟪Copier le bloc ci-dessus pour chaque séance⟫
 

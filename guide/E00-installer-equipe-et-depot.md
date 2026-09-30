@@ -42,7 +42,12 @@ git commit -m "C1 : parties prenantes, v1 (closes #2)"
 git push
 ```
 
-Le message `closes #2` ferme automatiquement le ticket n° 2. Un commit par artefact (au moins), avec un message qui dit **ce qui a changé**.
+Le message `closes #2` ferme automatiquement le ticket n° 2. **Chacun commite depuis son propre compte** : c'est ce qui rend votre travail visible pour la note individuelle (voir la [grille](../GRILLE-EVALUATION.md#note-individuelle)). Vérifiez une fois votre identité : `git config --global user.name "Prénom Nom"` et `git config --global user.email "votre-email-github"`. Travail à deux sur un poste ? Ajoutez en dernière ligne du message :
+
+```text
+Co-authored-by: Prénom Nom <email-github-du-camarade>
+```
+ Un commit par artefact (au moins), avec un message qui dit **ce qui a changé**.
 
 ## 🗺️ En schéma
 

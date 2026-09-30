@@ -10,7 +10,25 @@ Chaque jalon est évalué sur les artefacts présents **dans le dépôt** à la 
 | **J2 — Go / No-go** | C4, C5, M1 §2, S1 §2, S2, P2 + présentation de 10 min au client | 30 % |
 | **J3 — Plan validé** | C6, P1, P4, M2, S3 | 25 % |
 | **J4 — Bilan** | M3, P3 clôturé, P2 à jour + présentation de 10 min | 15 % |
-| **Tout au long** | Usage de GitHub (tickets, jalons, commits), tenue des rôles, comportement en entretien | 10 % |
+| **Tout au long** | Points d'étape entre les jalons, usage de GitHub (tickets, jalons, commits), tenue des rôles, comportement en entretien | 10 % |
+
+## Note individuelle
+
+Chaque note de groupe (jalons et points d'étape) est **ajustée individuellement** : note individuelle = note du groupe + ajustement, entre 0 et 20.
+
+| Niveau | Ce qui est constaté | Ajustement |
+|---|---|---|
+| **A — Moteur** | traces nombreuses et variées, explique tout le dossier, rôle tenu | +2 |
+| **B — Contributeur** | des traces (ou une co-autorie déclarée), explique sa part et le travail du groupe | 0 |
+| **C — En retrait** | traces faibles et explication partielle | −2 |
+| **D — Pas de contribution établie** | aucune trace et ne sait pas expliquer ce que le groupe a produit | −4 (−6 si hors tâche constaté) |
+
+Trois sources de preuve : **vos traces GitHub** (commits, co-auteurs, texte rédigé — pas les modèles recopiés —, tickets), **le journal de bord** (rôle, qui a fait quoi, temps de chacun) et **une question à l'oral**. **Une seule source ne suffit jamais** à pénaliser.
+
+**Trois règles pour que votre travail soit visible :**
+1. commitez depuis **votre** compte GitHub, avec votre nom et votre e-mail GitHub (`git config user.name` / `user.email`) ;
+2. si vous travaillez à deux sur un poste, terminez le message de commit par `Co-authored-by: Prénom Nom <email-github>` ;
+3. dans le journal, chaque séance indique **qui a fait quoi** et le **temps de chacun**.
 
 ## Critères par verbe
 
